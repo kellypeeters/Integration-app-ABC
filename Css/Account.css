@@ -1,6 +1,7 @@
 body {
     background-image: url(Background.png);
     font-family: roboto, regular;
+    color: #ffff;
 }
 
 h1 {
@@ -13,28 +14,18 @@ h1 {
     transform: translate(-50%, -50%);
 }
 
-.Email {
-    margin-top: 15%;
-} 
-
-.Vergeten {
-    color: #ffff;
-    padding-top: 10%; 
-    padding-left: 41%;
-}
-
-.Registreren {
-    color: #ffff;
-    padding-top: 7%;
-    padding-left: 37%;
-}
-
 a:link,
 a:visited{
     color: #ffff;
 }
 
-.Aanmeldbutton {
+.container{
+    display: inline-block;
+    padding-top: 15%;
+    width: 15%;
+} 
+
+button {
     color: #444444;
     background: #F3F3F3;
     border: 1px #DADADA solid;
@@ -68,9 +59,9 @@ footer ul {
 }
 
 footer {
-    position: absolute;
+    position: absolute; 
     bottom: 0;
-    height: 7.5rem;
+    height: 8.2rem;
     background-color: #ffffff;
 }
 
@@ -95,4 +86,4 @@ footer {
 
 img {
     width: 30%;
-}
+} 

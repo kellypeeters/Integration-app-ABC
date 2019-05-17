@@ -1,32 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Account</title>
     <link rel="stylesheet" href="Css/Account.css">
+    <script src="Javascript/Basis.js"></script>
     <link rel="shortcut icon" href="Foto's/Logo/Logo.JPG">
 </head>
 
-<body>
+<body> <div class="container" id="Loginform">
     <h1>MELD JE AAN</h1>
-    <form action="action_page.php">
-        <div class="Email">
-            <label for="uname"></label>
-            <input type="text" placeholder="Email" name="uname" required>
-            <div class="Wachtwoord">
-                <label for="psw"></label>
-                <input type="password" placeholder="Wachtwoord" name="psw" required>
-            </div>
- 
-            <button type="submit" class="Aanmeldbutton">Aanmelden</button>
+    <div class="main">
+        <form id="form_id" method="post" name="myform">
+            <input type="text" placeholder="Email" name="username" id="username" />
+            <input type="password" placeholder="Wachtwoord" name="password" id="password" />
+            <input type="button" value="Aanmelden" id="submit" onclick="validate()" />
+            <span class="Vergeten">Bent u uw <a href="#">wachtwoord vergeten?</a></span>
+            <span class="Registreren">Nog geen account? Gelieve je eerst te <a href="#">registreren?</a></span>
+            <input type="button" value="Registreer" id="Registeratiebutton">
+        </form>
+    </div>
 
-            <div class="Vergeten">
-                <span class="psw">Bent u uw <a href="#"> wachtwoord vergeten?</a></span>
-            </div>
-            <div class="Registreren">
-                <span class="psw">Nog geen account? Gelieve je eerst te <a href="#">registreren</a></span>
-            </div>
-    </form>
+    <div id="Registratieform">
+        <h1>Maak uw account aan</h1> 
+        <form method="post" action="#">
+            <input type="text" name="dname" id="name" value="Naam">
+            <input type="text" name="demail" id="email" value="Email">
+            <input type="password" name="password" id="password" value="Wachtwoord">
+            <input type="password" name="cpassword" id="cpassword" value="Bevestig wachtwoord">
+            <input type="button" name="register" id="register" value="Registreer">
+            <span>Al een account? Gelieve in te <a href="#">loggen </a></span>
+        </form>
+    </div>
     <footer>
         <ul class="footer">
             <li class="Logo1"><img src="Foto's/Logo/Logo.JPG" alt="logo" width="7%"></li>
@@ -37,4 +43,5 @@
         </ul>
     </footer>
 </body>
+
 </html>
