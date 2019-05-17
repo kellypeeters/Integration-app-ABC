@@ -3,9 +3,31 @@
 ***************/
 .navigatie{
     list-style: none;
+    float: left;
     vertical-align: middle;
+    background-color: rgb(218, 218, 218);
+    margin: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 100%;
 }
 
 img{
-      width: 10%;
+      margin-top: 30px;
+      float: left;
+}
+
+body{
+      margin: 0%;
+}
+
+.accountAfbeelding:hover{
+      width: 90px;
+      height: 60px;
+}
+.contact2{
+      color: black;
+      text-decoration-line: none;
+      margin-left: 10px;
+
 }
