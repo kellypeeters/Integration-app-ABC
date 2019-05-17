@@ -1,0 +1,55 @@
+body {
+    background-image: url(Background.png);
+}
+
+h1 {
+    color: #ffff;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); 
+}
+
+.Email{
+    margin-top: 15%;
+}
+
+/**********
+*  Footer *
+**********/
+footer ul {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 7.5rem;
+    background-color: #ffffff;
+}
+
+.Logo1 {
+    float: left;
+    width: 15%;
+    padding: 5px;
+    padding-right: 300px;
+}
+
+.Logo {
+    float: left;
+    width: 15%;
+    padding: 5px;
+}
+
+#footer::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+img {
+    width: 30%;
+}
