@@ -1,6 +1,11 @@
 /**************
       NAV
 ***************/
-.Navigatie{
-    
+.navigatie{
+    list-style: none;
+    vertical-align: middle;
+}
+
+img{
+      width: 10%;
 }
