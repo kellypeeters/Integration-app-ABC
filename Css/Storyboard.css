@@ -1,0 +1,142 @@
+h1{
+    font-family: Acier BAT text solid;
+    color: #321432;
+}
+
+.create-button{
+    display: inline-block;
+    border: none;
+    padding: 8px 50px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #321432;
+    font-family: Roboto;
+    border-radius: 12px;
+    font-size: 20px;
+}
+
+.legende-leeractiviteiten{
+    display: block;
+    width: 250px;
+    border: 3px solid;
+    padding: 2px 5px;
+    margin: 20px 150px;
+    float: right;
+    font-family: Roboto;
+}
+
+#kennisverwerking {
+    display: block;
+    border: none;
+    outline: none;
+    text-align: left;
+    width: 240px;
+    padding: 7px 10px;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    background-color: #F0874B;
+
+}
+.dropdown-legende-kennisverwerking{
+    display: none;
+    background-color: #F0874B;
+    padding-left: 8px;
+}
+
+#samenwerking{
+    display: block;
+    border: none;
+    outline: none;
+    text-align: left;
+    width: 240px;
+    padding: 7px 10px;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    background-color: #12ADAD;
+}
+.dropdown-legende-samenwerking{
+    display: none;
+    background-color: #12ADAD;
+    padding-left: 8px;
+}
+
+#discussie{
+    display: block;
+    border: none;
+    outline: none;
+    text-align: left;
+    width: 240px;
+    padding: 7px 10px;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    background-color: #EE8090;
+}
+.dropdown-legende-discussie{
+    display: none;
+    background-color: #EE8090;
+    padding-left: 8px;
+}
+
+#onderzoek{
+    display: block;
+    border: none;
+    outline: none;
+    text-align: left;
+    width: 240px;
+    padding: 7px 10px;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    background-color:#85A22A;
+}
+.dropdown-legende-onderzoek{
+    display: none;
+    background-color: #85A22A;
+    padding-left: 8px;
+}
+
+#praktijk{
+    display: block;
+    border: none;
+    outline: none;
+    text-align: left;
+    width: 240px;
+    padding: 7px 10px;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    background-color: #6361A8;
+}
+.dropdown-legende-praktijk{
+    display: none;
+    background-color: #6361A8;
+    padding-left: 8px;
+}
+
+#productie{
+    display: block;
+    border: none;
+    outline: none;
+    text-align: left;
+    width: 240px;
+    padding: 7px 10px;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(242, 179, 21);
+}
+.dropdown-legende-productie{
+    display: none;
+    background-color: #F2B315;
+    padding-left: 8px;
+}
