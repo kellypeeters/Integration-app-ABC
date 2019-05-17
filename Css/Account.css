@@ -1,18 +1,61 @@
 body {
     background-image: url(Background.png);
+    font-family: roboto, regular;
 }
 
 h1 {
+    font-size: 35px;
     color: #ffff;
     position: absolute;
     top: 10%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%); 
+    transform: translate(-50%, -50%);
 }
 
-.Email{
+.Email {
     margin-top: 15%;
+} 
+
+.Vergeten {
+    color: #ffff;
+    padding-top: 10%; 
+    padding-left: 41%;
+}
+
+.Registreren {
+    color: #ffff;
+    padding-top: 7%;
+    padding-left: 37%;
+}
+
+a:link,
+a:visited{
+    color: #ffff;
+}
+
+.Aanmeldbutton {
+    color: #444444;
+    background: #F3F3F3;
+    border: 1px #DADADA solid;
+    padding: 5px 10px;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 9pt;
+    outline: none;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+
+Aanmeldbutton:hover {
+    border: 1px #C6C6C6 solid;
+    box-shadow: 1px 1px 1px #EAEAEA;
+    color: #333333;
+    background: #F7F7F7;
+}
+
+Aanmeldbutton:active {
+    box-shadow: inset 1px 1px 1px #DFDFDF;
 }
 
 /**********
