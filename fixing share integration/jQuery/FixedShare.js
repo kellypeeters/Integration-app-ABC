@@ -1,11 +1,11 @@
 $(document).ready(function(){
 console.log("script linked");
-$("#test").hide();
+$(".newStoryboards").hide();
 $(".uitklap").click(function(){
     $(this).toggleClass("animate-listitem");
-    $("#test").slideToggle();
+    $(".newStoryboards").slideToggle();
     $("#plus").on("click", function(){
-        $(".Van-u-gedeeld").append("<a><img src='Afbeeldingen/ShareIcon.jpg' alt='otherTest' id='test'></a>");   
+        $(".newStoryboards").append("<img src='Afbeeldingen/ShareIcon.jpg' alt='otherTest' id='test'>");   
     });
     $("#minus").on("click", function(){
         function removeElement(storyboard) {
