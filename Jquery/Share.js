@@ -1,10 +1,10 @@
 $(document).ready(function(){
 console.log("script Linked");
-var goBack = false;
+
 $("#test").hide();
 $('.uitklap').click(function(){
     console.log(this);
-    goBack = true;
+    
     $(this).toggleClass("animate-listitem");  
     $(this).slideToggle();
     
