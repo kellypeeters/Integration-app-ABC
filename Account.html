@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Account</title>
+    <link rel="stylesheet" href="Css/Account.css">
+    <link rel="shortcut icon" href="Foto's/Logo/Logo.JPG">
+</head>
+
+<body>
+    <div class="container" id="Loginform">
+        <h1>Meld je aan</h1>
+        <div class="main">
+            <form id="form_id" method="post" name="myform">
+                <input class="input-field" type="text" placeholder="Email" name="username" id="username" />
+                <input class="input-field" type="password" placeholder="Wachtwoord" name="password" id="password" />
+                <input class="Aanmeldbutton" type="button" value="Aanmelden" id="submit" onclick="validate()" />
+            </form>
+        </div>
+        <div class="WachwoordVergeten">
+            <p>Bent u uw <a href="#">wachtwoord vergeten?</a></p>
+        </div>
+        <div class="NaarRegistreren">
+            <p>Nog geen account? Gelieve je eerst te <a class="GeenAccount" href="#">registreren?</a></p> 
+        </div>
+    </div>
+
+    <div id="Registratieform">
+        <h1>Maak uw account aan</h1>
+        <div class="main2">
+            <form method="post" action="#">
+                <input class="input-field" type="text" name="dname" id="name" value="Naam">
+                <input class="input-field" type="text" name="demail" id="email" value="Email">
+                <input class="input-field" minlenght="5" type="password" name="password" id="password" value="Wachtwoord">
+                <input class="input-field" type="password" name="cpassword" id="cpassword" value="Bevestig wachtwoord">
+            </form>
+            <input class="Aanmeldbutton" type="button" name="register" id="register" value="Registreer">
+        </div>
+        <div class="TerugNaarRegistreren" >
+        <p>Al een account? Gelieve in te <a class="AlAccount" href="#">loggen </a></p>
+    </div> 
+    </div>
+    <footer>
+        <ul class="footer">
+            <li class="Logo1"><img class="LogoABC" src="Foto's/Logo/Logo.JPG" alt="logo" width="20%"></li>
+            <li class="Logo"><img class="Logo2" src="Foto's/Logo/9962703156_2866ee7c68_b.jpg" alt="logo" width="7%"></li>
+            <li class="Logo"><img class="Logo3" src="Foto's/Logo/Logo-VIVES.png" alt="logo" width="7%"></li>
+            <li class="Logo"><img class="Logo3" src="Foto's/Logo/UCL.png" alt="logo" width="7%"></li>
+            <li class="Logo"><img class="Logo2" src="Foto's/Logo/Connected.jpg" alt="logo" width="7%"></li>
+        </ul>  
+    </footer>
+    <script src="Javascript/jquery-3.4.1.min.js"></script>
+    <script src="Javascript/Basis.js"></script>
+</body>
+
+</html>
