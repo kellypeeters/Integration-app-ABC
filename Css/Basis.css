@@ -28,10 +28,9 @@ img {
     padding-left: 20px;
 }
 
-body {
-    margin: 0%;
+.logo1 {
+    padding-left: 5px;
 }
-
 
 .contact2 {
     color: black;
@@ -40,13 +39,12 @@ body {
 
 }
 
-li:hover {
+li :hover {
     background-color: #e2e2e2;
     border-top-style: solid;
     border-bottom-style: solid;
     border-top-color: #c2c4c6;
-    border-bottom-color: #c2c4c6;
-
+    border-bottom-color: #c2c4c6; 
 }
 
 li :active {
@@ -61,9 +59,9 @@ li :visited {
     border-bottom-color: #c2c4c6;
 }
 
-a {
-    color: black;
+li a {
     text-decoration: none;
+    color: black;
     float: left;
     width: 70px;
 }
@@ -112,7 +110,7 @@ a {
     height: 9px;
 }
 
-.copyright{
+.copyright {
     margin-right: 200px;
 }
 }
