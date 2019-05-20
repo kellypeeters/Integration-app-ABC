@@ -39,23 +39,42 @@ h1{
     padding-left: 100px;
     font-size: 40pt;
 }
-.addButton{
+.addAndDeleteButtons{
     float: right;
     margin-right: 200px;
     margin-top: 55px;
 }
-
 .vuilbak{
+    width: 15px;
     float: right;
+    margin-left: 15px;
+    margin-top: 0; 
 }
-
 .deleteButton{
-    float: right;
-    
+    margin-left: 10px;
 }
 /**************
       MAIN
 ***************/
 div{
     padding-left: 140px;
+}
+
+.uitklap1{
+    float: left;
+}
+
+.uitklap2{
+    float: left;
+}
+
+.uitklap3{
+    float: left;
+}
+
+.uitklap4{
+    float: left;
+}
+#tussenTitels{
+    vertical-align: middle;
 }
