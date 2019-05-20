@@ -47,12 +47,13 @@ h1{
 .vuilbak{
     width: 15px;
     float: right;
-    margin-left: 15px;
+    
     margin-top: 0; 
 }
 .deleteButton{
-    margin-left: 10px;
+    padding: 0;
 }
+.add
 /**************
       MAIN
 ***************/
@@ -60,21 +61,18 @@ div{
     padding-left: 140px;
 }
 
-.uitklap1{
-    float: left;
+
+.animate-listitem{
+    transform: rotate(90deg);
+}
+.uitklap{
+    float: left; 
+    transition: .5s  transform;
+    transform: rotate(-90deg);
 }
 
-.uitklap2{
-    float: left;
-}
 
-.uitklap3{
-    float: left;
-}
 
-.uitklap4{
-    float: left;
-}
 #tussenTitels{
     vertical-align: middle;
 }
