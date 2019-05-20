@@ -44,7 +44,17 @@ li :hover {
     border-top-style: solid;
     border-bottom-style: solid;
     border-top-color: #c2c4c6;
-    border-bottom-color: #c2c4c6; 
+    border-bottom-color: #c2c4c6;
+}
+
+li a:hover {
+    background-color: #e2e2e2; 
+}
+
+li img:hover {
+    background-color: #e2e2e2;
+    border-top-style: none;
+    border-bottom-style: none;
 }
 
 li :active {
