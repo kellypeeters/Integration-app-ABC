@@ -19,8 +19,25 @@ p {
     font-size: 13px;
     font-family: roboto-regular, sans-serif;
     margin-right: 200px;
-} 
+}
 
-.First {
-    margin-left: 50px;      
-}  
+.First,
+.Second,
+.Third {
+    margin-left: 50px;
+}
+
+.uitklap1,
+.uitklap2,
+.uitklap3 {
+    margin-left: 220px; 
+}
+
+.animate-listitem {
+    transform: rotate(-90deg);
+}
+
+button {
+    background: transparent;
+    border: none;
+}
