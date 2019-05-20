@@ -21,6 +21,6 @@ p {
     margin-right: 200px;
 } 
 
-.First, .Second, .Third{
-    margin-left: 50px; 
-}
+.First {
+    margin-left: 50px;      
+}  
