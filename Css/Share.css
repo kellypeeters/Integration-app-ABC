@@ -12,7 +12,7 @@
     padding-bottom: 100%;
 }
 
-img{
+nav img{
       margin-top: 30px;
       float: left;
 }
@@ -46,33 +46,35 @@ h1{
 }
 .vuilbak{
     width: 15px;
-    float: right;
+    float: right; 
     
-    margin-top: 0; 
 }
-.deleteButton{
-    padding: 0;
+.Button{
+   vertical-align: middle;
 }
-.add
+
 /**************
       MAIN
 ***************/
-div{
-    padding-left: 140px;
+
+
+
+.animate-listitem{ 
+   
+    transform: rotate(-90deg);
+    
 }
 
 
-.animate-listitem{
-    transform: rotate(90deg);
-}
 .uitklap{
     float: left; 
-    transition: .5s  transform;
-    transform: rotate(-90deg);
+    transition: .5s transform;
 }
 
 
 
 #tussenTitels{
     vertical-align: middle;
+    padding-left: 140px;
 }
+
