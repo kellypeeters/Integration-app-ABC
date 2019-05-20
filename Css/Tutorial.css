@@ -1,0 +1,26 @@
+h1 {
+    font-size: 40px;
+    margin-left: 260px;
+    margin-right: 200px;
+    margin-top: 40px;
+    font-family: acier-bat-solid, sans-serif;
+}
+
+h2,
+h3,
+h4 {
+    margin-left: 260px;
+    margin-right: 200px;
+    font-family: roboto-regular, sans-serif;
+}
+
+p {
+    margin-left: 260px;
+    font-size: 13px;
+    font-family: roboto-regular, sans-serif;
+    margin-right: 200px;
+} 
+
+.First {
+    margin-left: 50px;      
+}  
