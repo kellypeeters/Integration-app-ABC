@@ -12,7 +12,47 @@
     padding-bottom: 100%;
 }
 
+<<<<<<< Updated upstream
 nav img{
+=======
+li :hover {
+    background-color: #e2e2e2;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: #c2c4c6;
+    border-bottom-color: #c2c4c6;
+    }
+
+li a:hover {
+    background-color: #e2e2e2;
+}
+
+li img:hover {
+    background-color: #e2e2e2;
+    border-top-style: none;
+    border-bottom-style: none;
+}
+
+li :active {
+    background-color: #ffff;
+    border-top-color: #c2c4c6;
+    border-bottom-color: #c2c4c6;
+}
+
+li :visited {
+    background-color: #ffff;
+    border-top-color: #c2c4c6;
+    border-bottom-color: #c2c4c6;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    float: left;
+    width: 70px;
+}
+img{
+>>>>>>> Stashed changes
       margin-top: 30px;
       float: left;
 }
