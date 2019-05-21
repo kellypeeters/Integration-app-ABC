@@ -1,21 +1,43 @@
-
-
-var dropdown = document.getElementsByClassName("dropdown-btn");
-var i;
-
-for (i = 0; i < dropdown.length; i++) {
-    dropdown[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var dropdownContent = this.nextElementSibling;
-        if (dropdownContent.style.display === "block") {
-            dropdownContent.style.display = "none";
-        } else {
-            dropdownContent.style.display = "block";
-        }
-    });
-}
+//dropdown legende
 
 $(function () {
     console.log("Script linked");
+
+    $(document).ready(function () {
+        $('.kennisverwerking').click(function () {
+            $(this).toggleClass("animate-listitem");
+            $('.dropdown-legende-kennisverwerking').slideToggle();
+            $('.fa-caret-down')
+        });
+
+        $('.samenwerking').click(function () {
+            $(this).toggleClass("animate-listitem");
+            $('.dropdown-legende-samenwerking').slideToggle();
+        });
+
+        $('.discussie').click(function () {
+            $(this).toggleClass("animate-listitem");
+            $('.dropdown-legende-discussie').slideToggle();
+        });
+
+        $('.onderzoek').click(function () {
+            $(this).toggleClass("animate-listitem");
+            $('.dropdown-legende-onderzoek').slideToggle();
+        });
+
+        $('.praktijk').click(function () {
+            $(this).toggleClass("animate-listitem");
+            $('.dropdown-legende-praktijk').slideToggle();
+        });
+        $('.productie').click(function () {
+            $(this).toggleClass("animate-listitem");
+            $('.dropdown-legende-productie').slideToggle();
+        });
+        $("div").click(function () {
+//        console.log($(this));
+            $(this).appendTo("body");
+        });
+    });
+
 
 });

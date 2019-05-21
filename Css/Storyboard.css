@@ -1,13 +1,27 @@
 h1{
-    font-family: Acier BAT text solid;
+    font-family: Acier BAT text solid, sans-serif;
     color: #321432;
-    font-size: 60px;
+    font-size: 40px;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+.side-nav{
+    height: 100%;
+    width: 90px;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    top: 0;
+    left: 0;
+    background-color: #DADADA;
 }
 
 .create-button{
     display: inline-block;
     border: none;
     padding: 8px 50px;
+    margin-left: 140px;
     text-align: center;
     text-decoration: none;
     color: white;
@@ -20,21 +34,21 @@ h1{
 .legende-leeractiviteiten{
     display: block;
     width: 250px;
-    border: 3px solid;
     padding: 2px 5px;
-    margin: 20px 150px;
+    margin: 20px 130px;
+    border: #5E5E5E solid;
     float: right;
-    font-family: Roboto;
+    font-family: Roboto regular, sans-serif;
 }
 
-#kennisverwerking {
+.kennisverwerking {
     display: block;
     border: none;
     outline: none;
     text-align: left;
     width: 240px;
     padding: 7px 10px;
-    margin: 10px;
+    margin: 10px 10px 5px 5px;
     text-decoration: none;
     font-size: 16px;
     color: white;
@@ -42,19 +56,22 @@ h1{
 
 }
 .dropdown-legende-kennisverwerking{
+    margin: auto;
+    padding: 7px 10px;
     display: none;
     background-color: #F0874B;
-    padding-left: 8px;
+    color: white;
+    font-family: Roboto, sans-serif;
 }
 
-#samenwerking{
+.samenwerking{
     display: block;
     border: none;
     outline: none;
     text-align: left;
     width: 240px;
     padding: 7px 10px;
-    margin: 10px;
+    margin: 10px 10px 5px 5px;
     text-decoration: none;
     font-size: 16px;
     color: white;
@@ -62,18 +79,21 @@ h1{
 }
 .dropdown-legende-samenwerking{
     display: none;
+    margin-top: -1px;
+    font-family: Roboto, sans-serif;
+    padding: 7px 10px;
+    color: white;
     background-color: #12ADAD;
-    padding-left: 8px;
 }
 
-#discussie{
+.discussie{
     display: block;
     border: none;
     outline: none;
     text-align: left;
     width: 240px;
     padding: 7px 10px;
-    margin: 10px;
+    margin: 10px 10px 5px 5px;
     text-decoration: none;
     font-size: 16px;
     color: white;
@@ -81,18 +101,21 @@ h1{
 }
 .dropdown-legende-discussie{
     display: none;
+    margin-top: -1px;
+    font-family: Roboto, sans-serif;
+    padding: 7px 10px;
+    color: white;
     background-color: #EE8090;
-    padding-left: 8px;
 }
 
-#onderzoek{
+.onderzoek{
     display: block;
     border: none;
     outline: none;
     text-align: left;
     width: 240px;
     padding: 7px 10px;
-    margin: 10px;
+    margin: 10px 10px 5px 5px;
     text-decoration: none;
     font-size: 16px;
     color: white;
@@ -100,18 +123,21 @@ h1{
 }
 .dropdown-legende-onderzoek{
     display: none;
+    margin-top: -1px;
+    font-family: Roboto, sans-serif;
+    padding: 7px 10px;
+    color: white;
     background-color: #85A22A;
-    padding-left: 8px;
 }
 
-#praktijk{
+.praktijk{
     display: block;
     border: none;
     outline: none;
     text-align: left;
     width: 240px;
     padding: 7px 10px;
-    margin: 10px;
+    margin: 10px 10px 5px 5px;
     text-decoration: none;
     font-size: 16px;
     color: white;
@@ -119,18 +145,21 @@ h1{
 }
 .dropdown-legende-praktijk{
     display: none;
+    margin-top: -1px;
+    font-family: Roboto, sans-serif;
+    padding: 7px 10px;
+    color: white;
     background-color: #6361A8;
-    padding-left: 8px;
 }
 
-#productie{
+.productie{
     display: block;
     border: none;
     outline: none;
     text-align: left;
     width: 240px;
     padding: 7px 10px;
-    margin: 10px;
+    margin: 10px 10px 5px 5px;
     text-decoration: none;
     font-size: 16px;
     color: white;
@@ -138,8 +167,11 @@ h1{
 }
 .dropdown-legende-productie{
     display: none;
+    margin-top: -1px;
+    font-family: Roboto, sans-serif;
+    padding: 7px 10px;
+    color: white;
     background-color: #F2B315;
-    padding-left: 8px;
 }
 
 .hovering:hover{
@@ -148,4 +180,16 @@ h1{
 .fa-caret-down {
     float: right;
     padding-right: 10px;
+}
+
+.box_container {
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    cursor: pointer;
+    padding: 50px;
+    font-size: 20px;
+    font-family: roboto, regular, sans-serif;
+    float: left;
+    background-color: lightgray;
 }

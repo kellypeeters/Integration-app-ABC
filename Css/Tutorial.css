@@ -12,6 +12,12 @@ h4 {
     margin-left: 260px;
     margin-right: 200px;
     font-family: roboto-regular, sans-serif;
+    
+    
+}
+
+h3{
+    margin-top: 10px;
 }
 
 p {
@@ -38,12 +44,19 @@ p {
 }
 
 button {
-    background: transparent;
+    position: absolute;
+    background:none;
     border: none;
+    cursor: pointer;
+    
 }
 
 .gotopbtn{
+    position:fixed;
+    left: 1400px;
+    bottom: 40px;
     float: right;
     font-size: 30px;
     color: #adadad;
+    
 }
