@@ -1,9 +1,11 @@
 h1{
     font-family: Acier BAT text solid, sans-serif;
     color: #321432;
-    font-size: 40px;
-    margin-left: 80px;
-    margin-top: 30px;
+    font-size: 30px;
+    margin-left: 60px;
+    position: absolute;
+    z-index: initial;
+    float: top;
 }
 
 .side-nav{
@@ -17,28 +19,109 @@ h1{
     background-color: #DADADA;
 }
 
+.box_container {
+    position: absolute;
+    z-index: 1;
+    width: 800px;
+    height: 80px;
+    top: 170px;
+    left: 200px;
+    float: left;
+    background-color: #DADADA;
+    box-shadow: 1px 1px 2px grey;
+}
+
+.box_titel{
+    position: absolute;
+    z-index: 1;
+    width: 100px;
+    height: 72px;
+    top: 4px;
+    left: 4px;
+    float: left;
+
+    cursor: pointer;
+    font-size: 20px;
+    font-family: roboto, regular, sans-serif;
+    background-color: white;
+    box-shadow: 1px 1px 2px grey;
+}
+
+.box_deadline{
+    position: absolute;
+    z-index: 1;
+    width: 100px;
+    height: 72px;
+    top: 4px;
+    left: 110px;
+    float: left;
+
+    cursor: pointer;
+    font-size: 20px;
+    font-family: roboto, regular, sans-serif;
+    background-color: white;
+    box-shadow: 1px 1px 2px grey;
+}
+
+.box_leerachtiviteit{
+    position: absolute;
+    z-index: 1;
+    width: 100px;
+    height: 72px;
+    top: 4px;
+    left: 216px;
+    float: left;
+
+    cursor: pointer;
+    font-size: 20px;
+    font-family: roboto, regular, sans-serif;
+    background-color: white;
+    box-shadow: 1px 1px 2px grey;
+}
+
 .create-button{
     display: inline-block;
     border: none;
-    padding: 8px 50px;
-    margin-left: 140px;
+    padding: 5px 50px;
+    top: 270px;
+    left: 200px;
     text-align: center;
     text-decoration: none;
     color: white;
-    background-color: #321432;
-    font-family: Roboto;
-    border-radius: 12px;
+    background-color: #633568;
+    font-family: Roboto, sans-serif;
+    border-radius: 17px;
+    font-size: 12px;
+    position: absolute;
+    z-index: 2;
+}
+
+.btn_vak_dropdown{
+    position: absolute;
+    z-index: 3;
+    top: 350px;
+    left: 200px;
+    display: block;
+    border: none;outline: none; text-decoration: none;
+    font-family: roboto, regular, sans-serif;
+    color: #321432;
+    background-color: white;
     font-size: 20px;
+    text-align: left;
+    width: 100px;
 }
 
 .legende-leeractiviteiten{
     display: block;
     width: 250px;
     padding: 2px 5px;
-    margin: 20px 130px;
-    border: #5E5E5E solid;
     float: right;
     font-family: Roboto regular, sans-serif;
+    position:absolute;
+    top: 300px;
+    right: 100px;
+    clear: left;
+    border: #DADADA solid;
 }
 
 .kennisverwerking {
@@ -53,6 +136,7 @@ h1{
     font-size: 16px;
     color: white;
     background-color: #F0874B;
+    box-shadow: 1px 1px 1px grey;
 
 }
 .dropdown-legende-kennisverwerking{
@@ -62,6 +146,7 @@ h1{
     background-color: #F0874B;
     color: white;
     font-family: Roboto, sans-serif;
+    box-shadow: 1px 1px 1px grey;
 }
 
 .samenwerking{
@@ -182,14 +267,3 @@ h1{
     padding-right: 10px;
 }
 
-.box_container {
-    width: 10px;
-    height: 10px;
-    margin: 10px;
-    cursor: pointer;
-    padding: 50px;
-    font-size: 20px;
-    font-family: roboto, regular, sans-serif;
-    float: left;
-    background-color: lightgray;
-}

@@ -8,11 +8,10 @@
     <link rel="stylesheet" href="https://use.typekit.net/nzw1tsv.css">
     <link rel="stylesheet" type="text/css" href="Css/Storyboard.css">
     <link rel="shortcut icon" href="Foto's/Logo/Logo.JPG">
-    <link rel="stylesheet" href="Css/Basis.css">
+    <link rel="stylesheet" href="fixing%20share%20integration/Css/FixedShare.css">
     <link rel="stylesheet" href="Css/Share.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="Jquery/Storyboard.js"></script>
+
 
 </head>
 
@@ -20,8 +19,7 @@
 
 <div id="application" class="app_abccd">
 
-    <nav>
-        <ul class="navigatie">
+    <!--<ul class="navigatie">
             <li class="logo1"><a href="Dashboard.html"><img class="logoAfbeelding" src="Afbeeldingen/logoIcon.jpg"
                                                             alt="logo" width="80px"></a></li>
             <li class="logo"><a href="Account.html"><img class="accountAfbeelding" src="Foto's/Navigatie/user%20(1).png"
@@ -41,21 +39,37 @@
             <li class="logo"><a href="Contacteer.html"><img class="contactAfbeelding" src="Foto's/Navigatie/chat.png"
                                                             alt="help" width="40px">Contact</a></li>
         </ul>
+    </nav>-->
+
+
+    <nav>
+        <div class="side-nav">
+            <a href="Dashboard.html"></a>
+            <a href="Account.html"></a>
+            <a href="Storyboard.html"></a>
+            <a href="Cursussen.html"></a>
+            <a href="Share.html"></a>
+            <a href="Tutorial.html"></a>
+        </div>
     </nav>
 
     <header><h1>Storyboard</h1></header>
 
-    <button class="create-button">+ Create</button>                     <!--create knop -->
+    <div id="storyboard_template">
+        <div class="box_container">
+            <div class="box_titel"></div>
+            <div class="box_deadline"></div>
+            <div class="box_leerachtiviteit"></div>
+        </div>
+    </div>
 
-    <div class="subtitel_storyboard">
-        <h4>Mijn storyboard</h4>
-    </div>                  <!-- ondertitel en sorteer icoon-->
+    <button class="create-button">+ Create</button>                     <!--create knop -->
 
     <div class="legende-leeractiviteiten">
         <h4 align="center">Legende</br>leeractiviteit</h4>
 
         <button class="kennisverwerking" class="hovering">Kennisverwerking<i class="fa fa-caret-down"></i></button>
-        <div class="dropdown-legende-kennisverwerking" class="text_el">
+        <div class="dropdown-legende-kennisverwerking">
             <p>Studenten luisteren naar een voordracht/lezing/les, lezen in boeken, cursusmateriaal of online, en/of
                 bekijken demo’s, video’s, … .</p>
             <a><br>Methodieken/tools
@@ -96,9 +110,10 @@
 
     </div>            <!-- tekstblok leeractiviteit -->
 
-    <div id="storyboard_template"></div>
-
-    <div id="create_storyboard"></div>
+    <div id="create_storyboard">
+        <button class="btn_vak_dropdown">Vak<i class="fa fa-caret-down"></i></button>
+        <div id="container_create°storyboard"></div>
+    </div>
 
     <footer>
         <p class="copyright">&#9400; 2019</p>
@@ -106,7 +121,12 @@
         <p><a href="https://www.vives.be/nl" target="_blank">Vives</a></p>
         <p><a href="https://www.ucl.ac.uk/" target="_blank">UCL</a></p>
     </footer>
+
 </div>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="Jquery/Storyboard.js"></script>
+
 </body>
+
 </html>
