@@ -1,6 +1,11 @@
 h1{
     font-family: Acier BAT text solid;
     color: #321432;
+    font-size: 60px;
+}
+
+.text_el{
+    font-family: Roboto, sans-serif;
 }
 
 .create-button{
@@ -26,14 +31,14 @@ h1{
     font-family: Roboto;
 }
 
-#kennisverwerking {
+.kennisverwerking {
     display: block;
     border: none;
     outline: none;
     text-align: left;
     width: 240px;
     padding: 7px 10px;
-    margin: 10px;
+    margin: 10px 10px 0px 10px;
     text-decoration: none;
     font-size: 16px;
     color: white;
@@ -41,12 +46,15 @@ h1{
 
 }
 .dropdown-legende-kennisverwerking{
+    margin-top: -1px;
+    padding: 7px 10px;
     display: none;
     background-color: #F0874B;
-    padding-left: 8px;
+    color: white;
+    font-family: Roboto, sans-serif;
 }
 
-#samenwerking{
+.samenwerking{
     display: block;
     border: none;
     outline: none;
@@ -61,11 +69,14 @@ h1{
 }
 .dropdown-legende-samenwerking{
     display: none;
+    margin-top: -1px;
+    font-family: Roboto, sans-serif;
+    padding: 7px 10px;
+    color: white;
     background-color: #12ADAD;
-    padding-left: 8px;
 }
 
-#discussie{
+.discussie{
     display: block;
     border: none;
     outline: none;
@@ -80,11 +91,14 @@ h1{
 }
 .dropdown-legende-discussie{
     display: none;
+    margin-top: -1px;
+    font-family: Roboto, sans-serif;
+    padding: 7px 10px;
+    color: white;
     background-color: #EE8090;
-    padding-left: 8px;
 }
 
-#onderzoek{
+.onderzoek{
     display: block;
     border: none;
     outline: none;
@@ -99,11 +113,14 @@ h1{
 }
 .dropdown-legende-onderzoek{
     display: none;
+    margin-top: -1px;
+    font-family: Roboto, sans-serif;
+    padding: 7px 10px;
+    color: white;
     background-color: #85A22A;
-    padding-left: 8px;
 }
 
-#praktijk{
+.praktijk{
     display: block;
     border: none;
     outline: none;
@@ -118,11 +135,14 @@ h1{
 }
 .dropdown-legende-praktijk{
     display: none;
+    margin-top: -1px;
+    font-family: Roboto, sans-serif;
+    padding: 7px 10px;
+    color: white;
     background-color: #6361A8;
-    padding-left: 8px;
 }
 
-#productie{
+.productie{
     display: block;
     border: none;
     outline: none;
@@ -137,6 +157,17 @@ h1{
 }
 .dropdown-legende-productie{
     display: none;
+    margin-top: -1px;
+    font-family: Roboto, sans-serif;
+    padding: 7px 10px;
+    color: white;
     background-color: #F2B315;
-    padding-left: 8px;
+}
+
+.hovering:hover{
+    color: black;
+}
+.fa-caret-down {
+    float: right;
+    padding-right: 10px;
 }
