@@ -8,7 +8,10 @@
     <link rel="stylesheet" href="https://use.typekit.net/nzw1tsv.css">
     <link rel="stylesheet" type="text/css" href="Css/Storyboard.css">
     <link rel="shortcut icon" href="Foto's/Logo/Logo.JPG">
-    <link rel="stylesheet" href="Css/Basis.css">
+    <link rel="stylesheet" href="fixing%20share%20integration/Css/FixedShare.css">
+    <link rel="stylesheet" href="Css/Share.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 </head>
 
@@ -16,8 +19,7 @@
 
 <div id="application" class="app_abccd">
 
-    <nav>
-        <ul class="navigatie">
+    <!--<ul class="navigatie">
             <li class="logo1"><a href="Dashboard.html"><img class="logoAfbeelding" src="Afbeeldingen/logoIcon.jpg"
                                                             alt="logo" width="80px"></a></li>
             <li class="logo"><a href="Account.html"><img class="accountAfbeelding" src="Foto's/Navigatie/user%20(1).png"
@@ -25,61 +27,93 @@
             <li class="logo"><a href="Storyboard.html"><img class="storyboardAfbeelding"
                                                             src="Foto's/Navigatie/storyboard.png" alt="storyboard"
                                                             width="40px">Storyboard</a></li>
-            <li class="logo"><a href="Cursussen.html`"><img class="coursesAfbeelding" src="Foto's/Navigatie/Cursussen.png"
+            <li class="logo"><a href="Cursussen.html`"><img class="coursesAfbeelding"
+                                                            src="Foto's/Navigatie/Cursussen.png"
                                                             alt="courses" width="40px">Cursussen</a></li>
-            <li class="logo"><a href="Share.html"><img class="shareAfbeelding" src="Foto's/Navigatie/share.png" alt="share"
+            <li class="logo"><a href="Share.html"><img class="shareAfbeelding" src="Foto's/Navigatie/share.png"
+                                                       alt="share"
                                                        width="40px">Delen</a></li>
-            <li class="logo"><a href="Tutorial.html"><img class="helpAfbeelding" src="Foto's/Navigatie/question%20(1).png"
+            <li class="logo"><a href="Tutorial.html"><img class="helpAfbeelding"
+                                                          src="Foto's/Navigatie/question%20(1).png"
                                                           alt="help" width="40px">Help</a></li>
             <li class="logo"><a href="Contacteer.html"><img class="contactAfbeelding" src="Foto's/Navigatie/chat.png"
                                                             alt="help" width="40px">Contact</a></li>
         </ul>
+    </nav>-->
+
+
+    <nav>
+        <div class="side-nav">
+            <a href="Dashboard.html"></a>
+            <a href="Account.html"></a>
+            <a href="Storyboard.html"></a>
+            <a href="Cursussen.html"></a>
+            <a href="Share.html"></a>
+            <a href="Tutorial.html"></a>
+        </div>
     </nav>
 
-    <div class="heading"><h1>Storyboard</h1></div>
+    <header><h1>Storyboard</h1></header>
 
-    <div class="button">
-        <button type="button" class="create-button"> + Create</button>
-    </div>                              <!--create knop -->
+    <div id="storyboard_template">
+        <div class="box_container">
+            <div class="box_titel"></div>
+            <div class="box_deadline"></div>
+            <div class="box_leerachtiviteit"></div>
+        </div>
+    </div>
 
-    <div class="subtitel_storyboard">
-        <h4>Mijn storyboard</h4>
-    </div>                  <!-- ondertitel en sorteer icoon-->
+    <button class="create-button">+ Create</button>                     <!--create knop -->
 
     <div class="legende-leeractiviteiten">
         <h4 align="center">Legende</br>leeractiviteit</h4>
 
-        <button id="kennisverwerking">Kennisverwerking</button>
+        <button class="kennisverwerking" class="hovering">Kennisverwerking<i class="fa fa-caret-down"></i></button>
         <div class="dropdown-legende-kennisverwerking">
-            <a>uitleg over de leeractiviteit</a>
+            <p>Studenten luisteren naar een voordracht/lezing/les, lezen in boeken, cursusmateriaal of online, en/of
+                bekijken demo’s, video’s, … .</p>
+            <a><br>Methodieken/tools
+            </a>
         </div>
 
-        <button id="samenwerking">Samenwerking</button>
+        <button class="samenwerking">Samenwerking<i class="fa fa-caret-down"></i></button>
         <div class="dropdown-legende-samenwerking">
-            <a>uitleg over de leeractiviteit</a>
+            <p>Studenten werken samen aan een gezamenlijke opdracht met een bepaalde vorm van ‘output’ zoals een
+                definitie, concept, ontwerp, verslag, beroepsproduct, … . Er ontstaat een gezamenlijk proces van
+                kennisopbouw.</p>
         </div>
 
-        <button id="discussie">Discussie</button>
+        <button class="discussie">Discussie<i class="fa fa-caret-down"></i></button>
         <div class="dropdown-legende-discussie">
-            <a>uitleg over de leeractiviteit</a>
+            <p>Studenten verwoorden hun vragen, ideeën en argumenten, verantwoorden gemaakte keuzes en stellen ideeën
+                van peers/docenten/zichzelf kritisch in vraag.</p>
         </div>
 
-        <button id="onderzoek">Onderzoek</button>
+        <button class="onderzoek">Onderzoek<i class="fa fa-caret-down"></i></button>
         <div class="dropdown-legende-onderzoek">
-            <a>uitleg over de leeractiviteit</a>
+            <p>Studenten doorlopen met een kritische ingesteldheid stappen van (eenvoudig) praktijkgericht onderzoek:
+                probleemstelling formuleren, gegevens/informatie verzamelen, data verwerken, conclusies formuleren.</p>
         </div>
 
-        <button id="praktijk">Praktijk</button>
+        <button class="praktijk">Praktijk<i class="fa fa-caret-down"></i></button>
         <div class="dropdown-legende-praktijk">
-            <a>uitleg over de leeractiviteit</a>
+            <p>Studenten voeren vaardigheden uit in functie van een praktijkopdracht en sturen hun handelen bij op basis
+                van feedback (van peers, de docent, zichzelf of vanuit de taak zelf).</p>
         </div>
 
-        <button id="productie">Productie</button>
+        <button class="productie">Productie<i class="fa fa-caret-down"></i></button>
         <div class="dropdown-legende-productie">
-            <a>uitleg over de leeractiviteit</a>
+            <p>Studenten ontwikkelen een (beroeps)product: een plan, website, analyse, theorie, model, les, …. Studenten
+                moeten hun begrip van de leerstof duidelijk tonen en aantonen hoe ze dit kunnen toepassen in de
+                praktijk/het werkveld.</p>
         </div>
 
     </div>            <!-- tekstblok leeractiviteit -->
+
+    <div id="create_storyboard">
+        <button class="btn_vak_dropdown">Vak<i class="fa fa-caret-down"></i></button>
+        <div id="container_create°storyboard"></div>
+    </div>
 
     <footer>
         <p class="copyright">&#9400; 2019</p>
@@ -87,7 +121,12 @@
         <p><a href="https://www.vives.be/nl" target="_blank">Vives</a></p>
         <p><a href="https://www.ucl.ac.uk/" target="_blank">UCL</a></p>
     </footer>
+
 </div>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="Jquery/Storyboard.js"></script>
+
 </body>
+
 </html>

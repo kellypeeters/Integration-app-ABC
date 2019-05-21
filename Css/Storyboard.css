@@ -1,59 +1,162 @@
 h1{
-    font-family: Acier BAT text solid;
+    font-family: Acier BAT text solid, sans-serif;
     color: #321432;
+    font-size: 30px;
+    margin-left: 60px;
+    position: absolute;
+    z-index: initial;
+    float: top;
+}
+
+.side-nav{
+    height: 100%;
+    width: 90px;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    top: 0;
+    left: 0;
+    background-color: #DADADA;
+}
+
+.box_container {
+    position: absolute;
+    z-index: 1;
+    width: 800px;
+    height: 80px;
+    top: 170px;
+    left: 200px;
+    float: left;
+    background-color: #DADADA;
+    box-shadow: 1px 1px 2px grey;
+}
+
+.box_titel{
+    position: absolute;
+    z-index: 1;
+    width: 100px;
+    height: 72px;
+    top: 4px;
+    left: 4px;
+    float: left;
+
+    cursor: pointer;
+    font-size: 20px;
+    font-family: roboto, regular, sans-serif;
+    background-color: white;
+    box-shadow: 1px 1px 2px grey;
+}
+
+.box_deadline{
+    position: absolute;
+    z-index: 1;
+    width: 100px;
+    height: 72px;
+    top: 4px;
+    left: 110px;
+    float: left;
+
+    cursor: pointer;
+    font-size: 20px;
+    font-family: roboto, regular, sans-serif;
+    background-color: white;
+    box-shadow: 1px 1px 2px grey;
+}
+
+.box_leerachtiviteit{
+    position: absolute;
+    z-index: 1;
+    width: 100px;
+    height: 72px;
+    top: 4px;
+    left: 216px;
+    float: left;
+
+    cursor: pointer;
+    font-size: 20px;
+    font-family: roboto, regular, sans-serif;
+    background-color: white;
+    box-shadow: 1px 1px 2px grey;
 }
 
 .create-button{
     display: inline-block;
     border: none;
-    padding: 8px 50px;
+    padding: 5px 50px;
+    top: 270px;
+    left: 200px;
     text-align: center;
     text-decoration: none;
     color: white;
-    background-color: #321432;
-    font-family: Roboto;
-    border-radius: 12px;
+    background-color: #633568;
+    font-family: Roboto, sans-serif;
+    border-radius: 17px;
+    font-size: 12px;
+    position: absolute;
+    z-index: 2;
+}
+
+.btn_vak_dropdown{
+    position: absolute;
+    z-index: 3;
+    top: 350px;
+    left: 200px;
+    display: block;
+    border: none;outline: none; text-decoration: none;
+    font-family: roboto, regular, sans-serif;
+    color: #321432;
+    background-color: white;
     font-size: 20px;
+    text-align: left;
+    width: 100px;
 }
 
 .legende-leeractiviteiten{
     display: block;
     width: 250px;
-    border: 3px solid;
     padding: 2px 5px;
-    margin: 20px 150px;
     float: right;
-    font-family: Roboto;
+    font-family: Roboto regular, sans-serif;
+    position:absolute;
+    top: 300px;
+    right: 100px;
+    clear: left;
+    border: #DADADA solid;
 }
 
-#kennisverwerking {
+.kennisverwerking {
     display: block;
     border: none;
     outline: none;
     text-align: left;
     width: 240px;
     padding: 7px 10px;
-    margin: 10px;
+    margin: 10px 10px 5px 5px;
     text-decoration: none;
     font-size: 16px;
     color: white;
     background-color: #F0874B;
+    box-shadow: 1px 1px 1px grey;
 
 }
 .dropdown-legende-kennisverwerking{
+    margin: auto;
+    padding: 7px 10px;
     display: none;
     background-color: #F0874B;
-    padding-left: 8px;
+    color: white;
+    font-family: Roboto, sans-serif;
+    box-shadow: 1px 1px 1px grey;
 }
 
-#samenwerking{
+.samenwerking{
     display: block;
     border: none;
     outline: none;
     text-align: left;
     width: 240px;
     padding: 7px 10px;
-    margin: 10px;
+    margin: 10px 10px 5px 5px;
     text-decoration: none;
     font-size: 16px;
     color: white;
@@ -61,18 +164,21 @@ h1{
 }
 .dropdown-legende-samenwerking{
     display: none;
+    margin-top: -1px;
+    font-family: Roboto, sans-serif;
+    padding: 7px 10px;
+    color: white;
     background-color: #12ADAD;
-    padding-left: 8px;
 }
 
-#discussie{
+.discussie{
     display: block;
     border: none;
     outline: none;
     text-align: left;
     width: 240px;
     padding: 7px 10px;
-    margin: 10px;
+    margin: 10px 10px 5px 5px;
     text-decoration: none;
     font-size: 16px;
     color: white;
@@ -80,18 +186,21 @@ h1{
 }
 .dropdown-legende-discussie{
     display: none;
+    margin-top: -1px;
+    font-family: Roboto, sans-serif;
+    padding: 7px 10px;
+    color: white;
     background-color: #EE8090;
-    padding-left: 8px;
 }
 
-#onderzoek{
+.onderzoek{
     display: block;
     border: none;
     outline: none;
     text-align: left;
     width: 240px;
     padding: 7px 10px;
-    margin: 10px;
+    margin: 10px 10px 5px 5px;
     text-decoration: none;
     font-size: 16px;
     color: white;
@@ -99,18 +208,21 @@ h1{
 }
 .dropdown-legende-onderzoek{
     display: none;
+    margin-top: -1px;
+    font-family: Roboto, sans-serif;
+    padding: 7px 10px;
+    color: white;
     background-color: #85A22A;
-    padding-left: 8px;
 }
 
-#praktijk{
+.praktijk{
     display: block;
     border: none;
     outline: none;
     text-align: left;
     width: 240px;
     padding: 7px 10px;
-    margin: 10px;
+    margin: 10px 10px 5px 5px;
     text-decoration: none;
     font-size: 16px;
     color: white;
@@ -118,18 +230,21 @@ h1{
 }
 .dropdown-legende-praktijk{
     display: none;
+    margin-top: -1px;
+    font-family: Roboto, sans-serif;
+    padding: 7px 10px;
+    color: white;
     background-color: #6361A8;
-    padding-left: 8px;
 }
 
-#productie{
+.productie{
     display: block;
     border: none;
     outline: none;
     text-align: left;
     width: 240px;
     padding: 7px 10px;
-    margin: 10px;
+    margin: 10px 10px 5px 5px;
     text-decoration: none;
     font-size: 16px;
     color: white;
@@ -137,6 +252,18 @@ h1{
 }
 .dropdown-legende-productie{
     display: none;
+    margin-top: -1px;
+    font-family: Roboto, sans-serif;
+    padding: 7px 10px;
+    color: white;
     background-color: #F2B315;
-    padding-left: 8px;
 }
+
+.hovering:hover{
+    color: black;
+}
+.fa-caret-down {
+    float: right;
+    padding-right: 10px;
+}
+
