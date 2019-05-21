@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<head>  
     <meta charset="UTF-8">
     <title>ABC Curriculum Design</title>
     <link rel="stylesheet" href="https://use.typekit.net/afb1efn.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="Css/Account.css">
-    <link rel="shortcut icon" href="Foto's/Logo/Logo.JPG"> 
+    <link rel="shortcut icon" href="Foto's/Logo/Logo.JPG">
 </head>
 
 <body>
@@ -20,7 +22,7 @@
             </form>
         </div>
         <div class="WachwoordVergeten">
-            <p>Bent u uw <a href="#">wachtwoord vergeten?</a></p>
+            <p>Bent u uw <a class="Vergeten" href="#">wachtwoord vergeten?</a></p>
         </div>
         <div class="NaarRegistreren">
             <p>Nog geen account? Gelieve je eerst te <a class="GeenAccount" href="#">registreren?</a></p>
@@ -42,6 +44,19 @@
             <p>Al een account? Gelieve in te <a class="AlAccount" href="#">loggen </a></p>
         </div>
     </div>
+
+   <div class="VergetenWachtwoord">
+    <form class="PasswordForgotten" method="POST">
+        <h1>Vraag hier je nieuw wachtwoord aan</h1>
+        <div class="input-group">
+            <input type="text" name="username" class="input-field" placeholder="Email" required>
+        </div> 
+        <br />
+        <button class="Aanmeldbutton" id="ForgotPassword" type="submit">Verstuur</button>
+    </form>
+    <p class="NaarLogin">Al een account? Gelieve in te <a class="GaNaarLogin" href="#">loggen </a></p> 
+    </div>
+
     <footer>
         <ul class="footer">
             <li class="Logo1"><img class="LogoABC" src="Foto's/Logo/Logo.JPG" alt="logo" width="20%"></li>
@@ -51,6 +66,7 @@
             <li class="Logo"><img class="Logo2" src="Foto's/Logo/Connected.jpg" alt="logo" width="7%"></li>
         </ul>
     </footer>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="Jquery/jquery-3.4.1.min.js"></script>
     <script src="Jquery/Basis.js"></script>
 </body>
