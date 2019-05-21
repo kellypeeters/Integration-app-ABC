@@ -69,14 +69,24 @@ li img:hover {
 
 li :active {
     background-color: #ffff;
-    border-top-color: #c2c4c6;
-    border-bottom-color: #c2c4c6;
+    border-top-color: solid black 2px;
+    border-bottom-color: solid black 2px;
 }
 
 li :visited {
     background-color: #ffff;
-    border-top-color: #c2c4c6;
-    border-bottom-color: #c2c4c6;
+    border-top-color: solid black 2px;
+    border-bottom-color: solid black 2px;
+}
+#icon img, #icon a{
+    background-color: #ffff;
+
+}
+#icon a{
+    border-top-color:  black;
+    border-bottom-color: black;
+    border-top-style: solid;
+    border-bottom-style:  solid;
 }
 /**************
     HEADER
@@ -119,16 +129,32 @@ h1{
 }
 
 
-.uitklap{
+#uitklap{
     float: left; 
     transition: .5s transform;
+    position: relative;
 }
-
+#uitklap div{
+    position: absolute;
+}
 
 
 #tussenTitels{
     vertical-align: middle;
     padding-left: 140px;
+}
+
+a Strong{
+    font-family: Roboto, bold, sans-serif;
+}
+
+div a{
+    margin-left: 20px;
+}
+
+#test, #testSpecial{
+border-bottom: solid black 2px;
+width: 250px;
 }
 
 /**************
