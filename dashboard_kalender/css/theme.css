@@ -1,5 +1,8 @@
+
 .cld-main{
   width: 300px;
+  position: absolute;
+  left: 900px;
 }
 .cld-main a{
   color: #4e0f6e;
