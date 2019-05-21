@@ -1,17 +1,27 @@
 h1{
-    font-family: Acier BAT text solid;
+    font-family: Acier BAT text solid, sans-serif;
     color: #321432;
-    font-size: 60px;
+    font-size: 40px;
+    margin-left: 80px;
+    margin-top: 30px;
 }
 
-.text_el{
-    font-family: Roboto, sans-serif;
+.side-nav{
+    height: 100%;
+    width: 90px;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    top: 0;
+    left: 0;
+    background-color: #DADADA;
 }
 
 .create-button{
     display: inline-block;
     border: none;
     padding: 8px 50px;
+    margin-left: 140px;
     text-align: center;
     text-decoration: none;
     color: white;
@@ -24,11 +34,11 @@ h1{
 .legende-leeractiviteiten{
     display: block;
     width: 250px;
-    border: 3px solid;
     padding: 2px 5px;
-    margin: 20px 150px;
+    margin: 20px 130px;
+    border: #5E5E5E solid;
     float: right;
-    font-family: Roboto;
+    font-family: Roboto regular, sans-serif;
 }
 
 .kennisverwerking {
@@ -38,7 +48,7 @@ h1{
     text-align: left;
     width: 240px;
     padding: 7px 10px;
-    margin: 10px 10px 0px 10px;
+    margin: 10px 10px 5px 5px;
     text-decoration: none;
     font-size: 16px;
     color: white;
@@ -46,7 +56,7 @@ h1{
 
 }
 .dropdown-legende-kennisverwerking{
-    margin-top: -1px;
+    margin: auto;
     padding: 7px 10px;
     display: none;
     background-color: #F0874B;
@@ -61,7 +71,7 @@ h1{
     text-align: left;
     width: 240px;
     padding: 7px 10px;
-    margin: 10px;
+    margin: 10px 10px 5px 5px;
     text-decoration: none;
     font-size: 16px;
     color: white;
@@ -83,7 +93,7 @@ h1{
     text-align: left;
     width: 240px;
     padding: 7px 10px;
-    margin: 10px;
+    margin: 10px 10px 5px 5px;
     text-decoration: none;
     font-size: 16px;
     color: white;
@@ -105,7 +115,7 @@ h1{
     text-align: left;
     width: 240px;
     padding: 7px 10px;
-    margin: 10px;
+    margin: 10px 10px 5px 5px;
     text-decoration: none;
     font-size: 16px;
     color: white;
@@ -127,7 +137,7 @@ h1{
     text-align: left;
     width: 240px;
     padding: 7px 10px;
-    margin: 10px;
+    margin: 10px 10px 5px 5px;
     text-decoration: none;
     font-size: 16px;
     color: white;
@@ -149,7 +159,7 @@ h1{
     text-align: left;
     width: 240px;
     padding: 7px 10px;
-    margin: 10px;
+    margin: 10px 10px 5px 5px;
     text-decoration: none;
     font-size: 16px;
     color: white;
@@ -170,4 +180,16 @@ h1{
 .fa-caret-down {
     float: right;
     padding-right: 10px;
+}
+
+.box_container {
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    cursor: pointer;
+    padding: 50px;
+    font-size: 20px;
+    font-family: roboto, regular, sans-serif;
+    float: left;
+    background-color: lightgray;
 }

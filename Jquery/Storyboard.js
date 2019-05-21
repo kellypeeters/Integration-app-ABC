@@ -3,8 +3,6 @@
 $(function () {
     console.log("Script linked");
 
-
-
     $(document).ready(function () {
         $('.kennisverwerking').click(function () {
             $(this).toggleClass("animate-listitem");
@@ -34,6 +32,10 @@ $(function () {
         $('.productie').click(function () {
             $(this).toggleClass("animate-listitem");
             $('.dropdown-legende-productie').slideToggle();
+        });
+        $("div").click(function () {
+//        console.log($(this));
+            $(this).appendTo("body");
         });
     });
 
