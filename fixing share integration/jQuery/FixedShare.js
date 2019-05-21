@@ -1,15 +1,11 @@
 $(document).ready(function(){
-console.log("script Linked");
-
-$("#test").hide();
-$('.uitklap').click(function(){
-    console.log(this);
-    
-    $(this).toggleClass("animate-listitem");  
-    $(this).slideToggle();
-    
+console.log("script linked");
+$(".newStoryboards").hide();
+$(".uitklap").click(function(){
+    $(this).toggleClass("animate-listitem");
+    $(".newStoryboards").slideToggle();
     $("#plus").on("click", function(){
-        $(".Van-u-gedeeld").append("<a><img src='Afbeeldingen/ShareIcon.jpg' alt='otherTest' id='test'></a>");   
+        $(".newStoryboards").append("<img src='Afbeeldingen/ShareIcon.jpg' alt='otherTest' id='test'>");   
     });
     $("#minus").on("click", function(){
         function removeElement(storyboard) {
@@ -18,5 +14,4 @@ $('.uitklap').click(function(){
         removeElement(document.getElementById("test"));
     });
   });
-
 });

@@ -83,11 +83,12 @@ h1{
     float: right;
     margin-right: 200px;
     margin-top: 55px;
+
 }
 .vuilbak{
     width: 15px;
     float: right; 
-    
+    margin-top: 0%;
 }
 .Button{
    vertical-align: middle;
