@@ -10,6 +10,9 @@
     <link rel="shortcut icon" href="Foto's/Logo/Logo.JPG">
     <link rel="stylesheet" href="Css/Basis.css">
     <link rel="stylesheet" href="Css/Share.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="Jquery/Storyboard.js"></script>
 
 </head>
 
@@ -40,11 +43,9 @@
         </ul>
     </nav>
 
-    <div class="heading"><h1>Storyboard</h1></div>
+    <header><h1>Storyboard</h1></header>
 
-    <div class="button">
-        <button type="button" class="create-button"> + Create</button>
-    </div>                              <!--create knop -->
+    <button class="create-button">+ Create</button>                     <!--create knop -->
 
     <div class="subtitel_storyboard">
         <h4>Mijn storyboard</h4>
@@ -53,37 +54,41 @@
     <div class="legende-leeractiviteiten">
         <h4 align="center">Legende</br>leeractiviteit</h4>
 
-        <button id="kennisverwerking">Kennisverwerking</button>
+        <button id="kennisverwerking" class="hovering">Kennisverwerking<i class="fa fa-caret-down"></i></button>
         <div class="dropdown-legende-kennisverwerking">
             <a>uitleg over de leeractiviteit</a>
         </div>
 
-        <button id="samenwerking">Samenwerking</button>
+        <button id="samenwerking">Samenwerking<i class="fa fa-caret-down"></i></button>
         <div class="dropdown-legende-samenwerking">
             <a>uitleg over de leeractiviteit</a>
         </div>
 
-        <button id="discussie">Discussie</button>
+        <button id="discussie">Discussie<i class="fa fa-caret-down"></i></button>
         <div class="dropdown-legende-discussie">
             <a>uitleg over de leeractiviteit</a>
         </div>
 
-        <button id="onderzoek">Onderzoek</button>
+        <button id="onderzoek">Onderzoek<i class="fa fa-caret-down"></i></button>
         <div class="dropdown-legende-onderzoek">
             <a>uitleg over de leeractiviteit</a>
         </div>
 
-        <button id="praktijk">Praktijk</button>
+        <button id="praktijk">Praktijk<i class="fa fa-caret-down"></i></button>
         <div class="dropdown-legende-praktijk">
             <a>uitleg over de leeractiviteit</a>
         </div>
 
-        <button id="productie">Productie</button>
+        <button id="productie">Productie<i class="fa fa-caret-down"></i></button>
         <div class="dropdown-legende-productie">
             <a>uitleg over de leeractiviteit</a>
         </div>
 
     </div>            <!-- tekstblok leeractiviteit -->
+
+    <div id="storyboard_template"></div>
+
+    <div id="create_storyboard"></div>
 
     <footer>
         <p class="copyright">&#9400; 2019</p>
