@@ -16,7 +16,7 @@ button {
 .addAndDeleteButtons {
     position: absolute;
     left: 1200px;
-    top: 48px;
+    top: -45px;
     word-spacing: 20px;
 }
 
@@ -31,6 +31,7 @@ h3 {
 .lijn img {
     position: absolute;
     left: 198px;
+    margin-top: 0px;
 }
 
 
