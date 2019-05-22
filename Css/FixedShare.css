@@ -15,7 +15,7 @@ h1 {
     width: 25px;
     float: right;
     margin-top: 2px;
-} 
+}
 
 .button {
     background-color: transparent;
@@ -54,7 +54,7 @@ h1 {
     float: left;
     transition: .5s transform;
     position: relative;
-} 
+}
 
 #uitklap div {
     position: absolute;
@@ -76,6 +76,11 @@ div a {
 
 #test,
 #testSpecial {
-    border-bottom: solid #cccccc 1.5px;  
-    width: 250px;
+    border-bottom: solid #cccccc 1.5px;
+    padding-bottom: 3px;
+    width: 250px; 
 } 
+
+#testSpecial{
+    margin-bottom: 15px;
+}
