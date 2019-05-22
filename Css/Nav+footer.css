@@ -4,8 +4,8 @@
 .navigatie {
     position: fixed;
     z-index: 1;
-    top: 0; 
-    left: 0; 
+    top: 0;
+    left: 0;
     height: 100%;
     overflow-x: hidden;
     list-style: none;
@@ -45,12 +45,10 @@ body {
     color: black;
     text-decoration-style: none;
     margin-top: 10px;
-
 }
 
 .logo img {
     width: 60px;
-
 }
 
 li :hover {
@@ -78,26 +76,36 @@ li img:hover {
 }
 
 li :active {
-    background-color: #ffff;
-    border-top-color: solid black 2px;
-    border-bottom-color: solid black 2px;
+    border-top-color: solid #bcbcbc 2px;
+    border-bottom-color: solid #bcbcbc 2px;
+    border-top-color: #bcbcbc;
+    border-bottom-color: #bcbcbc;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    margin: 0%;
 }
 
-li :visited {
+li a:active {
     background-color: #ffff;
-    border-top-color: solid black 2px;
-    border-bottom-color: solid black 2px;
 }
 
-#icon img,
-#icon a {
+li img:active {
     background-color: #ffff;
-
+    border-top-style: none;
+    border-bottom-style: none;
+    margin-top: 30px;
+    width: 45px;
+    float: left;
+    vertical-align: middle;
+    margin-left: 18px;
 }
-
-#icon a {
-    border-top-color: black;
-    border-bottom-color: black;
+ 
+.current {
+    background-color: #ffff;
+    border-top-color: solid #bcbcbc 2px;
+    border-bottom-color: solid #bcbcbc 2px;
+    border-top-color: #bcbcbc;
+    border-bottom-color: #bcbcbc;
     border-top-style: solid;
     border-bottom-style: solid;
 }
@@ -139,12 +147,12 @@ li :visited {
 * Top button *
 *************/
 
-.gotopbtn{
-    position:fixed;
+.gotopbtn {
+    position: fixed;
     left: 1400px;
     bottom: 40px;
     float: right;
     font-size: 30px;
     color: #adadad;
-    
+
 }
