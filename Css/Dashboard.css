@@ -99,3 +99,20 @@ h1{
 
     vertical-align: middle;
 }
+
+/**************
+     MAIN
+***************/
+.animate-listitem {
+    transform: rotate(-90deg);
+}
+.runningStoryboards{
+    padding-left: 200px;
+}
+.runningStoryboards button{
+    background-color: transparent;
+    border-color: transparent;
+    float: left;
+    transition: .5s transform;
+    position: relative;
+}
