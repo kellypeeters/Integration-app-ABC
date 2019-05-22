@@ -101,3 +101,15 @@ body {font-family: Verdana, sans-serif;}
     background: #380553;
     color: white !important
 }
+
+/**************
+      KALENDER
+***************/
+
+h1{
+    margin-top: 0%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    font-size: 40pt;
+}
