@@ -101,3 +101,30 @@ body {font-family: Verdana, sans-serif;}
     background: #380553;
     color: white !important
 }
+
+/**************
+    HEADER
+***************/
+
+h1{
+    margin-top: 0%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    font-size: 40pt;
+}
+
+.dashboardButtons{
+    float: right;
+    margin-top: 40px;
+    margin-right: 200px;
+    
+    
+}
+
+.dashboardButtons img{
+    width: 40px;
+    margin: 10px;
+
+    vertical-align: middle;
+}
