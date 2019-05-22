@@ -28,7 +28,8 @@ p {
     margin-top: 160px;
 }
 
-.Onze_campussen a {
+.Onze_campussen a, 
+.Adres a{
     color: black;
     text-decoration: none;  
 }
@@ -54,4 +55,4 @@ iframe {
     position: absolute;
     left: 700px;
     top: 240px;
-}
+} 
