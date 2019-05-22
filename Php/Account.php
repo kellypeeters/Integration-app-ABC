@@ -7,10 +7,9 @@ $select_db = mysqli_select_db($connection, 'pixelw3p_demo');
 if (!$select_db){
     die("Database Selection Failed" . mysqli_error($connection));
 } 
-
+    
 require_once('connect.php');
-
-PHP
+ 
 if(isset($_POST) & !empty($_POST)){
 	$username = mysqli_real_escape_string($connection, $_POST['username']);
 	$sql = "SELECT * FROM `login` WHERE username = '$username'";
