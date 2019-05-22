@@ -1,32 +1,33 @@
 h1 {
     font-size: 40px;
-    margin-left: 260px;
-    margin-right: 200px;
-    margin-top: 40px;
+    padding-left: 260px;
+    padding-right: 200px;
+    padding-top: 40px;
     font-family: acier-bat-solid, sans-serif;
+    margin: 0;
 }
 
 h2,
 h3,
 h4 {
-    margin-left: 260px;
-    margin-right: 200px;
+    padding-left: 260px;
+    padding-right: 200px;
     font-family: roboto-regular, sans-serif;
     
     
 }
 
 h3{
-    margin-top: 10px;
+    padding-top: 10px;
 }
 
 p {
-    margin-left: 260px;
-    font-size: 13px;
-    font-family: roboto-regular, sans-serif;
-    margin-right: 200px;
-}
-
+   padding-left: 260px;
+   font-size: 13px;
+   font-family: roboto-regular, sans-serif;
+   padding-right: 200px;
+}  
+  
 .First,
 .Second,
 .Third {
@@ -48,15 +49,4 @@ button {
     background:none;
     border: none;
     cursor: pointer;
-    
-}
-
-.gotopbtn{
-    position:fixed;
-    left: 1400px;
-    bottom: 40px;
-    float: right;
-    font-size: 30px;
-    color: #adadad;
-    
 }

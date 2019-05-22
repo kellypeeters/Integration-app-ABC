@@ -1,0 +1,82 @@
+/**************
+    HEADER
+***************/
+
+h1 {
+    font-size: 40px;
+    padding-left: 260px;
+    padding-right: 200px;
+    padding-top: 40px;
+    font-family: acier-bat-solid, sans-serif;
+    margin: 0;
+}
+
+.vuilbak {
+    width: 25px;
+    float: right;
+    margin-top: 2px;
+} 
+
+.button {
+    background-color: transparent;
+    border-color: transparent;
+    font-family: regular;
+    font-size: 30px;
+    vertical-align: middle;
+    float: right;
+    margin-top: 60px;
+}
+
+.button:hover {
+    background-color: #c4c4c4;
+}
+
+#minus {
+    margin-right: 180px;
+}
+
+#plus {
+    margin-right: 10px;
+}
+
+/**************
+      MAIN
+***************/
+
+.animate-listitem {
+    transform: rotate(-90deg);
+}
+
+
+#uitklap {
+    background-color: transparent;
+    border-color: transparent;
+    float: left;
+    transition: .5s transform;
+    position: relative;
+} 
+
+#uitklap div {
+    position: absolute;
+}
+
+
+#tussenTitels {
+    vertical-align: middle;
+    padding-left: 140px;
+}
+
+a Strong {
+    font-family: Roboto, bold, sans-serif;
+}
+
+div a {
+    margin-left: 20px;
+}
+
+#test,
+#testSpecial {
+    padding-top: 15px;
+    border-bottom: solid #cccccc 1.5px;
+    width: 250px;
+}
