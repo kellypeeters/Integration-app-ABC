@@ -32,7 +32,10 @@ $(function () {
             $(this).toggleClass("animate");
             $('.dropdown-legende-productie').slideToggle();
         });
-
+        $('.btn_vak_dropdown').click(function () {
+            $(this).toggleClass("animate-");
+            $('.container_create_storyboard').slideToggle();
+        });
     });
 
 
