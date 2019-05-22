@@ -1,24 +1,17 @@
 h1{
     font-family: Acier BAT text solid, sans-serif;
     color: #321432;
-    font-size: 30px;
+    font-size: 40px;
     top: 10px;
-    left: 60px;
+    left: 160px;
     position: absolute;
     z-index: initial;
     float: top;
 }
 
-.side-nav{
-    height: 100%;
-    width: 90px;
-    position: fixed;
-    z-index: 1;
-    overflow-x: hidden;
-    top: 0;
-    left: 0;
-    background-color: #DADADA;
-}
+.animate{
+
+ }
 
 .box_container {
     position: absolute;
@@ -74,6 +67,14 @@ h1{
     cursor: pointer;
     background-color: white;
     box-shadow: 1px 1px 2px grey;
+}
+
+.fa-plus-square{
+    position: inherit;
+    top: 5px;
+    left: 200px;
+    margin: 5px;
+    float: right;
 }
 
 .create-button{
