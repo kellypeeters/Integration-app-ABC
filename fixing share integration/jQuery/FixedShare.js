@@ -25,13 +25,13 @@ $(document).ready(function(){
 
     function gedeeldMetAnderen(){
         $(".newStoryboards").slideToggle();
-        $("#plus").on("click", add);
+        $("#plus").click(add);
         function add(){
             $(".newStoryboards").append("<div id='testSpecial'><a><Strong>CP2</Strong></a><a>Introduction</a><a>15/03</a></div>");  
             console.log(add);
         }
         
-        $("#minus").on("click", remove);
+        $("#minus").click(remove);
         function remove(){
             function removeElement(storyboard) {
                 storyboard.parentNode.removeChild(storyboard);
