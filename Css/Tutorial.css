@@ -13,21 +13,32 @@ h4 {
     padding-left: 260px;
     padding-right: 200px;
     font-family: roboto-regular, sans-serif;
-    
-    
+
+
 }
 
-h3{
+h3 {
     padding-top: 10px;
 }
 
 p {
-   padding-left: 260px;
-   font-size: 13px;
-   font-family: roboto-regular, sans-serif;
-   padding-right: 200px;
-}  
-  
+    padding-left: 260px;
+    font-size: 13px;
+    font-family: roboto-regular, sans-serif;
+    padding-right: 200px;
+}
+
+.Column {
+    width: 30%;
+    float: left;
+}
+
+.Column1 {
+    width: 30%;
+    float: right; 
+    text-align: right;
+}
+
 .First,
 .Second,
 .Third {
@@ -37,7 +48,7 @@ p {
 .uitklap1,
 .uitklap2,
 .uitklap3 {
-    margin-left: 220px; 
+    margin-left: 220px;
 }
 
 .animate-listitem {
@@ -46,7 +57,7 @@ p {
 
 button {
     position: absolute;
-    background:none;
+    background: none;
     border: none;
     cursor: pointer;
 }
