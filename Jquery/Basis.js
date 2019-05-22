@@ -1,5 +1,6 @@
     $("#Registratieform").hide();
-
+    $(".VergetenWachtwoord").hide(); 
+ 
     function validate() {
         var username = document.getElementById("username").value;
         var password = document.getElementById("password").value;
@@ -21,3 +22,14 @@
         $("#Registratieform").hide();
         $("#Loginform").show();
     });
+
+ $(".Vergeten").click(function () {
+        $("#Loginform").hide();
+        $(".VergetenWachtwoord").show(); 
+    }); 
+
+ $(".GaNaarLogin").click(function () {
+        $(".VergetenWachtwoord").hide();
+        $("#Loginform").show(); 
+    }); 
+

@@ -1,0 +1,150 @@
+/**************
+      NAV
+***************/
+.navigatie {
+    position: fixed;
+    z-index: 1;
+    top: 0; 
+    left: 0; 
+    height: 100%;
+    overflow-x: hidden;
+    list-style: none;
+    float: left;
+    vertical-align: middle;
+    background-color: rgb(218, 218, 218);
+    margin: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 100%;
+    text-align: center;
+    padding-bottom: 300px;
+}
+
+li a {
+    display: fixed;
+    text-decoration: none;
+    color: black;
+    float: left;
+    width: 85px;
+}
+
+nav img {
+    margin-top: 30px;
+    width: 45px;
+    float: left;
+    vertical-align: middle;
+    margin-left: 18px;
+}
+
+body {
+    font-family: roboto, regular, sans-serif;
+    margin: 0;
+}
+
+.icon {
+    color: black;
+    text-decoration-style: none;
+    margin-top: 10px;
+
+}
+
+.logo img {
+    width: 60px;
+
+}
+
+li :hover {
+    background-color: #e2e2e2;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: #c2c4c6;
+    border-bottom-color: #c2c4c6;
+    margin: 0%;
+}
+
+li a:hover {
+    background-color: #e2e2e2;
+}
+
+li img:hover {
+    background-color: #e2e2e2;
+    border-top-style: none;
+    border-bottom-style: none;
+    margin-top: 30px;
+    width: 45px;
+    float: left;
+    vertical-align: middle;
+    margin-left: 18px;
+}
+
+li :active {
+    background-color: #ffff;
+    border-top-color: solid black 2px;
+    border-bottom-color: solid black 2px;
+}
+
+li :visited {
+    background-color: #ffff;
+    border-top-color: solid black 2px;
+    border-bottom-color: solid black 2px;
+}
+
+#icon img,
+#icon a {
+    background-color: #ffff;
+
+}
+
+#icon a {
+    border-top-color: black;
+    border-bottom-color: black;
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+
+/**************
+    FOOTER
+**************/
+
+.footer {
+    padding: 12px;
+    background: #d6d8db;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-left: 100px;
+}
+
+.footer p {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 15%;
+    height: 9px;
+}
+
+.footer p a {
+    text-decoration: none;
+    color: black;
+    width: 85px;
+}
+
+.copyright {
+    margin-right: 200px;
+}
+
+/*************
+* Top button *
+*************/
+
+.gotopbtn{
+    position:fixed;
+    left: 1400px;
+    bottom: 40px;
+    float: right;
+    font-size: 30px;
+    color: #adadad;
+    
+}
