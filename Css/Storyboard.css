@@ -2,7 +2,8 @@ h1{
     font-family: Acier BAT text solid, sans-serif;
     color: #321432;
     font-size: 30px;
-    margin-left: 60px;
+    top: 10px;
+    left: 60px;
     position: absolute;
     z-index: initial;
     float: top;
@@ -22,8 +23,8 @@ h1{
 .box_container {
     position: absolute;
     z-index: 1;
-    width: 800px;
-    height: 80px;
+    width: 850px;
+    height: 70px;
     top: 170px;
     left: 200px;
     float: left;
@@ -31,18 +32,21 @@ h1{
     box-shadow: 1px 1px 2px grey;
 }
 
+.box_container a{
+    font-size: 15px;
+    color: #5E5E5E;
+    font-family: roboto, regular, sans-serif;
+}
+
 .box_titel{
     position: absolute;
     z-index: 1;
     width: 100px;
-    height: 72px;
+    height: 62px;
     top: 4px;
     left: 4px;
     float: left;
-
     cursor: pointer;
-    font-size: 20px;
-    font-family: roboto, regular, sans-serif;
     background-color: white;
     box-shadow: 1px 1px 2px grey;
 }
@@ -51,14 +55,10 @@ h1{
     position: absolute;
     z-index: 1;
     width: 100px;
-    height: 72px;
+    height: 62px;
     top: 4px;
     left: 110px;
-    float: left;
-
     cursor: pointer;
-    font-size: 20px;
-    font-family: roboto, regular, sans-serif;
     background-color: white;
     box-shadow: 1px 1px 2px grey;
 }
@@ -66,21 +66,18 @@ h1{
 .box_leerachtiviteit{
     position: absolute;
     z-index: 1;
-    width: 100px;
-    height: 72px;
+    width: 580px;
+    height: 62px;
     top: 4px;
     left: 216px;
     float: left;
-
     cursor: pointer;
-    font-size: 20px;
-    font-family: roboto, regular, sans-serif;
     background-color: white;
     box-shadow: 1px 1px 2px grey;
 }
 
 .create-button{
-    display: inline-block;
+    display: block;
     border: none;
     padding: 5px 50px;
     top: 270px;
@@ -109,14 +106,22 @@ h1{
     font-size: 20px;
     text-align: left;
     width: 100px;
+    cursor: pointer;
+}
+
+.container_create_storyboard{
+    position: absolute;
+    display: none;
+    z-index: 3;
+    top: 400px;
+    left: 200px;
 }
 
 .legende-leeractiviteiten{
     display: block;
-    width: 250px;
-    padding: 2px 5px;
+    width: 230px;
     float: right;
-    font-family: Roboto regular, sans-serif;
+    font-family: Roboto, sans-serif;
     position:absolute;
     top: 300px;
     right: 100px;
@@ -129,11 +134,11 @@ h1{
     border: none;
     outline: none;
     text-align: left;
-    width: 240px;
+    width: 220px;
     padding: 7px 10px;
     margin: 10px 10px 5px 5px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 15px;
     color: white;
     background-color: #F0874B;
     box-shadow: 1px 1px 1px grey;
@@ -145,6 +150,7 @@ h1{
     display: none;
     background-color: #F0874B;
     color: white;
+    font-size: 15px;
     font-family: Roboto, sans-serif;
     box-shadow: 1px 1px 1px grey;
 }
@@ -154,17 +160,18 @@ h1{
     border: none;
     outline: none;
     text-align: left;
-    width: 240px;
+    width: 220px;
     padding: 7px 10px;
     margin: 10px 10px 5px 5px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 15px;
     color: white;
     background-color: #12ADAD;
 }
 .dropdown-legende-samenwerking{
     display: none;
     margin-top: -1px;
+    font-size: 15px;
     font-family: Roboto, sans-serif;
     padding: 7px 10px;
     color: white;
@@ -176,17 +183,18 @@ h1{
     border: none;
     outline: none;
     text-align: left;
-    width: 240px;
+    width: 220px;
     padding: 7px 10px;
     margin: 10px 10px 5px 5px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 15px;
     color: white;
     background-color: #EE8090;
 }
 .dropdown-legende-discussie{
     display: none;
     margin-top: -1px;
+    font-size: 15px;
     font-family: Roboto, sans-serif;
     padding: 7px 10px;
     color: white;
@@ -198,11 +206,11 @@ h1{
     border: none;
     outline: none;
     text-align: left;
-    width: 240px;
+    width: 220px;
     padding: 7px 10px;
     margin: 10px 10px 5px 5px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 15px;
     color: white;
     background-color:#85A22A;
 }
@@ -210,6 +218,7 @@ h1{
     display: none;
     margin-top: -1px;
     font-family: Roboto, sans-serif;
+    font-size: 15px;
     padding: 7px 10px;
     color: white;
     background-color: #85A22A;
@@ -220,11 +229,11 @@ h1{
     border: none;
     outline: none;
     text-align: left;
-    width: 240px;
+    width: 220px;
     padding: 7px 10px;
     margin: 10px 10px 5px 5px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 15px;
     color: white;
     background-color: #6361A8;
 }
@@ -232,6 +241,7 @@ h1{
     display: none;
     margin-top: -1px;
     font-family: Roboto, sans-serif;
+    font-size: 15px;
     padding: 7px 10px;
     color: white;
     background-color: #6361A8;
@@ -242,11 +252,11 @@ h1{
     border: none;
     outline: none;
     text-align: left;
-    width: 240px;
+    width: 220px;
     padding: 7px 10px;
     margin: 10px 10px 5px 5px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 15px;
     color: white;
     background-color: rgb(242, 179, 21);
 }
@@ -254,16 +264,13 @@ h1{
     display: none;
     margin-top: -1px;
     font-family: Roboto, sans-serif;
+    font-size: 15px;
     padding: 7px 10px;
     color: white;
     background-color: #F2B315;
 }
 
-.hovering:hover{
-    color: black;
-}
 .fa-caret-down {
     float: right;
     padding-right: 10px;
 }
-
