@@ -4,27 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://use.typekit.net/nzw1tsv.css">
     <title>Dashboard ABC_CD</title>
-    <link rel="stylesheet" href="Css/Basis.css">
+    <link rel="shortcut icon" href="Foto's/Logo/Logo.JPG">
+    <link rel="stylesheet" href="Css/Nav+footer.css">
+    <link rel="stylesheet" href="Css/Dashboard.css">
     <link rel="stylesheet" href="https://use.typekit.net/nzw1tsv.css">
+    <script src="Jquery/jquery-3.3.1.js"></script>
+    <script src="Jquery/Dashboard.js"></script>
 </head>
 <body>
       <nav>
         <ul class="navigatie">
-            <li class="logo1"><a href="Dashboard.html"><img class="logoAfbeelding" src="Afbeeldingen/logoIcon.jpg" alt="logo" width="85px"></a></li>
-            <li class="logo"> <a href="Account.html"><img class="accountAfbeelding" src="Foto's/Navigatie/user%20(1).png" alt="account" width="40px">Account</a></li>
-            <li class="logo"><a href="Storyboard.html"><img class="storyboardAfbeelding" src="Foto's/Navigatie/storyboard.png" alt="storyboard" width="45px">Storyboard</a></li>
-            <li class="logo"><a href="Cursussen.html`"><img class="coursesAfbeelding" src="Foto's/Navigatie/Cursussen.png" alt="courses" width="40px">Cursussen</a></li>
-            <li class="logo"><a href="Share.html"><img class="shareAfbeelding" src="Foto's/Navigatie/share.png" alt="share" width="40px">Delen</a></li>
-            <li class="logo"><a href="Tutorial.html"><img class="helpAfbeelding" src="Foto's/Navigatie/question%20(1).png" alt="help" width="40px">Help</a></li>
-            <li class="logo"><a href="Contacteer.html"><img class="contactAfbeelding" src="Foto's/Navigatie/chat.png" alt="help" width="40px">Contact</a></li>
+                <li><a class="current" href="Dashboard.html"><img class="logoAfbeelding" src="Afbeeldingen/logoIcon.jpg" alt="logo"></a></li>
+                <li><a href="Account.html"><img class="accountAfbeelding" src="Foto's/Navigatie/user (1).png" alt="account">Account</a></li>
+                <li><a href="Storyboard.html"><img class="storyboardAfbeelding" src="Foto's/Navigatie/storyboard.png" alt="storyboard">Storyboard</a></li>
+                <li><a href="Cursussen.html"><img class="coursesAfbeelding" src="Foto's/Navigatie/Cursussen.png" alt="cursussen">Cursussen</a></li>
+                <li><a href="Share.html"><img class="shareAfbeelding" src="Foto's/Navigatie/share.png" alt="share">Delen</a></li>
+                <li><a  href="Tutorial.html"><img class="helpAfbeelding" src="Foto's/Navigatie/question (1).png" alt="help">Help</a></li>
+                <li><a href="Contacteer.html"><img class="contactAfbeelding" src="Foto's/Navigatie/chat.png" alt="contact">Contact</a></li>
         </ul>
     </nav>
-      <div>
+    <header>
+        <div class="dashboardButtons">
+            <a role="button" class="readMail"><img src="Foto's/Symbolen/STORYBOARD mail knop.png" alt="mail"></a>
+            <a role="button" class="littleKalender"><img src="Foto's/Symbolen/DASHBOARD (klein) kalender.png" alt="kalender"></a>
+        </div>
+        <h1>Dashboard</h1>
+    </header>
+    <main>
+        
+            <div class="kalender">
 
+            </div>
+            <div class="storyboardsDashboard">
 
-     <footer>
+            </div>
+            <div class="runningStoryboards">
+                <button  class="uitklap" id="uitklap"><strong>V</strong></button>
+                <h2>Running Storyboards</h2>
+                <div class="currentStoryboards">
+
+                </div>
+            </div>
+
+        
+    </main>
+
+    <footer>
        <div class="footer">
         <p class="copyright"> &#9400; 2019</p>
         <p><a href="https://www.erasmushogeschool.be/nl" target="_blank">EhB</a></p>

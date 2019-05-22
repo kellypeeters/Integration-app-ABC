@@ -1,22 +1,48 @@
 $(document).ready(function(){
-console.log("script Linked");
-
-$("#test").hide();
-$('.uitklap').click(function(){
-    console.log(this);
+    console.log("script linked");
+    $(".sharedWithYou").hide();
+    $(".recentlyUsed").hide();
+    $(".muchUsed").hide();
+    $(".newStoryboards").hide();
+    $(".Gedeeld button").click(gedeeldMetJou);
+    $(".Recente button").click(recent);
+    $(".Veel-gebruikte button").click(veelGebruikt);
     
-    $(this).toggleClass("animate-listitem");  
-    $(this).slideToggle();
-    
-    $("#plus").on("click", function(){
-        $(".Van-u-gedeeld").append("<a><img src='Afbeeldingen/ShareIcon.jpg' alt='otherTest' id='test'></a>");   
+    $(".Van-u-gedeeld button").click(gedeeldMetAnderen);
+    $("#plus").click(add);
+    $("#minus").click(remove);
+    $(".uitklap").click(function(){
+        $(this).toggleClass("animate-listitem");
     });
-    $("#minus").on("click", function(){
-        function removeElement(storyboard) {
-            storyboard.parentNode.removeChild(storyboard);
+
+    function gedeeldMetJou(){
+        $(".sharedWithYou").slideToggle();
+    }
+    function recent(){
+         $(".recentlyUsed").slideToggle();
+    }
+    function veelGebruikt(){
+         $(".muchUsed").slideToggle();
+       
+    }
+
+    function gedeeldMetAnderen(){
+        $(".newStoryboards").slideToggle();
+    }
+    
+        
+        function add(){
+            $(".newStoryboards").append("<div id='testSpecial'><a><Strong>CP2</Strong></a><a>Introduction</a><a>15/03</a></div>");  
+            console.log(add);
         }
-        removeElement(document.getElementById("test"));
+        
+       
+        function remove(){
+            function removeElement(storyboard) {
+                storyboard.parentNode.removeChild(storyboard);
+            }
+            removeElement(document.getElementById("testSpecial"));
+            console.log(remove);
+        }
     });
-  });
 
-});

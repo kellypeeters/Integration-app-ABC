@@ -19,43 +19,36 @@ p {
 }
 
 .Onze_campussen {
-
     padding-left: 30px;
     margin-right: 62%;
     padding-bottom: 17px;
     margin-left: 260px;
     border: 2px solid #5E5E5E;
     border-radius: 15px;
-    margin-top: 240px;
-    
-    
-
+    margin-top: 170px;
 }
 
 .Adres {
-
     position: absolute;
-    left: 800px;
-    top: 140px;
+    left: 700px;
+    top: 100px;
     border: 2px solid #5E5E5E;
-    padding-left: 200px;
-    padding-right: 90px;
+    padding-bottom: 10px;
+    padding-left: 180px;
+    padding-right: 60px;
     border-radius: 15px;
-}
+} 
 
 .Adres img {
     position: absolute;
-    left: 70px;
-    bottom: 40px;
+    left: 60px;
+    bottom: 35px;
 }
-
-.Adres img:hover {}
 
 iframe {
     position: absolute;
     left: 700px;
-    top: 320px;
-    margin-bottom: 80px;
+    top: 240px;
 }
 
 a {
@@ -69,5 +62,3 @@ a:hover {
     transition: .3s;
     cursor: pointer;
 }
-
-

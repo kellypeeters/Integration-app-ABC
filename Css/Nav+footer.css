@@ -1,9 +1,13 @@
-
-
 /**************
       NAV
 ***************/
-.navigatie{
+.navigatie {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    overflow-x: hidden;
     list-style: none;
     float: left;
     vertical-align: middle;
@@ -13,14 +17,18 @@
     padding-right: 0%;
     padding-bottom: 100%;
     text-align: center;
+    padding-bottom: 300px;
 }
-li a{
+
+li a {
+    display: fixed;
     text-decoration: none;
     color: black;
     float: left;
     width: 85px;
 }
-nav img{
+
+nav img {
     margin-top: 30px;
     width: 45px;
     float: left;
@@ -28,21 +36,19 @@ nav img{
     margin-left: 18px;
 }
 
-body{
+body {
     font-family: roboto, regular, sans-serif;
     margin: 0;
 }
 
-.icon{
+.icon {
     color: black;
     text-decoration-style: none;
     margin-top: 10px;
-    
 }
 
-.logo img{
-   width: 60px;
-    
+.logo img {
+    width: 60px;
 }
 
 li :hover {
@@ -55,7 +61,7 @@ li :hover {
 }
 
 li a:hover {
-    background-color: #e2e2e2; 
+    background-color: #e2e2e2;
 }
 
 li img:hover {
@@ -70,72 +76,46 @@ li img:hover {
 }
 
 li :active {
-    background-color: #ffff;
-    border-top-color: solid black 2px;
-    border-bottom-color: solid black 2px;
-}
-
-li :visited {
-    background-color: #ffff;
-    border-top-color: solid black 2px;
-    border-bottom-color: solid black 2px;
-}
-#icon img, #icon a{
-    background-color: #ffff;
-
-}
-#icon a{
-    border-top-color:  black;
-    border-bottom-color: black;
+    border-top-color: solid #bcbcbc 2px;
+    border-bottom-color: solid #bcbcbc 2px;
+    border-top-color: #bcbcbc;
+    border-bottom-color: #bcbcbc;
     border-top-style: solid;
-    border-bottom-style:  solid;
+    border-bottom-style: solid;
+    margin: 0%;
 }
 
-.vuilbak{
-    width: 14px;
-    float: right;
-    margin-top: 0%;
-}
-.button{
-   vertical-align: middle;
-   float: right;
-   margin-top: 75px;
-}
-.button:hover{
-    background-color: #c4c4c4;
-}
-.button img{
-    width: 25px;
-}
-/************
-*   Button  *
-************/
-.gotopbtn {
-    position: fixed;
-    width: 40px;
-    height: 40px;
-    background: #d6d8db;
-    bottom: 20px;
-    right: 20px;
-    text-decoration: none;
-    text-align: center;
-    line-height: 40px;
-    color: white;
-    font-size: 25px;
-    border-radius: 10px;
-    z-index: 1;
-
+li a:active {
+    background-color: #ffff;
 }
 
-.gotopbtn:hover {
-    background-color: #c4c4c4;
+li img:active {
+    background-color: #ffff;
+    border-top-style: none;
+    border-bottom-style: none;
+    margin-top: 30px;
+    width: 45px;
+    float: left;
+    vertical-align: middle;
+    margin-left: 18px;
+}
+ 
+.current {
+    background-color: #ffff;
+    border-top-color: solid #bcbcbc 2px;
+    border-bottom-color: solid #bcbcbc 2px;
+    border-top-color: #bcbcbc;
+    border-bottom-color: #bcbcbc;
+    border-top-style: solid;
+    border-bottom-style: solid;
 }
 
+/**************
+    FOOTER
+**************/
 
-/************
-*   footer  *
-************/
 .footer {
+    padding: 12px;
     background: #d6d8db;
     position: fixed;
     left: 0;
@@ -146,12 +126,33 @@ li :visited {
 }
 
 .footer p {
+    margin: 0;
+    padding: 0;
     display: inline-block;
     width: 15%;
     height: 9px;
+}
+
+.footer p a {
+    text-decoration: none;
+    color: black;
+    width: 85px;
 }
 
 .copyright {
     margin-right: 200px;
 }
 
+/*************
+* Top button *
+*************/
+
+.gotopbtn {
+    position: fixed;
+    left: 1400px;
+    bottom: 40px;
+    float: right;
+    font-size: 30px;
+    color: #adadad;
+
+}
