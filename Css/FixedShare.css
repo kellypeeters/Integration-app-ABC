@@ -76,7 +76,6 @@ div a {
 
 #test,
 #testSpecial {
-    padding-top: 15px;
-    border-bottom: solid #cccccc 1.5px;
+    border-bottom: solid #cccccc 1.5px;  
     width: 250px;
-}
+} 
