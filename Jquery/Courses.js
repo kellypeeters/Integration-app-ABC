@@ -1,21 +1,55 @@
-$(document).ready(function(){
-    console.log("script linked");
-    $("#addButton").click(nieuweCursus);
-    function nieuweCursus(){
-        $("#plus").click(add);
-        function add(){
-            $(".newCourse").append("<h3><img src='Foto's/Share/plus.png'></h3> <div class='lijn'><img src='Foto's/Share/lijn.png' alt='lijn' width='300'></div>");  
-            console.log(add);
-        }
-        
-        $("#minus").click(remove);
-        function remove(){
-            function removeElement(storyboard) {
-                storyboard.parentNode.removeChild(storyboard);
-            }
-            removeElement(document.getElementById("testSpecial"));
-            console.log(remove);
-        }
-    }
+$(document).ready(function () {
+            console.log("script linked"); {
+                $("#addButton").click(add);
 
-});
+                function add() {
+                    console.log('before prompt')
+                    var course = prompt('Welke cursus wilt u toevoegen?');
+
+                    console.log('after prompt')
+                    var vak
+                    if (course == "Engels") {
+                        $('#newCourse span').text("Engels");
+                    }
+
+                    if (course == "DWD") {
+                            $('#newCourse span').text("DWD");
+                        }}
+                if (course == "CP") {
+                            $('#newCourse span').text("C");
+                        }}
+                if (course == "Buisness") {
+                            $('#newCourse span').text("Buisness");
+                    
+                    
+                                console.log(add);
+                        }})
+
+
+
+
+
+
+
+
+                                //$('#newCourse').append('<img src="Fotos/Share/lijn.png">')
+
+
+
+                            
+
+
+                    
+
+
+              
+
+            $("#minus").click(remove);
+
+            function remove() {
+                function removeElement(storyboard) {
+                    storyboard.parentNode.removeChild(storyboard);
+                }
+                removeElement(document.getElementById("testSpecial"));
+                console.log(remove);
+            };
