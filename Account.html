@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>   
+<head>
     <meta charset="UTF-8">
     <title>ABC Curriculum Design</title>
     <link rel="stylesheet" href="https://use.typekit.net/afb1efn.css">
@@ -18,7 +18,7 @@
             <form id="form_id" method="post" name="myform">
                 <input class="input-field" type="text" placeholder="Email" name="username" id="username" />
                 <input class="input-field" type="password" placeholder="Wachtwoord" name="password" id="password" />
-                <input class="Aanmeldbutton" type="button" value="Aanmelden" id="submit" onclick="validate()" />
+                <input class="Aanmeldbutton" type="submit" value="Aanmelden" id="submit" onclick="validate()" />
             </form>
         </div>
         <div class="WachwoordVergeten">
@@ -33,28 +33,28 @@
         <h1>Maak uw account aan</h1>
         <div class="main2">
             <form method="post" action="#">
-                <input class="input-field1" type="text" name="dname" id="name" placeholder="Naam">
-                <input class="input-field2" type="text" name="demail" id="email" placeholder="Email">
-                <input class="input-field3" minlenght="5" type="password" name="password" id="password" placeholder="Wachtwoord">
-                <input class="input-field4" type="password" name="cpassword" id="cpassword" placeholder="Bevestig wachtwoord">
+                <input class="input-field1" type="text" name="dname" id="inpKey" placeholder="Naam" mandatory>
+                <input class="input-field2" type="text" name="demail" id="inpValue" placeholder="Email" mandatory>
+                <input class="input-field3" minlenght="5" type="password" name="password" id="password" placeholder="Wachtwoord" mandatory>
+                <input class="input-field4" type="password" name="cpassword" id="cpassword" placeholder="Bevestig wachtwoord" mandatory>
+                <input type="Submit" value="Registreer" class="Aanmeldbutton" id="btnInsert">
             </form>
-            <input class="Aanmeldbutton" type="button" name="register" id="register" value="Registreer">
-        </div>
+        </div>  
         <div class="TerugNaarRegistreren">
             <p>Al een account? Gelieve in te <a class="AlAccount" href="#">loggen </a></p>
         </div>
     </div>
 
-   <div class="VergetenWachtwoord">
-    <form class="PasswordForgotten" method="POST">
-        <h1>Vraag hier je nieuw wachtwoord aan</h1>
-        <div class="input-group">
-            <input type="text" name="username" class="input-field" placeholder="Email" required>
-        </div> 
-        <br />
-        <button class="Aanmeldbutton" id="ForgotPassword" type="submit">Verstuur</button>
-    </form>
-    <p class="NaarLogin">Al een account? Gelieve in te <a class="GaNaarLogin" href="#">loggen </a></p> 
+    <div class="VergetenWachtwoord">
+        <form class="PasswordForgotten" method="POST">
+            <h1>Vraag hier je nieuw wachtwoord aan</h1>
+            <div class="input-group">
+                <input type="text" name="username" class="input-field" placeholder="Email" required>
+            </div>
+            <br />
+              <input type="Submit" value="Verstuur" class="Aanmeldbutton" id="ForgotPassword">
+        </form>
+        <p class="NaarLogin">Al een account? Gelieve in te <a class="GaNaarLogin" href="#">loggen </a></p>
     </div>
 
     <footer>
@@ -66,11 +66,12 @@
             <li class="Logo"><img class="Logo2" src="Fotos/Logo/Connected.jpg" alt="logo" width="7%"></li>
         </ul>
     </footer>
-    
+
     <script src="Jquery/jquery-3.4.1.min.js"></script>
     <script src="Jquery/LocalStorage.js"></script>
-    <script src="Jquery/Basis.js"></script>    
-      
+    <script src="Jquery/Basis.js"></script>
+    <script src="Jquery/index.js"></script>   
+    
 </body>
 
 </html>
