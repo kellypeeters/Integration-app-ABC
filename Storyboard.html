@@ -8,12 +8,32 @@
     <link rel="stylesheet" type="text/css" href="Css/Storyboard.css">
     <link rel="shortcut icon" href="Fotos/Logo/Logo.JPG">
     <link rel="stylesheet" href="Css/Nav+footer.css">
+    <link rel="stylesheet" href="Css/createStoryboard.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
 </head>
 
 <body>
+        <form id="createForm">
+                <h3>Creeër Storyboard</h3>
+        
+                <div class="tab"><Strong>Vak:</Strong>
+                    <p><input type="text" placeholder="Vb: Wiskunde" oninput="this.className = ''"></p>
+                </div>
+                <div class="tab"><Strong>Periode:</Strong>
+                    <p>Begindatum: <input type="date" placeholder="Begindatum" oninput="this.className"></p>
+                    <p>Einddatum: <input type="date" placeholder="Einddatum" oninput="this.className"></p>
+                   
+                </div>
+                <div class="tab" id="tab"><Strong>Doelstellingen: </Strong>
+                    <p class="purpose"></p>
+                    <button class="addPurpose"><img src="Fotos/Symbolen/COURSES plus teken (toevoegen).png" alt="add"></button>
+
+                </div>
+                <button id="goBack">Ga terug</button>
+                <button id="next">Volgende</button>
+            </form>
 
 <div id="application" class="app_abccd">
 
@@ -55,9 +75,7 @@
     </div>                      <!-- dit is de template vr storyboards -->
 
     <button class="create-button">+ Create</button>        <!--create knop -->
-    <form id="createForm" action="">
-        <h3>Create Storyboard</h3>
-    </form>
+
     <div class="legende-leeractiviteiten">
         <a>Legende<br>leeractiviteit</a>
 
@@ -125,7 +143,7 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="Jquery/Storyboard.js"></script>
-
+<script src="Jquery/createStoryboard.js"></script>
 </body>
 
 </html>
