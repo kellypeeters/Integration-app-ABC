@@ -9,8 +9,12 @@ $(document).ready(function () {
             console.log('after prompt')
             if (course == "Engels") {
                 $('#newCourse span').text("Engels")
-                // $('#newCourse').append('<img src="Fotos/Share/lijn.png">').width(30); 
+            $('.newCourse #lijn').show();
+                
+                
+                
             }
+            
 
             if (course == "Dynamic Web") {
                 $('#newCourse span').text("Dynamic Web")
@@ -51,7 +55,7 @@ $(document).ready(function () {
             console.log('after prompt')
             if (verwijder == "Engels") {
                 $('#newCourse span').text("")
-                 //$('#newCourse').hide('<img src="Fotos/Share/lijn.png">').hide.width(30); 
+                 //('#newCourse').append('<img src="Fotos/Share/lijn.png">').width(30); 
             }
 
             if (verwijder == "Dynamic Web") {
@@ -78,11 +82,6 @@ $(document).ready(function () {
         }
     }
 });
-
-
-
-
-
 
                         //function removeElement(storyboard) {
                         //storyboard.parentNode.removeChild(storyboard);

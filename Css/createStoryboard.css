@@ -1,0 +1,42 @@
+#createForm{
+    margin-left: 600px;
+    margin-top: 300px;
+    margin-right: 900px;
+    background-color: white;
+    padding: 20px;
+    width: 400px;
+    vertical-align: middle;
+    position: fixed;
+}
+
+#next{
+   
+    background-color: #633568;
+    color: white;
+    border-color: transparent;
+    
+}
+
+#goBack{
+    background-color: #633568;
+    color: white;
+    border-color: transparent;
+}
+
+.addPurpose img{
+    width: 20px;
+    vertical-align: middle;
+}
+
+.addPurpose{
+    margin-left: 350px;
+    background-color: transparent;
+    border-color: transparent;
+    width: 40px;
+    height: 40px;
+}
+
+.addPurpose:hover{
+    background-color: #c4c4c4;
+
+}
