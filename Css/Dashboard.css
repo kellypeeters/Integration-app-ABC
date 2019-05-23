@@ -113,7 +113,7 @@ main{
 .runningStoryboards{
     padding-left: 200px;
 }
-.runningStoryboards button{
+.runningStoryboards button {
     background-color: transparent;
     border-color: transparent;
     float: left;
@@ -121,36 +121,32 @@ main{
     position: relative;
 }
 
-.recentFirst a {
+/*.recentFirst a {
     border: solid #777 2px;
     float: left;
     width: 200px;
     display: table-cell;
-    padding: 10px;
+    padding: 19.5px;
     margin: 0;
     vertical-align: middle;
     margin-bottom: 20px;
-}
-.recentSecond a{
+}*/
+/*.recentSecond a{
     border: solid #777 2px;
     float: left;
     width: 200px;
     display: table-cell;
-    padding: 10px;
+    padding: 19.5px;
     margin: 0;
     vertical-align: middle;
     margin-bottom: 20px;
-}
+} */
 
 .recentFirst, .recentSecond{
     float: left;
 }
 
-.recentFirst img, .recentSecond img{
-    width: 20px;
-    margin: 0;
-    padding: 0;
-}
+
 
 .storyboardsDashboard{
     float: left;
@@ -158,10 +154,4 @@ main{
   
 }
 
-#color{
-    border: solid #eee 0;
-    width: 100px;
-    float: left;
-    margin-bottom: 0;
-    padding: 0;
-}
+
