@@ -29,6 +29,11 @@ div {
     padding-right: 200px;
 }
 
+.img{
+    padding-top: 30px;
+    margin-left: 50px;
+}
+
 .Column {
     width: 60%;
     float: left;
