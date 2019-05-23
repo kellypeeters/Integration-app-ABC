@@ -13,6 +13,8 @@ $(document).ready(function () {
     $button.on('click', function () {
 
         $list.append('<li>' + $input.val() + $input1.val() + $input2.val() + $input3.val() ); 
+        
+        console.log('.list');
 
         localStorage.setItem('user-input', $list.html());
 
@@ -24,4 +26,4 @@ $(document).ready(function () {
         console.log('update');
         localStorage.setItem('user-input', $list.html());
     });
-}); 
+});  

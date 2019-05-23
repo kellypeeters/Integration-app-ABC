@@ -28,8 +28,12 @@ li a {
     width: 85px;
 }
 
+.logoAfbeelding{
+    margin-top: 20px;
+}
+
 nav img {
-    margin-top: 30px;
+    margin-top: 15px;
     width: 45px;
     float: left;
     vertical-align: middle;
@@ -37,14 +41,14 @@ nav img {
 }
 
 body {
-    font-family: roboto, regular, sans-serif;
+    font-family: Roboto, Regular, sans-serif;
     margin: 0;
 }
 
 .icon {
     color: black;
     text-decoration-style: none;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .logo img {
@@ -68,7 +72,7 @@ li img:hover {
     background-color: #e2e2e2;
     border-top-style: none;
     border-bottom-style: none;
-    margin-top: 30px;
+    margin-top: 15px;
     width: 45px;
     float: left;
     vertical-align: middle;
@@ -93,7 +97,7 @@ li img:active {
     background-color: #ffff;
     border-top-style: none;
     border-bottom-style: none;
-    margin-top: 30px;
+    margin-top: 15px;
     width: 45px;
     float: left;
     vertical-align: middle;
