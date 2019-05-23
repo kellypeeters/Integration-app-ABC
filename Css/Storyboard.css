@@ -453,40 +453,49 @@ input[type=text]:focus {
 }
 
 .kaart-kennisverwerking {
-    /*position: absolute;
-    z-index: 3;*/
+    position: absolute;
+    z-index: 3;
     top: 170px;
     left: 300px;
     box-shadow: 1px 1px 1px grey;
-    background-color: transparent;
     width: 250px;
     height: 200px;
-    border: 1px solid #f1f1f1;
+    margin: auto;
+    border: 1px solid grey;
     perspective: 1000px;
+    background-color: transparent;
 }
 
 .kennis-inner{
-    position: relative;
-    width: 100%;
     height: 100%;
+    width: 100%;
     text-align: center;
-    transition: transform 0.8s;
+    transition: transform 1.0s cubic-bezier(0.75,0,0.85,1);
     transform-style: preserve-3d;
 }
 
 .kaart-kennisverwerking:hover .kennis-inner {
     transform: rotateY(180deg);
+    box-shadow: -5px 5 px 5 px #aaa;
 }
 
-.kennis-front .kennis-back{
+.kennis-front{
     position: absolute;
     width: 100%;
     height: 100%;
+    background-color:#F0874B;
+    color: black;
     backface-visibility: hidden;
-    color: white;
-    background-color: #F0874B;
+    overflow: hidden;
 }
+
 .kennis-back{
+    width: 100%;
+    height: 100%;
+    color: black;
+    backface-visibility: hidden;
+    overflow: hidden;
+    text-align: center;
     transform: rotateY(180deg);
 }
 
@@ -497,9 +506,45 @@ input[type=text]:focus {
     height: 200px;
     top: 170px;
     left: 600px;
+    margin: auto;
     color: white;
-    background-color: #12ADAD;
+    background-color: transparent;
     box-shadow: 1px 1px 1px grey;
+    border: 1px solid grey;
+    perspective: 1000px;
+}
+
+.samenwerking-inner{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    transition: transform 1.0s cubic-bezier(0.75,0,0.85,1);
+    transform-style: preserve-3d;
+}
+
+.kaart-samenwerking:hover .samenwerking-inner {
+    transform: rotateY(180deg);
+    box-shadow: -5px 5 px 5 px #aaa;
+}
+
+.samenwerking-front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:#F0874B;
+    color: black;
+    backface-visibility: hidden;
+    overflow: hidden;
+}
+
+.samenwerking-back {
+    width: 100%;
+    height: 100%;
+    color: black;
+    backface-visibility: hidden;
+    overflow: hidden;
+    text-align: center;
+    transform: rotateY(180deg);
 }
 
 .kaart-discussie {
@@ -509,9 +554,45 @@ input[type=text]:focus {
     height: 200px;
     top: 170px;
     left: 900px;
+    margin: auto;
     color: white;
-    background-color: #EE8090;
+    background-color: transparent;
     box-shadow: 1px 1px 1px grey;
+    border: 1px solid grey;
+    perspective: 1000px;
+}
+
+.discussie-inner{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    transition: transform 1.0s cubic-bezier(0.75,0,0.85,1);
+    transform-style: preserve-3d;
+}
+
+.kaart-discussie:hover .discussie-inner {
+    transform: rotateY(180deg);
+    box-shadow: -5px 5 px 5 px #aaa;
+}
+
+.discussie-front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:#F0874B;
+    color: black;
+    backface-visibility: hidden;
+    overflow: hidden;
+}
+
+.discussie-back {
+    width: 100%;
+    height: 100%;
+    color: black;
+    backface-visibility: hidden;
+    overflow: hidden;
+    text-align: center;
+    transform: rotateY(180deg);
 }
 
 .kaart-onderzoek {
@@ -521,9 +602,45 @@ input[type=text]:focus {
     height: 200px;
     top: 400px;
     left: 300px;
+    margin: auto;
     color: white;
-    background-color: #85A22A;
+    background-color: transparent;
     box-shadow: 1px 1px 1px grey;
+    border: 1px solid grey;
+    perspective: 1000px;
+}
+
+.onderzoek-inner{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    transition: transform 1.0s cubic-bezier(0.75,0,0.85,1);
+    transform-style: preserve-3d;
+}
+
+.kaart-onderzoek:hover .onderzoek-inner {
+    transform: rotateY(180deg);
+    box-shadow: -5px 5 px 5 px #aaa;
+}
+
+.onderzoek-front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:#F0874B;
+    color: black;
+    backface-visibility: hidden;
+    overflow: hidden;
+}
+
+.onderzoek-back {
+    width: 100%;
+    height: 100%;
+    color: black;
+    backface-visibility: hidden;
+    overflow: hidden;
+    text-align: center;
+    transform: rotateY(180deg);
 }
 
 .kaart-praktijk {
@@ -533,10 +650,47 @@ input[type=text]:focus {
     height: 200px;
     top: 400px;
     left: 600px;
+    margin: auto;
     color: white;
-    background-color: #6361A8;
+    background-color: transparent;
     box-shadow: 1px 1px 1px grey;
+    border: 1px solid grey;
+    perspective: 1000px;
 }
+
+.praktijk-inner{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    transition: transform 1.0s cubic-bezier(0.75,0,0.85,1);
+    transform-style: preserve-3d;
+}
+
+.kaart-praktijk:hover .praktijk-inner {
+    transform: rotateY(180deg);
+    box-shadow: -5px 5 px 5 px #aaa;
+}
+
+.praktijk-front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:#F0874B;
+    color: black;
+    backface-visibility: hidden;
+    overflow: hidden;
+}
+
+.praktijk-back {
+    width: 100%;
+    height: 100%;
+    color: black;
+    backface-visibility: hidden;
+    overflow: hidden;
+    text-align: center;
+    transform: rotateY(180deg);
+}
+
 
 .kaart-productie {
     position: absolute;
@@ -545,7 +699,43 @@ input[type=text]:focus {
     height: 200px;
     top: 400px;
     left: 900px;
+    margin: auto;
     color: white;
-    background-color: #F2B315;
+    background-color: transparent;
     box-shadow: 1px 1px 1px grey;
+    border: 1px solid grey;
+    perspective: 1000px;
+}
+
+.productie-inner{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    transition: transform 1.0s cubic-bezier(0.75,0,0.85,1);
+    transform-style: preserve-3d;
+}
+
+.kaart-productie:hover .productie-inner {
+    transform: rotateY(180deg);
+    box-shadow: -5px 5px 5px #aaa;
+}
+
+.productie-front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:#F0874B;
+    color: black;
+    backface-visibility: hidden;
+    overflow: hidden;
+}
+
+.productie-back {
+    width: 100%;
+    height: 100%;
+    color: black;
+    backface-visibility: hidden;
+    overflow: hidden;
+    text-align: center;
+    transform: rotateY(180deg);
 }
