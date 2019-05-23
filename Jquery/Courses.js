@@ -1,9 +1,3 @@
-
-
-
-
-
-
 $(document).ready(function () {
     console.log("script linked"); {
         $("#addButton").click(add);
