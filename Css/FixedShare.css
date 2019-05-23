@@ -51,6 +51,7 @@ h1 {
 #uitklap {
     background-color: transparent;
     border-color: transparent;
+    color: #602377;
     float: left;
     transition: .5s transform;
     position: relative;
@@ -78,9 +79,9 @@ div a {
 #testSpecial {
     border-bottom: solid #cccccc 1.5px;
     padding-bottom: 3px;
-    width: 250px; 
-} 
+    width: 250px;
+}
 
-#testSpecial{
+#testSpecial {
     margin-bottom: 15px;
 }

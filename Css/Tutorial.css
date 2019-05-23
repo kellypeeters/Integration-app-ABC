@@ -13,30 +13,35 @@ h4 {
     padding-left: 260px;
     padding-right: 200px;
     font-family: roboto-regular, sans-serif;
-
-
 }
 
 h3 {
-    padding-top: 10px;
+    padding-top: 10px;  
 }
 
 p {
-    padding-left: 260px;
-    font-size: 13px;
+    font-size: 15px;
     font-family: roboto-regular, sans-serif;
+}
+
+div {
+    padding-left: 120px;
     padding-right: 200px;
 }
 
 .Column {
-    width: 30%;
+    width: 60%;
     float: left;
 }
 
 .Column1 {
-    width: 30%;
-    float: right; 
+    width: 60%;
+    float: right;
     text-align: right;
+}
+
+.Letter{
+    font-size: 30px;
 }
 
 .First,
@@ -45,10 +50,52 @@ p {
     margin-left: 50px;
 }
 
-.uitklap1,
+.First {
+    column-count: 2;
+    padding-left: 250px;
+    column-gap: 50px;
+}
+
+.Second {
+    padding-left: 250px;
+}
+
+.Third {
+    padding-left: 150px;
+    padding-right: 20px;
+} 
+
+.Third h4 {
+    padding-left: 70px;
+}
+
+#Column6{
+    margin-bottom: 100px;
+}
+
+.uitklap1 {
+    margin-left: 230px;
+    margin-top: 30px;    
+    color: #602377;
+    float: left;
+    transition: .5s transform;
+    position: relative;
+}
+
 .uitklap2,
-.uitklap3 {
-    margin-left: 220px;
+.uitklap3{
+    margin-left: 230px;
+    margin-top: 15px;    
+    color: #602377;
+    float: left;
+    transition: .5s transform;
+    position: relative;
+}
+ 
+.uitklap1 div,
+.uitklap2 div,
+.uitklap3 div{
+    position: absolute;
 }
 
 .animate-listitem {
