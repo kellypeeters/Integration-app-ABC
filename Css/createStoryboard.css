@@ -6,7 +6,7 @@
     padding: 20px;
     width: 400px;
     vertical-align: middle;
-    position: fixed;
+    
 }
 
 #next{
@@ -29,7 +29,7 @@
 }
 
 .addPurpose{
-    margin-left: 350px;
+    float: right;
     background-color: transparent;
     border-color: transparent;
     width: 40px;
@@ -40,3 +40,10 @@
     background-color: #c4c4c4;
 
 }
+
+.purpose{
+     
+
+    height: 30px;
+}
+

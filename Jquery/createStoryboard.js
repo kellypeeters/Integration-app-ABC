@@ -4,11 +4,7 @@ $(document).ready(function(){
     $(".create-button").click(appearForm);
     $("#goBack").click(back);
     //$(".addPurpose").click(nieuweDoelstelling);
-    $(".addPurpose").click(function(e){
-        e.preventDefault();
-        $("#tab").append("<p class='purpose'></p> <button class='addPurpose'><img src='Fotos/Symbolen/COURSES plus teken (toevoegen).png' alt='add'></button>");
-        console.log("purpose werkt");
-    });
+    $(".addPurpose").click(nieuweDoelstelling);
     $("#next").click(next);
 
     function appearForm(){
@@ -19,15 +15,28 @@ $(document).ready(function(){
         
     }
 
-    function back(){
+    function back(e){
+        e.preventDefault();
         $("#createForm").slideUp();
+        $("nav, .legende-leeractiviteiten, #create_storyboard, header, .create-button, #storyboard_template, footer").show();
+        $("body").css("background-color", "white");
         console.log("back werkt");
     }
-    function next(){
+    function next(e){
+        e.preventDefault();
+        var getTitel = document.getElementById("newTitle");
+        var getDeadline = document.getElementById("endDate");
+        var setTitel = document.getElementById("input_titel");
+        var setDeadline = document.getElementById("input_deadline");
+
+        setTitel.innerHTML = getTitel.value;
+        setDeadline.innerHTML = getDeadline.value;
+
 
     }
-    function nieuweDoelstelling(){
-        $("#tab").append("<p class='purpose'></p> <button class='addPurpose'><img src='Fotos/Symbolen/COURSES plus teken (toevoegen).png' alt='add'></button>");
+    function nieuweDoelstelling(e){
+        e.preventDefault();
+        $("#tab").append("<a id='doelSelect'> <input class='purpose' type='text'> <input type='checkbox'> </a>");
         console.log("purpose werkt");
 
     }

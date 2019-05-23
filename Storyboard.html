@@ -18,21 +18,21 @@
         <form id="createForm">
                 <h3>Creeër Storyboard</h3>
         
-                <div class="tab"><Strong>Vak:</Strong>
-                    <p><input type="text" placeholder="Vb: Wiskunde" oninput="this.className = ''"></p>
+                <div class="tab"><Strong>Titel/inhoud:</Strong>
+                    <p><input type="text" placeholder="Vb: Robot maken" id="newTitle"></p>
                 </div>
                 <div class="tab"><Strong>Periode:</Strong>
-                    <p>Begindatum: <input type="date" placeholder="Begindatum" oninput="this.className"></p>
-                    <p>Einddatum: <input type="date" placeholder="Einddatum" oninput="this.className"></p>
+                    <p>Begindatum: <input type="date" id="beginDate"></p>
+                    <p>Einddatum: <input type="date" id="endDate"></p>
                    
                 </div>
-                <div class="tab" id="tab"><Strong>Doelstellingen: </Strong>
-                    <p class="purpose"></p>
+                <div class="tab" id="tab"><Strong>Doelstellingen: </Strong> <br>
+                   <a id="doelSelect"> <input class="purpose" type="text"> <input type="checkbox"> </a>
                     <button class="addPurpose"><img src="Fotos/Symbolen/COURSES plus teken (toevoegen).png" alt="add"></button>
 
                 </div>
-                <button id="goBack">Ga terug</button>
-                <button id="next">Volgende</button>
+                <input type="button" id="goBack" value="Ga terug">
+                <input type="button" id="next" value="Volgende">
             </form>
 
 <div id="application">
