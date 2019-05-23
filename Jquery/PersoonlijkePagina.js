@@ -22,3 +22,5 @@ $(".image-box").click(function(event) {
 			reader.readAsDataURL(this.files[0]);
 		});
 });
+
+//Overgenomen van Codepen.io
