@@ -20,13 +20,21 @@
     padding-bottom: 300px;
 }
 
+.Hamburgermenu{
+    margin-left: 150px;
+}
+
+ul li{
+    list-style: none;
+}
+
 li a {
     display: fixed;
     text-decoration: none;
     color: black;
     float: left;
     width: 85px;
-}
+} 
 
 .logoAfbeelding{
     margin-top: 20px;
