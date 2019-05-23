@@ -67,12 +67,29 @@ div {
     padding-left: 70px;
 }
 
-.uitklap1,
-.uitklap2,
-.uitklap3 {
+.uitklap1 {
     margin-left: 230px;
-    padding-top: 30px;    
+    margin-top: 30px;    
     color: #602377;
+    float: left;
+    transition: .5s transform;
+    position: relative;
+}
+
+.uitklap2,
+.uitklap3{
+    margin-left: 230px;
+    margin-top: 15px;    
+    color: #602377;
+    float: left;
+    transition: .5s transform;
+    position: relative;
+}
+ 
+.uitklap1 div,
+.uitklap2 div,
+.uitklap3 div{
+    position: absolute;
 }
 
 .animate-listitem {
