@@ -34,33 +34,30 @@
         <h1>Dashboard</h1>
     </header>
     <main>
+        
+            <div class="storyboardsDashboard">
+                <div class="recentFirst">
+             
+                </div>
+                <div class="recentSecond">
+                        
 
-        <div class="storyboardsDashboard">
-            <div class="recentFirst">
-                <a><Strong>3D Design</Strong></a>
-                <a>Robotje</a>
-                <a><img src="Fotos/Symbolen/DASHBOARD (klein) kalender.png" alt="kalender">22/05</a>
-                <a class="kleurtjes"></a>
-            </div>
-            <div class="recentSecond">
-                <a><Strong>3D Design</Strong></a>
-                <a>Robotje</a>
-                <a><img src="Fotos/Symbolen/DASHBOARD (klein) kalender.png" alt="kalender">22/05</a>
-                <a class="kleurtjes"></a>
+                </div>
 
-            </div>
 
-        </div>
-        <div class="kalender">
-
-        </div>
-        <div class="runningStoryboards">
-            <button class="uitklap" id="uitklap"><strong>V</strong></button>
-            <h2>Running Storyboards</h2>
-            <div class="currentStoryboards">
-                <p>test begin</p>
-                <canvas id="storyboardCanvas" width="50px" height="400px"></canvas>></canvas>
-                <p>TEst</p>
+            <div class="runningStoryboards">
+                <button  class="uitklap" id="uitklap"><Strong>V</Strong></button>
+                <h2>Running Storyboards</h2>
+                <div class="currentStoryboards" onload="countdown();">
+                    <button id="beginTimer">test begin</button>
+                   
+                    <div> 
+                        Time Left :
+                        <input id="minutes" type="text" style="width: 20px; border: none; font-size: 16px;font-weight: bold; color: black;">
+                        :
+                        <input id="seconds" type="text" style="width: 30px; border: none; font-size: 16px;font-weight: bold; color: black;"> 
+                    </div>
+                </div>
             </div>
         </div>
 
