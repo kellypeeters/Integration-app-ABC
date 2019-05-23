@@ -9,10 +9,6 @@ h1{
     float: top;
 }
 
-.animate{
-
- }
-
 .box_container {
     position: absolute;
     z-index: 1;
@@ -31,29 +27,42 @@ h1{
     font-family: roboto, regular, sans-serif;
 }
 
+input[type=text]:focus {
+    outline: none;
+    border: 1px solid #633568;
+    font-family: roboto, regular, sans-serif;
+    color: #633568;
+}
+
 .box_titel{
     position: absolute;
     z-index: 1;
-    width: 100px;
+    width: 90px;
     height: 62px;
     top: 4px;
     left: 4px;
-    float: left;
+    padding: 0px 0px 0px 10px;
+    border: none;
     cursor: pointer;
     background-color: white;
     box-shadow: 1px 1px 2px grey;
+    font-family: roboto, regular, sans-serif;
 }
 
 .box_deadline{
     position: absolute;
     z-index: 1;
-    width: 100px;
+    width: 90px;
     height: 62px;
     top: 4px;
     left: 110px;
+    padding: 0px 0px 0px 10px;
+    border: none;
     cursor: pointer;
     background-color: white;
+    background-image: far fa-calendar-alt;
     box-shadow: 1px 1px 2px grey;
+    font-family: roboto, regular, sans-serif;
 }
 
 .box_leerachtiviteit{

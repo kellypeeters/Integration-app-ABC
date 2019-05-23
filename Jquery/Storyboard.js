@@ -6,8 +6,7 @@ $(function () {
     $(document).ready(function () {
         $('.kennisverwerking').click(function () {
             $(this).toggleClass("animate");
-            $('.dropdown-legende-kennisverwerking').slideToggle()
-            $('.fa-caret-down').transform(rotate(-90deg));
+            $('.dropdown-legende-kennisverwerking').slideToggle();
         });
 
         $('.samenwerking').click(function () {
