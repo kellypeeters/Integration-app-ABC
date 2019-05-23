@@ -12,8 +12,8 @@ $(document).ready(function () {
                 // $('#newCourse').append('<img src="Fotos/Share/lijn.png">').width(30); 
             }
 
-            if (course == "DWD") {
-                $('#newCourse span').text("DWD")
+            if (course == "Dynamic Web") {
+                $('#newCourse span').text("Dynamic Web")
                 //$('#newCourse').append('<img src="Fotos/Share/lijn.png">').width(30); 
 
 
@@ -51,10 +51,10 @@ $(document).ready(function () {
             console.log('after prompt')
             if (verwijder == "Engels") {
                 $('#newCourse span').text("")
-                 $('#newCourse').empty('<img src="Fotos/Share/lijn.png">').width(30); 
+                 //$('#newCourse').hide('<img src="Fotos/Share/lijn.png">').hide.width(30); 
             }
 
-            if (verwijder == "DWD") {
+            if (verwijder == "Dynamic Web") {
                 $('#newCourse span').text("")
                 //$('#newCourse').append('<img src="Fotos/Share/lijn.png">').width(30); 
 
@@ -73,11 +73,11 @@ $(document).ready(function () {
 
 
 
-                console.log(add);
+                console.log(remove);
             }
         }
     }
-})
+});
 
 
 
