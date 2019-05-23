@@ -1,29 +1,18 @@
 h1{
     font-family: Acier BAT text solid, sans-serif;
     color: #321432;
-    font-size: 30px;
+    font-size: 40px;
     top: 10px;
-    left: 60px;
+    left: 160px;
     position: absolute;
     z-index: initial;
     float: top;
 }
 
-.side-nav{
-    height: 100%;
-    width: 90px;
-    position: fixed;
-    z-index: 1;
-    overflow-x: hidden;
-    top: 0;
-    left: 0;
-    background-color: #DADADA;
-}
-
 .box_container {
     position: absolute;
     z-index: 1;
-    width: 850px;
+    width: 784px;
     height: 70px;
     top: 170px;
     left: 200px;
@@ -38,35 +27,48 @@ h1{
     font-family: roboto, regular, sans-serif;
 }
 
+input[type=text]:focus {
+    outline: none;
+    border: 1px solid #DADADA;
+    font-family: roboto, regular, sans-serif;
+    color: #633568;
+}
+
 .box_titel{
     position: absolute;
     z-index: 1;
-    width: 100px;
+    width: 90px;
     height: 62px;
     top: 4px;
     left: 4px;
-    float: left;
+    padding: 0px 0px 0px 10px;
+    border: none;
     cursor: pointer;
     background-color: white;
     box-shadow: 1px 1px 2px grey;
+    font-family: roboto, regular, sans-serif;
 }
 
 .box_deadline{
     position: absolute;
     z-index: 1;
-    width: 100px;
+    width: 90px;
     height: 62px;
     top: 4px;
     left: 110px;
+    padding: 0px 0px 0px 10px;
+    border: none;
     cursor: pointer;
     background-color: white;
+    /*background-image: far fa-calendar-alt;*/
     box-shadow: 1px 1px 2px grey;
+    font-family: roboto, regular, sans-serif;
 }
 
 .box_leerachtiviteit{
     position: absolute;
     z-index: 1;
-    width: 580px;
+    width: 536px;
     height: 62px;
     top: 4px;
     left: 216px;
@@ -76,11 +78,173 @@ h1{
     box-shadow: 1px 1px 2px grey;
 }
 
+.kaart1{
+    position: absolute;
+    z-index: 1;
+    width: 70px;
+    height: 54px;
+    top: 4px;
+    left: 4px;
+    cursor: pointer;
+    border: 1px solid #B6B5B4;
+    color: gray;
+    background-color: #D3D2D1;
+    box-shadow: 1px 1px 2px grey;
+    font-family: roboto, regular, sans-serif;
+}
+
+.kaart2{
+    display: block;
+    position: inherit;
+    z-index: 1;
+    left: 80px;
+    top: 4px;
+    width: 70px;
+    height: 54px;
+    text-align: center;
+    text-decoration: none;
+    color: grey;
+    border: 1px solid #B6B5B4;
+    background-color: #D3D2D1;
+    box-shadow: 1px 1px 2px grey;
+    font-family: roboto, regular, sans-serif;
+}
+
+.kaart3{
+    display: block;
+    position: inherit;
+    z-index: 1;
+    left: 156px;
+    top: 4px;
+    width: 70px;
+    height: 54px;
+    text-align: center;
+    text-decoration: none;
+    color: grey;
+    border: 1px solid #B6B5B4;
+    background-color: #D3D2D1;
+    box-shadow: 1px 1px 2px grey;
+    font-family: roboto, regular, sans-serif;
+}
+
+.kaart4{
+    display: block;
+    position: inherit;
+    z-index: 1;
+    left: 232px;
+    top: 4px;
+    width: 70px;
+    height: 54px;
+    text-align: center;
+    text-decoration: none;
+    color: grey;
+    border: 1px solid #B6B5B4;
+    background-color: #D3D2D1;
+    box-shadow: 1px 1px 2px grey;
+    font-family: roboto, regular, sans-serif;
+}
+
+.kaart5{
+    display: block;
+    position: inherit;
+    z-index: 1;
+    left: 308px;
+    top: 4px;
+    width: 70px;
+    height: 54px;
+    text-align: center;
+    text-decoration: none;
+    color: gray;
+    border: 1px solid #B6B5B4;
+    background-color: #D3D2D1;
+    box-shadow: 1px 1px 2px grey;
+    font-family: roboto, regular, sans-serif;
+}
+
+.kaart6{
+    display: block;
+    position: inherit;
+    z-index: 1;
+    left: 384px;
+    top: 4px;
+    width: 70px;
+    height: 54px;
+    text-align: center;
+    text-decoration: none;
+    color: gray;
+    border: 1px solid #B6B5B4;
+    background-color: #D3D2D1;
+    box-shadow: 1px 1px 2px grey;
+    font-family: roboto, regular, sans-serif;
+}
+
+.kaart7{
+    display: block;
+    position: inherit;
+    z-index: 1;
+    left: 460px;
+    top: 4px;
+    width: 70px;
+    height: 54px;
+    text-align: center;
+    text-decoration: none;
+    color: gray;
+    border: 1px solid #B6B5B4;
+    background-color: #D3D2D1;
+    box-shadow: 1px 1px 2px grey;
+    font-family: roboto, regular, sans-serif;
+}
+
+.collapse{
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+.modal1, .modal2{
+    display: none;
+    position: fixed;
+    z-index: 2;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.85);
+}
+
+.modal-content{
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 70%;
+    height: 70%;
+}
+
+.fa-plus-square{
+    position: inherit;
+    top: 5px;
+    left: 200px;
+    margin: 5px;
+    float: right;
+}
+
 .create-button{
     display: block;
     border: none;
     padding: 5px 50px;
-    top: 270px;
+    top: 120px;
     left: 200px;
     text-align: center;
     text-decoration: none;
@@ -90,12 +254,12 @@ h1{
     border-radius: 17px;
     font-size: 12px;
     position: absolute;
-    z-index: 2;
+    /*z-index: 3;*/
 }
 
 .btn_vak_dropdown{
     position: absolute;
-    z-index: 3;
+    /*z-index: 3;*/
     top: 350px;
     left: 200px;
     display: block;
@@ -273,4 +437,76 @@ h1{
 .fa-caret-down {
     float: right;
     padding-right: 10px;
+}
+
+.kaart-kennisverwerking{
+      position: absolute;
+      z-index: 3;
+      width: 250px;
+      height: 200px;
+      top: 170px;
+      left: 300px;
+      color: white;
+      background-color: #F0874B;
+      box-shadow: 1px 1px 1px grey;
+  }
+
+.kaart-samenwerking{
+    position: absolute;
+    z-index: 3;
+    width: 250px;
+    height: 200px;
+    top: 170px;
+    left: 600px;
+    color: white;
+    background-color: #12ADAD;
+    box-shadow: 1px 1px 1px grey;
+}
+
+.kaart-discussie{
+    position: absolute;
+    z-index: 3;
+    width: 250px;
+    height: 200px;
+    top: 170px;
+    left: 900px;
+    color: white;
+    background-color: #EE8090;
+    box-shadow: 1px 1px 1px grey;
+}
+
+.kaart-onderzoek{
+    position: absolute;
+    z-index: 3;
+    width: 250px;
+    height: 200px;
+    top: 400px;
+    left: 300px;
+    color: white;
+    background-color: #85A22A;
+    box-shadow: 1px 1px 1px grey;
+}
+
+.kaart-praktijk{
+    position: absolute;
+    z-index: 3;
+    width: 250px;
+    height: 200px;
+    top: 400px;
+    left: 600px;
+    color: white;
+    background-color: #6361A8;
+    box-shadow: 1px 1px 1px grey;
+}
+
+.kaart-productie{
+    position: absolute;
+    z-index: 3;
+    width: 250px;
+    height: 200px;
+    top: 400px;
+    left: 900px;
+    color: white;
+    background-color: #F2B315;
+    box-shadow: 1px 1px 1px grey;
 }

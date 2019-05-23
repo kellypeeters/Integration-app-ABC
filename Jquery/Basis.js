@@ -32,4 +32,3 @@
         $(".VergetenWachtwoord").hide();
         $("#Loginform").show(); 
     }); 
-

@@ -4,7 +4,7 @@
 ***************/
 * {box-sizing: border-box;}
 ul {list-style-type: none;}
-body {font-family: Verdana, sans-serif;}
+
 
 .month {
     padding: 30px 25px;
@@ -103,16 +103,55 @@ h1{
 /**************
      MAIN
 ***************/
+
+main{
+    display: block;
+}
 .animate-listitem {
     transform: rotate(-90deg);
 }
 .runningStoryboards{
     padding-left: 200px;
 }
-.runningStoryboards button{
+.runningStoryboards button {
     background-color: transparent;
     border-color: transparent;
     float: left;
     transition: .5s transform;
     position: relative;
 }
+
+/*.recentFirst a {
+    border: solid #777 2px;
+    float: left;
+    width: 200px;
+    display: table-cell;
+    padding: 19.5px;
+    margin: 0;
+    vertical-align: middle;
+    margin-bottom: 20px;
+}*/
+/*.recentSecond a{
+    border: solid #777 2px;
+    float: left;
+    width: 200px;
+    display: table-cell;
+    padding: 19.5px;
+    margin: 0;
+    vertical-align: middle;
+    margin-bottom: 20px;
+} */
+
+.recentFirst, .recentSecond{
+    float: left;
+}
+
+
+
+.storyboardsDashboard{
+    float: left;
+    padding-left: 200px;
+  
+}
+
+
