@@ -271,7 +271,6 @@ input[type=text]:focus {
     /*z-index: 3;*/
 }
 
-<<<<<<< HEAD
 .opslaan-button{
     display: block;
     border: none;
@@ -290,8 +289,7 @@ input[type=text]:focus {
 
 
 
-.container_create_storyboard{
-=======
+
 .btn_vak_dropdown {
     position: absolute;
     /*z-index: 3;*/
@@ -311,7 +309,6 @@ input[type=text]:focus {
 }
 
 .container_create_storyboard {
->>>>>>> c243f57aa9c3d6cd1bc00d61233028ca277c976d
     position: absolute;
     /*display: none;*/
     /*z-index: 1;*/
