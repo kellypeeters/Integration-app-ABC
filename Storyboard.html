@@ -15,6 +15,7 @@
 </head>
 
 <body>
+    <div class="Form" id="Form">
         <form id="createForm">
                 <h3>Creeër Storyboard</h3>
         
@@ -27,15 +28,15 @@
                    
                 </div>
                 <div class="tab" id="tab"><Strong>Doelstellingen: </Strong> <br>
-                   <a id="doelSelect"> <input class="purpose" type="text"> <input type="checkbox"> </a>
+                   <a id="doelSelect"> <input id="purpose"class="purpose" type="text" value=""> <input type="checkbox"> </a>
                     <button class="addPurpose"><img src="Fotos/Symbolen/COURSES plus teken (toevoegen).png" alt="add"></button>
-
                 </div>
                 <input type="button" id="goBack" value="Ga terug">
-                <input type="button" id="next" value="Volgende">
+                <input type="button" id="next" value="Save">
             </form>
+    </div>
 
-<div id="application">
+<div id="application" class="application">
 
     <nav>
         <ul class="navigatie">
@@ -60,48 +61,10 @@
 
     <header><h1>Storyboard</h1></header>
 
-    <div id="storyboard_template">
-        <div class="box_container">
-            <input type="text" class="box_titel" id="input_titel" placeholder="Titel/inhoud">
-            <input type="text" class="box_deadline" id="input_deadline" placeholder="Deadline">
-            <div class="box_leerachtiviteit">
-                <!-- leeractiviteit kaartjes komen hier -->
-
-                <button class="kaart1">Add card</button>
-                <div id="modal1" class="modal1">
-                    <div class="modal-content">
-                        <span> </span>
-                        <p>Dit is de modal</p>
-                    </div>
-                </div>
-
-                <button class="kaart2" id="modal-btn">Add card</button>
-                <div id="modal2" class="modal2">
-                    <div class="modal-content">
-                        <span></span>
-                        <p>Dit is de modal</p>
-                        <div class="kaart-kennisverwerking"></div>
-                        <div class="kaart-samenwerking"></div>
-                        <div class="kaart-discussie"></div>
-                        <div class="kaart-onderzoek"></div>
-                        <div class="kaart-praktijk"></div>
-                        <div class="kaart-productie"></div>
-                    </div>
-                </div>
-
-                <button class="kaart3">Add card</button>
-                <button class="kaart4">Add card</button>
-                <button class="kaart5">Add card</button>
-                <button class="kaart6">Add card</button>
-                <button class="kaart7">Add card</button>
-
-            </div>
-
-            <button><i class='far fa-plus-square'></i></button>
-        </div>
-    </div>                      <!-- dit is de template vr storyboards -->
+                     <!-- dit is de template vr storyboards -->
 
     <button class="create-button">+ Create</button>        <!--create knop -->
+    
 
     <div class="legende-leeractiviteiten">
         <a>Legende<br>leeractiviteit</a>
@@ -149,12 +112,7 @@
     </div>              <!-- legende leeractiviteiten -->
 
     <div id="create_storyboard">
-        <button class="btn_vak_dropdown">Vak<i class="fa fa-caret-down"></i></button>
-        <div class="container_create_storyboard">
-            <a>Test test test test test test</a><br><br>
-            <a>De storyboards gaan hier verschijnen</a><br><br>
-            <a>Test Test Test Test Test Test</a>
-        </div>
+    
     </div>                        <!-- hier komen de gemaakte storyboards-->
 
     <footer>
