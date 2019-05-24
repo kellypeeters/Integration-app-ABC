@@ -18,21 +18,21 @@
         <form id="createForm">
                 <h3>Creeër Storyboard</h3>
         
-                <div class="tab"><Strong>Vak:</Strong>
-                    <p><input type="text" placeholder="Vb: Wiskunde" oninput="this.className = ''"></p>
+                <div class="tab"><Strong>Titel/inhoud:</Strong>
+                    <p><input type="text" placeholder="Vb: Robot maken" id="newTitle"></p>
                 </div>
                 <div class="tab"><Strong>Periode:</Strong>
-                    <p>Begindatum: <input type="date" placeholder="Begindatum" oninput="this.className"></p>
-                    <p>Einddatum: <input type="date" placeholder="Einddatum" oninput="this.className"></p>
+                    <p>Begindatum: <input type="date" id="beginDate"></p>
+                    <p>Einddatum: <input type="date" id="endDate"></p>
                    
                 </div>
-                <div class="tab" id="tab"><Strong>Doelstellingen: </Strong>
-                    <p class="purpose"></p>
+                <div class="tab" id="tab"><Strong>Doelstellingen: </Strong> <br>
+                   <a id="doelSelect"> <input class="purpose" type="text"> <input type="checkbox"> </a>
                     <button class="addPurpose"><img src="Fotos/Symbolen/COURSES plus teken (toevoegen).png" alt="add"></button>
 
                 </div>
-                <button id="goBack">Ga terug</button>
-                <button id="next">Volgende</button>
+                <input type="button" id="goBack" value="Ga terug">
+                <input type="button" id="next" value="Volgende">
             </form>
 
 <div id="application">
@@ -61,6 +61,7 @@
     <header><h1>Storyboard</h1></header>
 
     <div id="storyboard_template">
+
         <div class="box_container">
             <input type="text" class="box_titel" id="input_titel" placeholder="Titel/inhoud">
             <input type="text" class="box_deadline" id="input_deadline" placeholder="Deadline">
@@ -80,12 +81,54 @@
                     <div class="modal-content">
                         <span></span>
                         <p>Dit is de modal</p>
-                        <div class="kaart-kennisverwerking"></div>
-                        <div class="kaart-samenwerking"></div>
-                        <div class="kaart-discussie"></div>
-                        <div class="kaart-onderzoek"></div>
-                        <div class="kaart-praktijk"></div>
-                        <div class="kaart-productie"></div>
+                        <div class="kaart-kennisverwerking">
+                            <div class="kennis-inner">
+                                <div class="kennis-front" style="background: #c3333">
+                                    <p>Recto kennis</p></div>
+                                <div class="kennis-back" style="background: #e74853">
+                                    <p>Verso</p></div>
+                            </div>
+                        </div>
+                        <div class="kaart-samenwerking">
+                            <div class="samenwerking-inner">
+                                <div class="samenwerking-front" style="background: #12ADAD">
+                                    <p>Recto samenwerking</p></div>
+                                <div class="samenwerking-back" style="background: #12ADAD">
+                                    <p>Verso</p></div>
+                            </div>
+                    </div>
+                        <div class="kaart-discussie">
+                            <div class="discussie-inner">
+                                <div class="discussie-front" style="background: #EE8090">
+                                    <p>Recto discussie</p></div>
+                                <div class="discussie-back" style="background: #EE8090">
+                                    <p>Verso</p></div>
+                             </div>
+                        </div>
+                        <div class="kaart-onderzoek">
+                            <div class="onderzoek-inner">
+                                <div class="onderzoek-front" style="background: #85A22A">
+                                    <p>Recto onderzoek</p></div>
+                                <div class="onderzoek-back" style="background: #85A22A">
+                                    <p>Verso</p></div>
+                            </div>
+                        </div>
+                        <div class="kaart-praktijk">
+                            <div class="praktijk-inner">
+                                <div class="praktijk-front" style="background: #6361A8">
+                                    <p>Recto praktijk</p></div>
+                                <div class="praktijk-back" style="background: #6361A8">
+                                    <p>Verso</p></div>
+                            </div>
+                        </div>
+                        <div class="kaart-productie">
+                            <div class="productie-inner">
+                                <div class="productie-front" style="background: #F2B315">
+                                    <p>Recto productie</p></div>
+                                <div class="productie-back" style="background: #F2B315">
+                                    <p>Verso</p></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
