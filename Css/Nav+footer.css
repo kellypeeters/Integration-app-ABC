@@ -96,9 +96,9 @@ body {
     float: left;
     vertical-align: middle;
     margin-left: 18px;
-} 
+}  
 
-li :active {
+.li :active {
     border-top-color: solid #bcbcbc 2px;
     border-bottom-color: solid #bcbcbc 2px;
     border-top-color: #bcbcbc;
@@ -108,11 +108,11 @@ li :active {
     margin: 0%;
 }
 
-li a:active {
+.Andere a:active {
     background-color: #ffff;
 }
 
-li img:active {
+.Andere img:active {
     background-color: #ffff;
     border-top-style: none;
     border-bottom-style: none;
@@ -123,7 +123,7 @@ li img:active {
     margin-left: 18px;
 }
 
-.current {
+.current { 
     background-color: #ffff;
     border-top-color: solid #bcbcbc 2px;
     border-bottom-color: solid #bcbcbc 2px;
