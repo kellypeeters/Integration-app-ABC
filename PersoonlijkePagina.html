@@ -24,8 +24,9 @@
         </ul>
     </nav>
     <h1>Account overzicht</h1>
-    <h2 class="PersoonlijkeGegevens">Persoonlijke gegevens <img class="Bewerken"src="Fotos/Symbolen/STORYBOARD%20wijzig%20knop.png" alt="Bewerken"></h2> 
-
+    <div id="PersoonlijkeGegevens">
+    <h2 class="PersoonlijkeGegevens">Persoonlijke gegevens</h2> 
+ 
     <div class="col-ting">
         <div class="control-group file-upload" id="file-upload1">
             <div class="image-box text-center">
@@ -36,16 +37,18 @@
             </div>
         </div>
     </div>
+    </div>
 
     <div class="Profiel">
         <ul>
             <h3>Profiel</h3>
-            <li>Naam</li><input type="text" class="box_titel" id="input_titel" placeholder="Titel/inhoud">
-            <li>E-mail</li><input type="text" class="box_deadline" id="input_deadline" placeholder="Deadline">  
-            <li>Telefoonnummer</li>
-            <li>School</li>
+            <li>Naam</li><input type="text" class="ProfielAanpassen" id="Voornaam" placeholder=" ">
+            <li>E-mail</li><input type="text" class="ProfielAanpassen" id="Email" placeholder=" ">  
+            <li>Telefoonnummer</li><input type="text" class="ProfielAanpassen" id="Telefoonnummer" placeholder=" ">  
+            <li>School</li><input type="text" class="ProfielAanpassen" id="School" placeholder=" ">  
         </ul>
-    </div>
+        <input type="button" id="next" value="Bewaar gegevens"> 
+    </div> 
     <button type="button" onClick="parent.location='Account.html'" class="Afmelden">Afmelden</button>
 
     <footer>
@@ -58,7 +61,6 @@
     </footer>
     <script src="Jquery/jquery-3.4.1.min.js"></script>
     <script src="Jquery/PersoonlijkePagina.js"></script>
-    <script src="Jquery/index.js"></script> 
-</body>
+</body> 
 
 </html>
