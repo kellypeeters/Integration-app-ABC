@@ -1,17 +1,5 @@
     $("#Registratieform").hide();
-    $(".VergetenWachtwoord").hide(); 
- 
-    function validate() {
-        var username = document.getElementById("username").value;
-        var password = document.getElementById("password").value;
-        if (username == "peeters.kelly@outlook.com" && password == "Peeters") {
-            window.location = "Dashboard.html";
-            return false;
-        } else {
-            alert("Email en wachtwoord komen niet overeen");
-        }
-    }   
-
+    $(".VergetenWachtwoord").hide();  
 
     $(".GeenAccount").click(function () {
         $("#Loginform").hide();
