@@ -15,11 +15,16 @@ h4 {
     padding: 0;
 }
 
-body{
+body {
     font-size: 15px;
     font-family: roboto-regular, sans-serif;
     margin: 0;
     padding: 0;
+}
+
+.ProfielAanpassen {
+    border: none;
+    width: 300px;
 }
 
 .Profiel {
@@ -34,31 +39,49 @@ body{
     padding-bottom: 10px;
 }
 
-.Profielfoto{
+.Profielfoto {
     float: left;
-    margin-top: 70px;
+    margin-top: 120px;
     margin-left: 150px
 }
 
-.PersoonlijkeGegevens{
+.PersoonlijkeGegevens {
     margin-top: 50px;
     margin-left: 260px;
     margin-right: 300px;
     padding-left: 15px;
     background-color: rgb(218, 218, 218);
-}
-
-.Bewerken{
-    margin-left: 20px;
-    width: 20px;
-}
-
-li{
-    list-style: none;
-    padding-top: 10px;; 
 } 
 
-.col-ting{
+#next {
+    background: transparent;
+    border: 1px #DADADA solid;
+    padding: 10px 20px;
+    border-radius: 52px;
+    font-weight: bold;
+    font-size: 9pt;
+    outline: none;
+    margin-left: 300px;  
+}
+
+#next:hover {
+    border: 1px #C6C6C6 solid;
+    box-shadow: 1px 1px 1px #EAEAEA;
+    color: #333333;
+    background: #F7F7F7;
+}
+
+#next:active {
+    box-shadow: inset 1px 1px 1px #DFDFDF;
+}
+
+li {
+    list-style: none;
+    padding-top: 10px;
+    ;
+}
+
+.col-ting {
     margin-left: 250px;
 }
 
@@ -73,7 +96,7 @@ li{
     outline: none;
     margin-top: 200px;
     margin-left: 1150px;
-}  
+}
 
 .Afmelden:hover {
     border: 1px #C6C6C6 solid;

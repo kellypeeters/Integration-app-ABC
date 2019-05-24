@@ -8,8 +8,8 @@ $(document).ready(function () {
 
             console.log('after prompt')
             if (course == "Engels") {
-                $('#newCourse span').text("Engels")
-            $('.newCourse #lijn').show();
+                $('#Engels span').text("Engels")
+            $('.Engels #lijn').show();
                 
                 
                 
@@ -17,19 +17,21 @@ $(document).ready(function () {
             
 
             if (course == "Dynamic Web") {
-                $('#newCourse span').text("Dynamic Web")
-                //$('#newCourse').append('<img src="Fotos/Share/lijn.png">').width(30); 
+                $('#dwd span').text("Dynamic Web")
+                 $('.dwd #lijn').show();
+                
 
 
             }
-            if (course == "CP") {
-                $('#newCourse span').text("CP");
-
+            if (course == "Creative Programming") {
+                $('#cp span').text("Creative Programming");
+                $('.cp #lijn').show();
 
             }
-            if (course == "Buisness Communication") {
-                $('#newCourse span').text("Buisness Communication");
-
+            if (course == "Business Communication") {
+                $('#bs span').text("Business Communication");
+                $('.bs #lijn').show();
+                
 
 
 
@@ -54,28 +56,24 @@ $(document).ready(function () {
 
             console.log('after prompt')
             if (verwijder == "Engels") {
-                $('#newCourse span').text("")
-                 //('#newCourse').append('<img src="Fotos/Share/lijn.png">').width(30); 
+                $('#Engels span').text("")
+                  $('.Engels #lijn').hide();
             }
 
             if (verwijder == "Dynamic Web") {
-                $('#newCourse span').text("")
-                //$('#newCourse').append('<img src="Fotos/Share/lijn.png">').width(30); 
+                $('#dwd span').text("")
+                $('.dwd #lijn').hide();
 
 
             }
-            if (verwijder == "CP") {
-                $('#newCourse span').text("");
-
+            if (verwijder == "Creative Programming") {
+                $('#cp span').text("");
+                $('.cp #lijn').hide();
 
             }
-            if (verwijder == "Buisness Communication") {
-                $('#newCourse span').text("");
-
-
-
-
-
+            if (verwijder == "Business Communication") {
+                $('#bs span').text("");
+                $('.bs #lijn').hide();
 
                 console.log(remove);
             }

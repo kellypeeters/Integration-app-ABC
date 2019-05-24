@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="Css/Account.css">
     <link rel="shortcut icon" href="Fotos/Logo/Logo.JPG">
 </head>
-
+ 
 <body>
     <div class="container" id="Loginform">
         <h1>Meld je aan</h1>
@@ -19,29 +19,29 @@
                 <input class="input-field" type="text" placeholder="Email" name="username" id="username" />
                 <input class="input-field" type="password" placeholder="Wachtwoord" name="password" id="password" />
                 <input class="Aanmeldbutton" type="submit" value="Aanmelden" id="submit" onclick="validate()" />
-            </form>
+            </form>  
         </div>
         <div class="WachwoordVergeten">
             <p>Bent u uw <a class="Vergeten" href="#">wachtwoord vergeten?</a></p>
         </div>
         <div class="NaarRegistreren">
-            <p>Nog geen account? Gelieve je eerst te <a class="GeenAccount" href="#">registreren?</a></p>
+            <p><b>Nog geen account?</b> Gelieve je eerst te <a class="GeenAccount" href="#">registreren?</a></p>
         </div>
     </div>
 
     <div id="Registratieform">
         <h1>Maak uw account aan</h1>
         <div class="main2">
-            <form method="post" action="#">
-                <input class="input-field1" type="text" name="dname" id="inpKey" placeholder="Naam" mandatory>
-                <input class="input-field2" type="text" name="demail" id="inpValue" placeholder="Email" mandatory>
-                <input class="input-field3" minlenght="5" type="password" name="password" id="password" placeholder="Wachtwoord" mandatory>
-                <input class="input-field4" type="password" name="cpassword" id="cpassword" placeholder="Bevestig wachtwoord" mandatory>
+            <form method="post" action="#" id="registrationForm">
+                <input class="input-field1" type="text" name="Naam" id="inpKey" placeholder="Naam" mandatory>
+                <input class="input-field2" type="text" name="E-mail" id="inpValue" placeholder="Email" mandatory>
+                <input class="input-field3" type="password" name="Wachtwoord" id="Wachtwoord" placeholder="Wachtwoord" mandatory> 
+                <input class="input-field4" type="password" name="cpassword" id="BevestigWachtwoord" placeholder="Bevestig wachtwoord" mandatory>
                 <input type="Submit" value="Registreer" class="Aanmeldbutton" id="btnInsert">
             </form>
         </div>  
         <div class="TerugNaarRegistreren">
-            <p>Al een account? Gelieve in te <a class="AlAccount" href="#">loggen </a></p>
+            <p><b>Al een account? Gelieve in te </b><a class="AlAccount" href="#">loggen </a></p>
         </div>
     </div>
 
@@ -54,7 +54,7 @@
             <br />
               <input type="Submit" value="Verstuur" class="Aanmeldbutton" id="ForgotPassword">
         </form>
-        <p class="NaarLogin">Al een account? Gelieve in te <a class="GaNaarLogin" href="#">loggen </a></p>
+        <p class="NaarLogin"><b>Al een account?</b> Gelieve in te <a class="GaNaarLogin" href="#">loggen </a></p>
     </div>
 
     <footer>

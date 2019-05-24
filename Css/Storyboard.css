@@ -1,4 +1,4 @@
-h1{
+h1 {
     font-family: Acier BAT text solid, sans-serif;
     color: #321432;
     font-size: 40px;
@@ -7,6 +7,15 @@ h1{
     position: absolute;
     z-index: initial;
     float: top;
+}
+
+p{
+    font-family: roboto, regular, sans-serif;
+}
+
+a{
+    font-family: roboto, regular, sans-serif;
+    font-size: 14px;
 }
 
 .box_container {
@@ -21,7 +30,7 @@ h1{
     box-shadow: 1px 1px 2px grey;
 }
 
-.box_container a{
+.box_container a {
     font-size: 15px;
     color: #5E5E5E;
     font-family: roboto, regular, sans-serif;
@@ -34,7 +43,7 @@ input[type=text]:focus {
     color: #633568;
 }
 
-.box_titel{
+.box_titel {
     position: absolute;
     z-index: 1;
     width: 90px;
@@ -49,7 +58,7 @@ input[type=text]:focus {
     font-family: roboto, regular, sans-serif;
 }
 
-.box_deadline{
+.box_deadline {
     position: absolute;
     z-index: 1;
     width: 90px;
@@ -65,7 +74,7 @@ input[type=text]:focus {
     font-family: roboto, regular, sans-serif;
 }
 
-.box_leerachtiviteit{
+.box_leerachtiviteit {
     position: absolute;
     z-index: 1;
     width: 536px;
@@ -73,12 +82,11 @@ input[type=text]:focus {
     top: 4px;
     left: 216px;
     float: left;
-    cursor: pointer;
     background-color: white;
     box-shadow: 1px 1px 2px grey;
 }
 
-.kaart1{
+.kaart1 {
     position: absolute;
     z-index: 1;
     width: 70px;
@@ -93,7 +101,7 @@ input[type=text]:focus {
     font-family: roboto, regular, sans-serif;
 }
 
-.kaart2{
+.kaart2 {
     display: block;
     position: inherit;
     z-index: 1;
@@ -103,6 +111,7 @@ input[type=text]:focus {
     height: 54px;
     text-align: center;
     text-decoration: none;
+    cursor: pointer;
     color: grey;
     border: 1px solid #B6B5B4;
     background-color: #D3D2D1;
@@ -110,7 +119,7 @@ input[type=text]:focus {
     font-family: roboto, regular, sans-serif;
 }
 
-.kaart3{
+.kaart3 {
     display: block;
     position: inherit;
     z-index: 1;
@@ -120,6 +129,7 @@ input[type=text]:focus {
     height: 54px;
     text-align: center;
     text-decoration: none;
+    cursor: pointer;
     color: grey;
     border: 1px solid #B6B5B4;
     background-color: #D3D2D1;
@@ -127,7 +137,7 @@ input[type=text]:focus {
     font-family: roboto, regular, sans-serif;
 }
 
-.kaart4{
+.kaart4 {
     display: block;
     position: inherit;
     z-index: 1;
@@ -137,6 +147,7 @@ input[type=text]:focus {
     height: 54px;
     text-align: center;
     text-decoration: none;
+    cursor: pointer;
     color: grey;
     border: 1px solid #B6B5B4;
     background-color: #D3D2D1;
@@ -144,7 +155,7 @@ input[type=text]:focus {
     font-family: roboto, regular, sans-serif;
 }
 
-.kaart5{
+.kaart5 {
     display: block;
     position: inherit;
     z-index: 1;
@@ -154,6 +165,7 @@ input[type=text]:focus {
     height: 54px;
     text-align: center;
     text-decoration: none;
+    cursor: pointer;
     color: gray;
     border: 1px solid #B6B5B4;
     background-color: #D3D2D1;
@@ -161,7 +173,7 @@ input[type=text]:focus {
     font-family: roboto, regular, sans-serif;
 }
 
-.kaart6{
+.kaart6 {
     display: block;
     position: inherit;
     z-index: 1;
@@ -170,6 +182,7 @@ input[type=text]:focus {
     width: 70px;
     height: 54px;
     text-align: center;
+    cursor: pointer;
     text-decoration: none;
     color: gray;
     border: 1px solid #B6B5B4;
@@ -178,7 +191,7 @@ input[type=text]:focus {
     font-family: roboto, regular, sans-serif;
 }
 
-.kaart7{
+.kaart7 {
     display: block;
     position: inherit;
     z-index: 1;
@@ -187,6 +200,7 @@ input[type=text]:focus {
     width: 70px;
     height: 54px;
     text-align: center;
+    cursor: pointer;
     text-decoration: none;
     color: gray;
     border: 1px solid #B6B5B4;
@@ -195,7 +209,7 @@ input[type=text]:focus {
     font-family: roboto, regular, sans-serif;
 }
 
-.collapse{
+.collapse {
     visibility: hidden;
     width: 160px;
     background-color: #555;
@@ -210,7 +224,7 @@ input[type=text]:focus {
     margin-left: -80px;
 }
 
-.modal1, .modal2{
+.modal1, .modal2 {
     display: none;
     position: fixed;
     z-index: 2;
@@ -220,19 +234,19 @@ input[type=text]:focus {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgba(0,0,0,0.85);
+    background-color: rgba(0, 0, 0, 0.85);
 }
 
-.modal-content{
+.modal-content {
     background-color: #fefefe;
     margin: auto;
-    padding: 20px;
+    padding: 10px;
     border: 1px solid #888;
-    width: 70%;
-    height: 70%;
+    width: 75%;
+    height: 80%;
 }
 
-.fa-plus-square{
+.fa-plus-square {
     position: inherit;
     top: 5px;
     left: 200px;
@@ -240,7 +254,7 @@ input[type=text]:focus {
     float: right;
 }
 
-.create-button{
+.create-button {
     display: block;
     border: none;
     padding: 5px 50px;
@@ -257,6 +271,7 @@ input[type=text]:focus {
     /*z-index: 3;*/
 }
 
+<<<<<<< HEAD
 .opslaan-button{
     display: block;
     border: none;
@@ -276,19 +291,40 @@ input[type=text]:focus {
 
 
 .container_create_storyboard{
+=======
+.btn_vak_dropdown {
     position: absolute;
-    display: none;
-    z-index: 3;
+    /*z-index: 3;*/
+    top: 350px;
+    left: 190px;
+    display: block;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    font-family: roboto, regular, sans-serif;
+    color: #321432;
+    background-color: white;
+    font-size: 20px;
+    text-align: left;
+    width: 100px;
+    cursor: pointer;
+}
+
+.container_create_storyboard {
+>>>>>>> c243f57aa9c3d6cd1bc00d61233028ca277c976d
+    position: absolute;
+    /*display: none;*/
+    /*z-index: 1;*/
     top: 400px;
     left: 200px;
 }
 
-.legende-leeractiviteiten{
+.legende-leeractiviteiten {
     display: block;
     width: 230px;
     float: right;
     font-family: Roboto, sans-serif;
-    position:absolute;
+    position: absolute;
     top: 300px;
     right: 100px;
     clear: left;
@@ -310,7 +346,8 @@ input[type=text]:focus {
     box-shadow: 1px 1px 1px grey;
 
 }
-.dropdown-legende-kennisverwerking{
+
+.dropdown-legende-kennisverwerking {
     margin: auto;
     padding: 7px 10px;
     display: none;
@@ -321,7 +358,7 @@ input[type=text]:focus {
     box-shadow: 1px 1px 1px grey;
 }
 
-.samenwerking{
+.samenwerking {
     display: block;
     border: none;
     outline: none;
@@ -334,7 +371,8 @@ input[type=text]:focus {
     color: white;
     background-color: #12ADAD;
 }
-.dropdown-legende-samenwerking{
+
+.dropdown-legende-samenwerking {
     display: none;
     margin-top: -1px;
     font-size: 15px;
@@ -344,7 +382,7 @@ input[type=text]:focus {
     background-color: #12ADAD;
 }
 
-.discussie{
+.discussie {
     display: block;
     border: none;
     outline: none;
@@ -357,7 +395,8 @@ input[type=text]:focus {
     color: white;
     background-color: #EE8090;
 }
-.dropdown-legende-discussie{
+
+.dropdown-legende-discussie {
     display: none;
     margin-top: -1px;
     font-size: 15px;
@@ -367,7 +406,7 @@ input[type=text]:focus {
     background-color: #EE8090;
 }
 
-.onderzoek{
+.onderzoek {
     display: block;
     border: none;
     outline: none;
@@ -378,9 +417,10 @@ input[type=text]:focus {
     text-decoration: none;
     font-size: 15px;
     color: white;
-    background-color:#85A22A;
+    background-color: #85A22A;
 }
-.dropdown-legende-onderzoek{
+
+.dropdown-legende-onderzoek {
     display: none;
     margin-top: -1px;
     font-family: Roboto, sans-serif;
@@ -390,7 +430,7 @@ input[type=text]:focus {
     background-color: #85A22A;
 }
 
-.praktijk{
+.praktijk {
     display: block;
     border: none;
     outline: none;
@@ -403,7 +443,8 @@ input[type=text]:focus {
     color: white;
     background-color: #6361A8;
 }
-.dropdown-legende-praktijk{
+
+.dropdown-legende-praktijk {
     display: none;
     margin-top: -1px;
     font-family: Roboto, sans-serif;
@@ -413,7 +454,7 @@ input[type=text]:focus {
     background-color: #6361A8;
 }
 
-.productie{
+.productie {
     display: block;
     border: none;
     outline: none;
@@ -426,7 +467,8 @@ input[type=text]:focus {
     color: white;
     background-color: rgb(242, 179, 21);
 }
-.dropdown-legende-productie{
+
+.dropdown-legende-productie {
     display: none;
     margin-top: -1px;
     font-family: Roboto, sans-serif;
@@ -441,74 +483,302 @@ input[type=text]:focus {
     padding-right: 10px;
 }
 
-.kaart-kennisverwerking{
-      position: absolute;
-      z-index: 3;
-      width: 250px;
-      height: 200px;
-      top: 170px;
-      left: 300px;
-      color: white;
-      background-color: #F0874B;
-      box-shadow: 1px 1px 1px grey;
-  }
-
-.kaart-samenwerking{
+.kaart-kennisverwerking {
     position: absolute;
     z-index: 3;
-    width: 250px;
-    height: 200px;
     top: 170px;
-    left: 600px;
-    color: white;
-    background-color: #12ADAD;
-    box-shadow: 1px 1px 1px grey;
-}
-
-.kaart-discussie{
-    position: absolute;
-    z-index: 3;
-    width: 250px;
-    height: 200px;
-    top: 170px;
-    left: 900px;
-    color: white;
-    background-color: #EE8090;
-    box-shadow: 1px 1px 1px grey;
-}
-
-.kaart-onderzoek{
-    position: absolute;
-    z-index: 3;
-    width: 250px;
-    height: 200px;
-    top: 400px;
     left: 300px;
-    color: white;
-    background-color: #85A22A;
-    box-shadow: 1px 1px 1px grey;
+    width: 285px;
+    height: 220px;
+    margin: auto;
+    perspective: 1000px;
+    background-color: transparent;
 }
 
-.kaart-praktijk{
+.kennis-inner{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    transition: transform 1.0s cubic-bezier(0.75,0,0.85,1);
+    transform-style: preserve-3d;
+}
+
+.kaart-kennisverwerking:hover .kennis-inner {
+    transform: rotateY(180deg);
+    box-shadow: -5px 5px 5px #aaa;
+}
+
+.kennis-front{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:#F0874B;
+    color: black;
+    backface-visibility: hidden;
+    overflow: hidden;
+}
+
+.kennis-back{
+    width: 100%;
+    height: 100%;
+    color: black;
+    background-color:#F0874B;
+    backface-visibility: hidden;
+    overflow: hidden;
+    text-align: center;
+    transform: rotateY(180deg);
+}
+
+.kaart-samenwerking {
     position: absolute;
     z-index: 3;
-    width: 250px;
-    height: 200px;
-    top: 400px;
+    width: 285px;
+    height: 220px;
+    top: 170px;
     left: 600px;
+    margin: auto;
     color: white;
-    background-color: #6361A8;
-    box-shadow: 1px 1px 1px grey;
+    background-color: transparent;
+    perspective: 1000px;
 }
 
-.kaart-productie{
+.samenwerking-inner{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    transition: transform 1.0s cubic-bezier(0.75,0,0.85,1);
+    transform-style: preserve-3d;
+}
+
+.kaart-samenwerking:hover .samenwerking-inner {
+    transform: rotateY(180deg);
+    box-shadow: -5px 5px 5px #aaa;
+}
+
+.samenwerking-front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:#12ADAD;
+    color: black;
+    backface-visibility: hidden;
+    overflow: hidden;
+}
+
+.samenwerking-back {
+    width: 100%;
+    height: 100%;
+    color: black;
+    background-color:#12ADAD;
+    backface-visibility: hidden;
+    overflow: hidden;
+    text-align: center;
+    transform: rotateY(180deg);
+}
+
+.kaart-discussie {
     position: absolute;
     z-index: 3;
-    width: 250px;
-    height: 200px;
-    top: 400px;
+    width: 285px;
+    height: 220px;
+    top: 170px;
     left: 900px;
+    margin: auto;
     color: white;
-    background-color: #F2B315;
-    box-shadow: 1px 1px 1px grey;
+    background-color: transparent;
+    perspective: 1000px;
+}
+
+.discussie-inner{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    transition: transform 1.0s cubic-bezier(0.75,0,0.85,1);
+    transform-style: preserve-3d;
+}
+
+.kaart-discussie:hover .discussie-inner {
+    transform: rotateY(180deg);
+    box-shadow: -5px 5px 5px #aaa;
+}
+
+.discussie-front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #EE8090;
+    color: black;
+    backface-visibility: hidden;
+    overflow: hidden;
+}
+
+.discussie-back {
+    width: 100%;
+    height: 100%;
+    background-color: #EE8090;
+    color: black;
+    backface-visibility: hidden;
+    overflow: hidden;
+    text-align: center;
+    transform: rotateY(180deg);
+}
+
+.kaart-onderzoek {
+    position: absolute;
+    z-index: 3;
+    width: 285px;
+    height: 220px;
+    top: 420px;
+    left: 300px;
+    margin: auto;
+    color: white;
+    background-color: transparent;
+    perspective: 1000px;
+}
+
+.onderzoek-inner{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    transition: transform 1.0s cubic-bezier(0.75,0,0.85,1);
+    transform-style: preserve-3d;
+}
+
+.kaart-onderzoek:hover .onderzoek-inner {
+    transform: rotateY(180deg);
+    box-shadow: -5px 5px 5px #aaa;
+}
+
+.onderzoek-front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:#85A22A;
+    color: black;
+    backface-visibility: hidden;
+    overflow: hidden;
+}
+
+.onderzoek-back {
+    width: 100%;
+    height: 100%;
+    background-color:#85A22A;
+    color: black;
+    backface-visibility: hidden;
+    overflow: hidden;
+    text-align: center;
+    transform: rotateY(180deg);
+    font-size: 12px;
+    font-family: roboto, regular, sans-serif;
+}
+
+.kaart-praktijk {
+    position: absolute;
+    z-index: 3;
+    width: 285px;
+    height: 220px;
+    top: 420px;
+    left: 600px;
+    margin: auto;
+    color: white;
+    background-color: transparent;
+    perspective: 1000px;
+}
+
+.praktijk-inner{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    transition: transform 1.0s cubic-bezier(0.75,0,0.85,1);
+    transform-style: preserve-3d;
+}
+
+.kaart-praktijk:hover .praktijk-inner {
+    transform: rotateY(180deg);
+    box-shadow: -5px 5px 5px #aaa;
+}
+
+.praktijk-front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:#6361A8;
+    color: black;
+    backface-visibility: hidden;
+    overflow: hidden;
+}
+
+.praktijk-back {
+    width: 100%;
+    height: 100%;
+    background-color:#6361A8;
+    color: black;
+    backface-visibility: hidden;
+    overflow: hidden;
+    text-align: center;
+    transform: rotateY(180deg);
+}
+
+.kaart-productie {
+    position: absolute;
+    z-index: 3;
+    width: 285px;
+    height: 220px;
+    top: 420px;
+    left: 900px;
+    margin: auto;
+    color: white;
+    background-color: transparent;
+    perspective: 1000px;
+}
+
+.productie-inner{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    transition: transform 1.0s cubic-bezier(0.75,0,0.85,1);
+    transform-style: preserve-3d;
+}
+
+.kaart-productie:hover .productie-inner {
+    transform: rotateY(180deg);
+    box-shadow: -5px 5px 5px #aaa;
+}
+
+.productie-front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:#F2B315;
+    color: white;
+    font-family: roboto, regular, sans-serif;
+    backface-visibility: hidden;
+    overflow: hidden;
+}
+
+.productie-back {
+    width: 100%;
+    height: 100%;
+    background-color:#F2B315;
+    color: white;
+    font-family: roboto, regular, sans-serif;
+    backface-visibility: hidden;
+    overflow: hidden;
+    text-align: center;
+    transform: rotateY(180deg);
+}
+
+.collumn{
+    float: left;
+    width: 50%;
+}
+
+.radio-button:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+label{
+    font-size: 12px;
 }
