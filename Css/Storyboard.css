@@ -228,7 +228,7 @@ input[type=text]:focus {
     display: none;
     position: fixed;
     z-index: 2;
-    padding-top: 100px;
+    padding-top: 30px;
     left: 0;
     top: 0;
     width: 100%;
@@ -242,8 +242,8 @@ input[type=text]:focus {
     margin: auto;
     padding: 10px;
     border: 1px solid #888;
-    width: 75%;
-    height: 80%;
+    width: 80%;
+    height: 90%;
 }
 
 .fa-plus-square {
@@ -483,10 +483,10 @@ input[type=text]:focus {
 .kaart-kennisverwerking {
     position: absolute;
     z-index: 3;
-    top: 170px;
-    left: 300px;
-    width: 285px;
-    height: 220px;
+    top: 140px;
+    left: 190px;
+    width: 300px;
+    height: 230px;
     margin: auto;
     perspective: 1000px;
     background-color: transparent;
@@ -513,6 +513,7 @@ input[type=text]:focus {
     color: black;
     backface-visibility: hidden;
     overflow: hidden;
+    padding: 15px;
 }
 
 .kennis-back{
@@ -524,15 +525,16 @@ input[type=text]:focus {
     overflow: hidden;
     text-align: center;
     transform: rotateY(180deg);
+    padding: 15px;
 }
 
 .kaart-samenwerking {
     position: absolute;
     z-index: 3;
-    width: 285px;
-    height: 220px;
-    top: 170px;
-    left: 600px;
+    width: 300px;
+    height: 230px;
+    top: 140px;
+    left: 550px;
     margin: auto;
     color: white;
     background-color: transparent;
@@ -560,6 +562,7 @@ input[type=text]:focus {
     color: black;
     backface-visibility: hidden;
     overflow: hidden;
+    padding: 15px;
 }
 
 .samenwerking-back {
@@ -571,15 +574,16 @@ input[type=text]:focus {
     overflow: hidden;
     text-align: center;
     transform: rotateY(180deg);
+    padding: 15px;
 }
 
 .kaart-discussie {
     position: absolute;
     z-index: 3;
-    width: 285px;
-    height: 220px;
-    top: 170px;
-    left: 900px;
+    width: 300px;
+    height: 230px;
+    top: 140px;
+    left: 910px;
     margin: auto;
     color: white;
     background-color: transparent;
@@ -607,6 +611,8 @@ input[type=text]:focus {
     color: black;
     backface-visibility: hidden;
     overflow: hidden;
+    padding: 15px;
+
 }
 
 .discussie-back {
@@ -618,15 +624,16 @@ input[type=text]:focus {
     overflow: hidden;
     text-align: center;
     transform: rotateY(180deg);
+    padding: 15px;
 }
 
 .kaart-onderzoek {
     position: absolute;
     z-index: 3;
-    width: 285px;
-    height: 220px;
+    width: 300px;
+    height: 230px;
     top: 420px;
-    left: 300px;
+    left: 190px;
     margin: auto;
     color: white;
     background-color: transparent;
@@ -654,6 +661,7 @@ input[type=text]:focus {
     color: black;
     backface-visibility: hidden;
     overflow: hidden;
+    padding: 15px;
 }
 
 .onderzoek-back {
@@ -667,15 +675,16 @@ input[type=text]:focus {
     transform: rotateY(180deg);
     font-size: 12px;
     font-family: roboto, regular, sans-serif;
+    padding: 15px;
 }
 
 .kaart-praktijk {
     position: absolute;
     z-index: 3;
-    width: 285px;
-    height: 220px;
+    width: 300px;
+    height: 230px;
     top: 420px;
-    left: 600px;
+    left: 550px;
     margin: auto;
     color: white;
     background-color: transparent;
@@ -703,6 +712,7 @@ input[type=text]:focus {
     color: black;
     backface-visibility: hidden;
     overflow: hidden;
+    padding: 15px;
 }
 
 .praktijk-back {
@@ -714,15 +724,16 @@ input[type=text]:focus {
     overflow: hidden;
     text-align: center;
     transform: rotateY(180deg);
+    padding: 15px;
 }
 
 .kaart-productie {
     position: absolute;
     z-index: 3;
-    width: 285px;
-    height: 220px;
+    width: 300px;
+    height: 230px;
     top: 420px;
-    left: 900px;
+    left: 910px;
     margin: auto;
     color: white;
     background-color: transparent;
@@ -751,6 +762,7 @@ input[type=text]:focus {
     font-family: roboto, regular, sans-serif;
     backface-visibility: hidden;
     overflow: hidden;
+    padding: 15px;
 }
 
 .productie-back {
@@ -763,6 +775,7 @@ input[type=text]:focus {
     overflow: hidden;
     text-align: center;
     transform: rotateY(180deg);
+    padding: 15px;
 }
 
 .collumn{
