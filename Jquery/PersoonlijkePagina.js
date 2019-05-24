@@ -24,11 +24,10 @@ $(".image-box").click(function (event) {
 });
 
 //Overgenomen van Codepen.io   
+next();
 
-function next(e) {  
-    e.preventDefault();
-    
-    document.getElementById("Voornaam").innerHTML = localStorage.getItem('Naam');
-    document.getElementById("Email").innerHTML = localStorage.getItem('E-mail');
-}   
-});
+function next() {
+    document.getElementById("Voornaam").value = localStorage.getItem('Naam');
+    document.getElementById("Email").value = localStorage.getItem('E-mail');
+    document.getElementById("Wachtwoord").value = localStorage.getItem('Wachtwoord');
+}; 

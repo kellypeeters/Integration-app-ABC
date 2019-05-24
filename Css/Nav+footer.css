@@ -20,27 +20,25 @@
     padding-bottom: 300px;
 }
 
-.Hamburgermenu{
-    margin-left: 150px;
-}
-
-ul li{
+ul li {
     list-style: none;
 }
 
-li a {
+.Andere a {
     display: fixed;
     text-decoration: none;
     color: black;
     float: left;
     width: 85px;
-} 
-
-.logoAfbeelding{
-    margin-top: 20px; 
 }
 
-nav img {
+.logoAfbeelding {
+    width: 80px;
+    margin-top: 20px;
+    margin-left: 4px;
+}
+
+.Andere img {
     margin-top: 15px;
     width: 45px;
     float: left;
@@ -63,20 +61,33 @@ body {
     width: 60px;
 }
 
-li :hover {
+.Andere :hover {
     background-color: #e2e2e2;
     border-top-style: solid;
     border-bottom-style: solid;
     border-top-color: #c2c4c6;
-    border-bottom-color: #c2c4c6;
+    border-bottom-color: #c2c4c6; 
     margin: 0%;
+} 
+
+.logoAfbeelding :hover{
+    width: 80px;
+    background-color: #e2e2e2;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: #c2c4c6;
+    border-bottom-color: #c2c4c6; 
+} 
+
+.Dashboard .logoAfbeeldingen :hover{
+     width: 80px; 
 }
 
-li a:hover {
+.Andere a:hover {
     background-color: #e2e2e2;
 }
 
-li img:hover {
+.Andere img:hover {
     background-color: #e2e2e2;
     border-top-style: none;
     border-bottom-style: none;
@@ -85,7 +96,7 @@ li img:hover {
     float: left;
     vertical-align: middle;
     margin-left: 18px;
-}
+} 
 
 li :active {
     border-top-color: solid #bcbcbc 2px;
@@ -111,7 +122,7 @@ li img:active {
     vertical-align: middle;
     margin-left: 18px;
 }
- 
+
 .current {
     background-color: #ffff;
     border-top-color: solid #bcbcbc 2px;
