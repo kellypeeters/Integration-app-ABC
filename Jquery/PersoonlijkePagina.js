@@ -23,4 +23,4 @@ $(".image-box").click(function(event) {
 		});
 });
 
-//Overgenomen van Codepen.io  
+//Overgenomen van Codepen.io   
