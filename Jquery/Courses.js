@@ -28,8 +28,8 @@ $(document).ready(function () {
                 $('.cp #lijn').show();
 
             }
-            if (course == "Buisness Communication") {
-                $('#bs span').text("Buisness Communication");
+            if (course == "Business Communication") {
+                $('#bs span').text("Business Communication");
                 $('.bs #lijn').show();
                 
 
@@ -71,7 +71,7 @@ $(document).ready(function () {
                 $('.cp #lijn').hide();
 
             }
-            if (verwijder == "Buisness Communication") {
+            if (verwijder == "Business Communication") {
                 $('#bs span').text("");
                 $('.bs #lijn').hide();
 
