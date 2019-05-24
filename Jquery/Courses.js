@@ -9,7 +9,7 @@ $(document).ready(function () {
             console.log('after prompt')
             if (course == "Engels") {
                 $('#Engels span').text("Engels")
-            $('.Engels #lijn').show().animate(60);
+            $('.Engels #lijn').show();
                 
                 
                 
