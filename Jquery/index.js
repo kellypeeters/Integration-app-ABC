@@ -14,16 +14,15 @@ $("#registrationForm").submit(function (event) {
     localStorage.setItem('Bevestig wachtwoord', BevestigWachtwoord.value);
 });
 
-function validate() { 
-    var OpgeslagenEmail = localStorage.getItem('inpValue');
+function validate() {
+    var OpgeslagenEmail = localStorage.getItem('E-mail');
     var OpgeslagenWw = localStorage.getItem('Wachtwoord');
 
     var UserEmail = document.getElementById('username');
     var UserWw = document.getElementById('password');
-
-    if(UserEmail.value == OpgeslagenEmail && UserWw.value == OpgeslagenWw) {
- alert('You are loged in'); 
-    }else { 
-        alert('ERROR');  
-    }  
-}  
+    if (UserEmail.value == OpgeslagenEmail && UserWw.value == OpgeslagenWw) {
+        window.open('Dashboard.html'); 
+    } else { 
+        alert("Email en wachtwoord komen niet overeen");
+    }
+}

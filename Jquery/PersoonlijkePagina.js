@@ -24,3 +24,14 @@ $(".image-box").click(function(event) {
 });
 
 //Overgenomen van Codepen.io   
+
+    function next(e){
+        e.preventDefault();
+        var getNaam = localStorage.getItem('Naam');
+        var getEmail = localStorage.getItem('E-mail');
+        var setTitel = document.getElementById("input_titel");
+        var setDeadline = document.getElementById("input_deadline");
+         
+        setTitel.innerHTML = getNaam.value;
+        setDeadline.innerHTML = getEmail.value;
+    }  
