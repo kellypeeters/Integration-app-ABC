@@ -44,6 +44,7 @@ body {
 
 .volledig_kalender {
     position: absolute;
+    margin-left:800px;
 }
 
 /* Month header */
