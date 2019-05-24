@@ -1,9 +1,8 @@
 h1{
-    margin-top: 0%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 100px;
+    margin-left: 210px;
+    margin-top: 40px;
     font-size: 40pt;
+    font-family: acier-bat-solid, sans-serif;
 }
 
 button {
@@ -13,13 +12,20 @@ button {
 
 }
 
+#vuilbak{
+    margin-top: 90px;
+    
+}
+
 .addAndDeleteButtons {
     position: absolute;
     left: 1200px;
     top: -45px;
-    word-spacing: 20px;
+    word-spacing: 0px;
    
 }
+
+
 
 h3 {
     font-family: roboto, sans-serif;
@@ -27,6 +33,7 @@ h3 {
     font-style: normal;
     margin-left: 260px;
     margin-top: 80px;
+    margin-bottom: 6px
 }
 
 .lijn img {
@@ -35,10 +42,44 @@ h3 {
     margin-top: 0px;
 }
 
-.newCourse .lijn {
+.Engels .lijn {
 display: none;
-    
+}
 
+.Engels span{
+    margin-left: 45px;
+}
+
+.dwd .lijn {
+display: none;
+}
+
+.dwd span{
+    margin-left: 20px;
+}
+
+.cp .lijn{
+    display: none;
+}
+
+.cp span{
+    margin-left: -12px;
+    
+}
+
+.bs .lijn {
+    position: absolute;
+    top: 206px;
+    margin-left: 500px;
+    display: none;
+    
+}
+
+.bs span{
+    position: absolute;
+    top: 175px;
+    right: 585px;
+}
 
 
 
