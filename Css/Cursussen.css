@@ -5,7 +5,7 @@ h1 {
     padding-top: 40px;
     font-family: acier-bat-solid, sans-serif;
     margin: 0;
-} 
+}
 
 button {
     background-color: white;
@@ -14,9 +14,9 @@ button {
 
 }
 
-#vuilbak{
+#vuilbak {
     margin-top: 90px;
-    
+
 }
 
 .addAndDeleteButtons {
@@ -24,7 +24,6 @@ button {
     left: 1200px;
     top: -45px;
     word-spacing: 0px;
-   
 }
 
 
@@ -45,28 +44,27 @@ h3 {
 }
 
 .Engels .lijn {
-display: none;
+    display: none;
 }
 
-.Engels span{
+.Engels span {
     margin-left: 45px;
 }
 
 .dwd .lijn {
-display: none;
-}
-
-.dwd span{
-    margin-left: 20px;
-}
-
-.cp .lijn{
     display: none;
 }
 
-.cp span{
+.dwd span {
+    margin-left: 20px;
+}
+
+.cp .lijn {
+    display: none;
+}
+
+.cp span {
     margin-left: -12px;
-    
 }
 
 .bs .lijn {
@@ -74,16 +72,10 @@ display: none;
     top: 206px;
     margin-left: 500px;
     display: none;
-    
 }
 
-.bs span{
+.bs span {
     position: absolute;
     top: 175px;
     right: 585px;
-}
-
-
-
-
-
+}  
