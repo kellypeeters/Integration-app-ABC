@@ -11,8 +11,8 @@ $("#registrationForm").submit(function (event) {
     localStorage.setItem('Naam', inpKey.value);
     localStorage.setItem('E-mail', inpValue.value);
     localStorage.setItem('Wachtwoord', Wachtwoord.value);
-    localStorage.setItem('Bevestig wachtwoord', BevestigWachtwoord.value);
-});
+    localStorage.setItem('Bevestig wachtwoord', BevestigWachtwoord.value); 
+});    
 
 function validate() {
     var OpgeslagenEmail = localStorage.getItem('E-mail');
