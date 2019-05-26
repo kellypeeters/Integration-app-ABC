@@ -19,4 +19,4 @@
  $(".GaNaarLogin").click(function () {
         $(".VergetenWachtwoord").hide();
         $("#Loginform").show(); 
-    }); 
+    });  
