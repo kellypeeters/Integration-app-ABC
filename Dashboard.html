@@ -8,11 +8,15 @@
     <title>Dashboard ABC_CD</title>
     <link rel="shortcut icon" href="Fotos/Logo/Logo.JPG">
     <link rel="stylesheet" href="Css/Nav+footer.css">
-    <link rel="stylesheet" href="dashboard_kalender">
     <link rel="stylesheet" href="Css/Dashboard.css">
     <link rel="stylesheet" href="https://use.typekit.net/nzw1tsv.css">
-    <script src="Jquery/jquery-3.3.1.js"></script>-
+    <script src="Jquery/jquery-3.3.1.js"></script>
     <script src="Jquery/Dashboard.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="Css/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
 
 </head>
 
@@ -29,10 +33,23 @@
         </ul>
     </nav>
     <header>
+
         <div class="dashboardButtons">
             <a role="button" class="readMail"><img src="Fotos/Symbolen/STORYBOARD mail knop.png" alt="mail"></a>
             <a role="button" class="littleKalender"><img src="Fotos/Symbolen/DASHBOARD (klein) kalender.png" alt="kalender"></a>
         </div>
+
+
+            <div class="kalender">
+            <script>
+                $( function() {
+                    $( "#datepicker" ).datepicker();
+                } );
+            </script>
+
+            <div id="datepicker"></div>
+        </div>
+
         <h1>Dashboard</h1>
     </header>
     <main>
@@ -52,7 +69,7 @@
                 <h2>Running Storyboards</h2>
                 <div class="currentStoryboards" onload="countdown();">
                     <button id="beginTimer">test begin</button>
-                   
+
                     <div> 
                         Time Left :
                         <input id="minutes" type="text" style="width: 20px; border: none; font-size: 16px;font-weight: bold; color: black;">
