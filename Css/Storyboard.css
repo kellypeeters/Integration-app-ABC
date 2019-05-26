@@ -1,9 +1,9 @@
 h1 {
     font-family: Acier BAT text solid, sans-serif;
-    color: #321432;
+    
     font-size: 40px;
     top: 10px;
-    left: 160px;
+    left: 200px;
     position: absolute;
     z-index: initial;
     float: top;
