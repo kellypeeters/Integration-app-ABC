@@ -3,7 +3,7 @@
 ***********************/
 h1 {
     font-size: 40px;
-    padding-left: 260px;
+    padding-left: 10%;
     padding-right: 200px;
     padding-top: 40px;
     font-family: acier-bat-solid, sans-serif;
@@ -49,12 +49,12 @@ p {
 
 .Adres img {
     position: absolute;
-    left: 60px;
-    bottom: 35px;
+    left: 3%;
+    bottom: 8px;
 }
 
 iframe {
     position: absolute;
-    left: 700px;
+    left: 45%;
     top: 240px;
 } 
