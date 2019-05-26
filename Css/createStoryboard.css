@@ -1,12 +1,13 @@
 #createForm{
-    margin-left: 600px;
-    margin-top: 300px;
+    margin-left: 500px;
+    margin-top: 50px;
     margin-right: 900px;
     background-color: white;
-    padding: 20px;
+    padding: 100px;
     width: 400px;
     vertical-align: middle;
-    
+    padding-left: 140px;
+    padding-right: 140px;
 }
 
 #next{
@@ -14,13 +15,16 @@
     background-color: #633568;
     color: white;
     border-color: transparent;
-    
+    margin-top: 20px;
+    font-size: 14pt;
 }
 
 #goBack{
     background-color: #633568;
     color: white;
     border-color: transparent;
+    margin-top: 20px;
+    font-size: 14pt;
 }
 
 .addPurpose img{
@@ -61,15 +65,80 @@
 #create_storyboard{
     margin-top: 300px;
     margin-left: 200px;
+    display: block;
 }
 
-h2{
-    color: #321432;;
+.kennisverwerkingKeuze{
+    display: block;
+    border: none;
+    float: left;
+    background-color: #F0874B;
+}
+
+.samenwerkingKeuze{
+    display: block;
+    border: none;
+    float: left;
+    background-color: #12ADAD;
+}
+
+.discussieKeuze{
+    display: block;
+    border: none;
+    float: left;
+    background-color: #EE8090;
+}
+
+.onderzoekKeuze{
+    display: block;
+    border: none;
+    float: left;
+    background-color: #85A22A;
+}
+
+.praktijkKeuze{
+    display: block;
+    border: none;
+    float: left;
+    background-color: #6361A8;
+}
+
+.productieKeuze{
+    display: block;
+    border: none;
+    float: left;
+    background-color: #F2B315;
 }
 
 #create_storyboard p{
-    border-bottom: solid gray 2px;
-    width: 200px;
-   
+    border: solid gray 2px;
+    width: 135px;
+   float: left;
+   font-size: 8pt;
+   height: 50px;
+}
+
+#cardChoice i{
+    padding-left: 5px;
+    padding-right: 0;
+}
+
+
+
+#ti{
+    border: solid gray 2px;
+    width: 135px;
+}
+
+#createForm input{
+    font-size: 12pt;
+}
+
+#createForm p, #createForm Strong{
+    font-size: 14pt;
+}
+
+#createForm h3{
+    font-size: 18pt;
 }
 

@@ -257,7 +257,7 @@ input[type=text]:focus {
 .create-button {
     display: block;
     border: none;
-    padding: 5px 50px;
+    padding: 10px 50px;
     top: 120px;
     left: 200px;
     text-align: center;
@@ -266,47 +266,17 @@ input[type=text]:focus {
     background-color: #633568;
     font-family: Roboto, sans-serif;
     border-radius: 17px;
-    font-size: 12px;
+    font-size: 16px;
     position: absolute;
     /*z-index: 3;*/
 }
 
-.opslaan-button{
-    display: block;
-    border: none;
-    padding: 5px 50px;
-    top: 120px;
-    left: 350px;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    background-color: #633568;
-    font-family: Roboto, sans-serif;
-    border-radius: 17px;
-    font-size: 12px;
-    position: absolute;
-}
 
 
 
 
-.btn_vak_dropdown {
-    position: absolute;
-    /*z-index: 3;*/
-    top: 350px;
-    left: 190px;
-    display: block;
-    border: none;
-    outline: none;
-    text-decoration: none;
-    font-family: roboto, regular, sans-serif;
-    color: #321432;
-    background-color: white;
-    font-size: 20px;
-    text-align: left;
-    width: 100px;
-    cursor: pointer;
-}
+
+
 
 .container_create_storyboard {
     position: absolute;
@@ -791,4 +761,9 @@ input[type=text]:focus {
 
 label{
     font-size: 12px;
+}
+
+.tussentitel{
+    margin-top: 300px;
+   
 }
