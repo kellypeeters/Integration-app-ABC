@@ -15,6 +15,10 @@ $(document).ready(function(){
     
     }
 
+    $( function() {
+        $( "#datepicker" ).datepicker();
+    } );
+
    /* var chart = document.getElementById("storyboardCanvas");
     var ctx = chart.getContext("2d");
     var chartColor = "#321432";
