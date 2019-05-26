@@ -1,39 +1,31 @@
-
 /**************
-<<<<<<< Updated upstream
-      KALENDER
+   KALENDER
 ***************/
 .kalender {
     padding: 50px 900px;
-
-
 }
-/**************
-=======
->>>>>>> Stashed changes
-    HEADER
-***************/
 
-h1{
+/**************
+    HEADER
+***************/ 
+
+h1{ 
     margin-top: 0%;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 100px;
-    font-size: 40pt;
+    font-size: 40pt; 
 }
 
 .dashboardButtons{
     float: right;
     margin-top: 40px;
     margin-right: 200px;
-    
-    
 }
 
 .dashboardButtons img{
     width: 40px;
     margin: 10px;
-
     vertical-align: middle;
 }
 
@@ -48,8 +40,9 @@ main{
     transform: rotate(-90deg);
 }
 .runningStoryboards{
-    padding-left: 200px;
-}
+    padding-left: 100px;
+} 
+
 .runningStoryboards button {
     background-color: transparent;
     border-color: transparent;
@@ -57,38 +50,19 @@ main{
     transition: .5s transform;
     position: relative;
 }
-
-/*.recentFirst a {
-    border: solid #777 2px;
-    float: left;
-    width: 200px;
-    display: table-cell;
-    padding: 19.5px;
-    margin: 0;
-    vertical-align: middle;
-    margin-bottom: 20px;
-}*/
-/*.recentSecond a{
-    border: solid #777 2px;
-    float: left;
-    width: 200px;
-    display: table-cell;
-    padding: 19.5px;
-    margin: 0;
-    vertical-align: middle;
-    margin-bottom: 20px;
-} */
-
+ 
 .recentFirst, .recentSecond{
     float: left;
 }
 
-
-
 .storyboardsDashboard{
     float: left;
     padding-left: 200px;
-  
-}
+} 
 
-
+.uitklap{  
+    color: #602377;
+    float: left;
+    transition: .5s transform;
+    position: relative;
+} 
