@@ -111,15 +111,7 @@ $(document).ready(function(){
 
  
     
-    //Overgenomen van Codepen.io   
-    newNext();
-    
-    function newNext() {
-        
-        localStorage.setItem("recentTitel", getTitel.value);
-        document.getElementById("recent").value = localStorage.getItem('recentTitel');
-        
-    } 
+
         
        
     
