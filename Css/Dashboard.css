@@ -4,6 +4,17 @@
 .kalender {
     padding: 50px 900px;
 }
+.storyboardsDashboard img{
+    position: absolute;
+    top:170px;
+
+}
+
+.storyboardsDashboard button{
+    position: absolute;
+    left: 680px;
+    top: 150px;
+}
 
 /**************
     HEADER

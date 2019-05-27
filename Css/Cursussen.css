@@ -7,21 +7,32 @@ h1 {
     margin: 0;
 }
 
-button {
-    background-color: white;
-    border: none;
-    cursor: pointer;
+.vuilbak {
+    width: 25px;
+    float: right;
+    margin-top: 2px;
 }
 
-#vuilbak {
-    margin-top: 90px;
+.button {
+    background-color: transparent;
+    border-color: transparent;
+    font-family: regular;
+    font-size: 30px;
+    vertical-align: middle;
+    float: right;
+    margin-top: 60px;
 }
 
-.addAndDeleteButtons {
-    position: absolute;
-    left: 90%;
-    top: -45px;
-    word-spacing: 0px;
+.button:hover {
+    background-color: #c4c4c4;
+}
+
+#minus {
+    margin-right: 180px;
+}
+
+#plus {
+    margin-right: 10px;
 }
 
 h3 {
