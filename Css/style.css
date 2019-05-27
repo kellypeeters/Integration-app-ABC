@@ -1143,14 +1143,14 @@ a.ui-button:active,
 
 .ui-icon-background,
 .ui-state-active .ui-icon-background {
-    border: #4e0f6e;
-    background-color: #ffffff;
+    border: #380553;
+    background-color: #403f3f;
 }
 
 .ui-state-active a,
 .ui-state-active a:link,
 .ui-state-active a:visited {
-    color: #ffffff;
+    color: #fefefe;
     text-decoration: none;
 }
 

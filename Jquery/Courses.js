@@ -11,7 +11,7 @@ $(document).ready(function () {
                 $('#Engels span').text("Engels")
                 $('.Engels #lijn').show();
 
-               
+
 
             if (course == "Dynamic Web") {
                 $('#dwd span').text("Dynamic Web")
