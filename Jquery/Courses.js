@@ -9,7 +9,7 @@ $(document).ready(function () {
             console.log('after prompt')
             if (course == "Engels") {
                 $('#Engels span').text("Engels")
-            $('.Engels #lijn').show();
+                $('.Engels #lijn').show();
 
                 /*<div class="volledig_kalender">
            <div class="month">
@@ -67,38 +67,27 @@ $(document).ready(function () {
            </ul>
 
        </div>*/
-                
             }
-            
 
             if (course == "Dynamic Web") {
                 $('#dwd span').text("Dynamic Web")
-                 $('.dwd #lijn').show();
-                
-
-
+                $('.dwd #lijn').show();
             }
+
             if (course == "Creative Programming") {
                 $('#cp span').text("Creative Programming");
                 $('.cp #lijn').show();
-
             }
+
             if (course == "Business Communication") {
                 $('#bs span').text("Business Communication");
                 $('.bs #lijn').show();
-                
-
-
-
-
 
                 console.log(add);
             }
         }
     }
 })
-
-
 
 $(document).ready(function () {
 
@@ -112,20 +101,19 @@ $(document).ready(function () {
             console.log('after prompt')
             if (verwijder == "Engels") {
                 $('#Engels span').text("")
-                  $('.Engels #lijn').hide();
+                $('.Engels #lijn').hide();
             }
 
             if (verwijder == "Dynamic Web") {
                 $('#dwd span').text("")
                 $('.dwd #lijn').hide();
-
-
             }
+
             if (verwijder == "Creative Programming") {
                 $('#cp span').text("");
                 $('.cp #lijn').hide();
-
             }
+
             if (verwijder == "Business Communication") {
                 $('#bs span').text("");
                 $('.bs #lijn').hide();
@@ -136,8 +124,8 @@ $(document).ready(function () {
     }
 });
 
-                        //function removeElement(storyboard) {
-                        //storyboard.parentNode.removeChild(storyboard);
-                        //}
-                        // removeElement(document.getElementById("testSpecial"));
-                        //console.log(remove);
+//function removeElement(storyboard) {
+//storyboard.parentNode.removeChild(storyboard);
+//}
+// removeElement(document.getElementById("testSpecial"));
+//console.log(remove);

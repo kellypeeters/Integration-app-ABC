@@ -6,7 +6,6 @@ $(document).ready(function(){
     $(".addPurpose").click(nieuweDoelstelling);
     $("#next").click(next);
 
-    
     var getPurpose = document.getElementById("purpose");
     var popup = document.getElementById("Form");
     var getTitel = document.getElementById("newTitle");
@@ -21,7 +20,6 @@ $(document).ready(function(){
         getDeadline.value = "";
         getPurpose.value = "";
         popup.style.display = "block"; 
-        
     }
 
     function back(e){
@@ -34,35 +32,34 @@ $(document).ready(function(){
         $("#startDatumForm").hide();
         $("#deadlineForm").hide();
         $("#doelstellingForm").hide();
-
-    function next(e){
+function next(e) {
+    e.preventDefault();
+    var large = '<br><br><br><br><div class="SB"> <p><button id="inhoud" style="background-color: white; border: none"><Strong>Titel: </Strong>' + getTitel.value + '</button></p> <p><button id="startDatum" style=" background-color: white; border: none"><Strong>Start: </Strong>' + getStartDate.value + '</button></p> <p><button id="eindDatum" style=" background-color: white; border: none"><Strong>Deadline: </Strong>' + getDeadline.value + '</button></p> <p><button id="doelen" style="background-color: white; border: none"><Strong>Doelstellingen: </Strong>' + getPurpose.value + '</button></p><p><button id="orange" style="width: 65px; float: left; height: 15px; background-color: #F0874B"><input type="checkbox"></button><button id="blue" style="width: 65px; float: left; height: 15px; background-color: #12ADAD"><input type="checkbox"></button><button id="pink" style="width: 65px; float: left; height: 15px; background-color: #EE8090"><input type="checkbox"></button><button id="green" style="width: 65px; float: left; height: 15px; background-color: #85A22A"><input type="checkbox"></button><button id="violet" style="width: 65px; float: left; height: 15px; background-color: #6361A8"><input type="checkbox"></button><button id="yellow" style="width: 65px; float: left; height: 15px; background-color: #F2B315"><input type="checkbox"></button></p></div>';
+    $("#create_storyboard").append(large);
+    $("#recent").append(large);
+    $("#titelForm").hide();
+    $("#startDatumForm").hide();
+    $("#deadlineForm").hide();
+    $("#doelstellingForm").hide();
+    $("#inhoud").click(function (e) {
         e.preventDefault();
-        var large = '<br><br><br><br><div class="SB"> <p><button id="inhoud" style="background-color: white; border: none"><Strong>Titel: </Strong>'+ getTitel.value+'</button></p> <p><button id="startDatum" style=" background-color: white; border: none"><Strong>Start: </Strong>'+ getStartDate.value+'</button></p> <p><button id="eindDatum" style=" background-color: white; border: none"><Strong>Deadline: </Strong>' + getDeadline.value + '</button></p> <p><button id="doelen" style="background-color: white; border: none"><Strong>Doelstellingen: </Strong>'+ getPurpose.value + '</button></p><p><button id="orange" style="width: 65px; float: left; height: 15px; background-color: #F0874B"><input type="checkbox"></button><button id="blue" style="width: 65px; float: left; height: 15px; background-color: #12ADAD"><input type="checkbox"></button><button id="pink" style="width: 65px; float: left; height: 15px; background-color: #EE8090"><input type="checkbox"></button><button id="green" style="width: 65px; float: left; height: 15px; background-color: #85A22A"><input type="checkbox"></button><button id="violet" style="width: 65px; float: left; height: 15px; background-color: #6361A8"><input type="checkbox"></button><button id="yellow" style="width: 65px; float: left; height: 15px; background-color: #F2B315"><input type="checkbox"></button></p></div>';
-        $("#create_storyboard").append(large);
-        $("#recent").append(large);
-        $("#titelForm").hide();
-        $("#startDatumForm").hide();
-        $("#deadlineForm").hide();
-        $("#doelstellingForm").hide();
-        $("#inhoud").click(function(e){
-            e.preventDefault();
-            $("#titelForm").slideDown();
-        });
+        $("#titelForm").slideDown();
+    });
 
-        $("#startDatum").click(function(e){
-            e.preventDefault();
-            $("#startDatumForm").slideDown();
-        });
+    $("#startDatum").click(function (e) {
+        e.preventDefault();
+        $("#startDatumForm").slideDown();
+    });
 
-        $("#eindDatum").click(function(e){
-            e.preventDefault();
-            $("#deadlineForm").slideDown();
-        });
+    $("#eindDatum").click(function (e) {
+        e.preventDefault();
+        $("#deadlineForm").slideDown();
+    });
 
-        $("#doelen").click(function(e){
-            e.preventDefault();
-            $("#doelstellingForm").slideDown();
-        });
+    $("#doelen").click(function (e) {
+        e.preventDefault();
+        $("#doelstellingForm").slideDown();
+    });
 
         $("#slaopDeadline").click(function(e){
             e.preventDefault();
@@ -106,23 +103,17 @@ $(document).ready(function(){
         e.preventDefault();
         $("#tab").append("<a id='doelSelect'> <input id='purpose' class='purpose' type='text' value=''> <input type='checkbox'> </a>");
         console.log("purpose werkt");
-
     }
-
  
+    //Overgenomen van Codepen.io 
     
-    //Overgenomen van Codepen.io   
     newNext();
     
     function newNext() {
         
         localStorage.setItem("recentTitel", getTitel.value);
-        document.getElementById("recent").value = localStorage.getItem('recentTitel');
-        
+        document.getElementById("recent").value = localStorage.getItem('recentTitel');  
     } 
-        
-       
-    
 
    
     
