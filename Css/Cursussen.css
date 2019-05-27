@@ -11,12 +11,10 @@ button {
     background-color: white;
     border: none;
     cursor: pointer;
-
 }
 
 #vuilbak {
     margin-top: 90px;
-
 }
 
 .addAndDeleteButtons {
@@ -25,8 +23,6 @@ button {
     top: -45px;
     word-spacing: 0px;
 }
-
-
 
 h3 {
     font-family: roboto, sans-serif;
@@ -78,4 +74,4 @@ h3 {
     position: absolute;
     top: 175px;
     right: 585px;
-}  
+} 

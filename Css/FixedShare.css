@@ -44,8 +44,7 @@ h1 {
 
 .animate-listitem {
     transform: rotate(-90deg);
-}
-
+} 
 
 #uitklap {
     background-color: transparent;
@@ -83,4 +82,4 @@ div a {
 
 #testSpecial {
     margin-bottom: 15px;
-}
+} 

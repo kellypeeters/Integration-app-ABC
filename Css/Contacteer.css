@@ -10,7 +10,6 @@ h1 {
     margin: 0;
 }
 
-
 h2 {
     font-family: roboto-regular, sans-serif;
 }
@@ -30,10 +29,10 @@ p {
     margin-top: 160px;
 }
 
-.Onze_campussen a, 
-.Adres a{
+.Onze_campussen a,
+.Adres a {
     color: black;
-    text-decoration: none;  
+    text-decoration: none;
 }
 
 .Adres {
