@@ -7,7 +7,7 @@
 
 /**************
     HEADER
-***************/ 
+***************/
 h1 {
     font-size: 40px;
     padding-left: 10%;
@@ -16,14 +16,14 @@ h1 {
     font-family: acier-bat-solid, sans-serif;
     margin: 0;
 }
- 
-.dashboardButtons{
+
+.dashboardButtons {
     float: right;
     margin-top: 40px;
     margin-right: 200px;
 }
 
-.dashboardButtons img{
+.dashboardButtons img {
     width: 40px;
     margin: 10px;
     vertical-align: middle;
@@ -33,15 +33,17 @@ h1 {
      MAIN
 ***************/
 
-main{
+main {
     display: block;
 }
+
 .animate-listitem {
     transform: rotate(-90deg);
 }
-.runningStoryboards{
+
+.runningStoryboards {
     padding-left: 100px;
-} 
+}
 
 .runningStoryboards button {
     background-color: transparent;
@@ -50,19 +52,20 @@ main{
     transition: .5s transform;
     position: relative;
 }
- 
-.recentFirst, .recentSecond{
+
+.recentFirst,
+.recentSecond {
     float: left;
 }
 
-.storyboardsDashboard{
+.storyboardsDashboard {
     float: left;
     padding-left: 200px;
-} 
-
-.uitklap{  
+}
+ 
+.uitklap {
     color: #602377;
     float: left;
     transition: .5s transform;
     position: relative;
-} 
+}

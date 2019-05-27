@@ -16,7 +16,7 @@ h4 {
 }
 
 h3 {
-    padding-top: 10px;  
+    padding-top: 10px;
 }
 
 p {
@@ -29,7 +29,7 @@ div {
     padding-right: 200px;
 }
 
-.img{
+.img {
     padding-top: 30px;
     margin-left: 50px;
 }
@@ -45,7 +45,7 @@ div {
     text-align: right;
 }
 
-.Letter{
+.Letter {
     font-size: 30px;
 }
 
@@ -68,19 +68,19 @@ div {
 .Third {
     padding-left: 150px;
     padding-right: 20px;
-} 
+}
 
 .Third h4 {
     padding-left: 70px;
 }
 
-#Column6{
+#Column6 {
     margin-bottom: 100px;
 }
 
 .uitklap1 {
     margin-left: 230px;
-    margin-top: 30px;    
+    margin-top: 30px;
     color: #602377;
     float: left;
     transition: .5s transform;
@@ -88,18 +88,18 @@ div {
 }
 
 .uitklap2,
-.uitklap3{
+.uitklap3 {
     margin-left: 230px;
-    margin-top: 15px;    
+    margin-top: 15px;
     color: #602377;
     float: left;
     transition: .5s transform;
     position: relative;
-}   
- 
+}
+
 .uitklap1 div,
 .uitklap2 div,
-.uitklap3 div{
+.uitklap3 div {
     position: absolute;
 }
 

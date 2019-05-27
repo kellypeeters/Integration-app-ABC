@@ -1,257 +1,19 @@
 h1 {
-    font-family: acier-bat-solid, sans-serif;
-    
     font-size: 40px;
-    top: 1%;
-    left: 10%;
-    position: absolute;
-    
-    
+    padding-left: 10%;
+    padding-right: 200px;
+    padding-top: 40px;
+    font-family: acier-bat-solid, sans-serif;
+    margin: 0;
 }
 
-p{
+p,
+a {
     font-family: roboto, regular, sans-serif;
 }
 
-a{
-    font-family: roboto, regular, sans-serif;
+a {
     font-size: 14px;
-}
-
-.box_container {
-    position: absolute;
-    z-index: 1;
-    width: 784px;
-    height: 70px;
-    top: 170px;
-    left: 200px;
-    float: left;
-    background-color: #DADADA;
-    box-shadow: 1px 1px 2px grey;
-}
-
-.box_container a {
-    font-size: 15px;
-    color: #5E5E5E;
-    font-family: roboto, regular, sans-serif;
-}
-
-input[type=text]:focus {
-    outline: none;
-    border: 1px solid #DADADA;
-    font-family: roboto, regular, sans-serif;
-    color: #633568;
-}
-
-.box_titel {
-    position: absolute;
-    z-index: 1;
-    width: 90px;
-    height: 39px;
-    top: 4px;
-    left: 4px;
-    padding: 0px 0px 0px 10px;
-    border: none;
-    cursor: pointer;
-    background-color: white;
-    box-shadow: 1px 1px 2px grey;
-    font-family: roboto, regular, sans-serif;
-}
-
-.box_deadline {
-    position: absolute;
-    z-index: 1;
-    width: 90px;
-    height: 39px;
-    top: 4px;
-    left: 110px;
-    padding: 0px 0px 0px 10px;
-    border: none;
-    cursor: pointer;
-    background-color: white;
-    /*background-image: far fa-calendar-alt;*/
-    box-shadow: 1px 1px 2px grey;
-    font-family: roboto, regular, sans-serif;
-}
-
-.box_leerachtiviteit {
-    position: absolute;
-    z-index: 1;
-    width: 536px;
-    height: 62px;
-    top: 4px;
-    left: 216px;
-    float: left;
-    background-color: white;
-    box-shadow: 1px 1px 2px grey;
-}
-
-.kaart1 {
-    position: absolute;
-    z-index: 1;
-    width: 70px;
-    height: 54px;
-    top: 4px;
-    left: 4px;
-    cursor: pointer;
-    border: 1px solid #B6B5B4;
-    color: gray;
-    background-color: #D3D2D1;
-    box-shadow: 1px 1px 2px grey;
-    font-family: roboto, regular, sans-serif;
-}
-
-.kaart2 {
-    display: block;
-    position: inherit;
-    z-index: 1;
-    left: 80px;
-    top: 4px;
-    width: 70px;
-    height: 54px;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-    color: grey;
-    border: 1px solid #B6B5B4;
-    background-color: #D3D2D1;
-    box-shadow: 1px 1px 2px grey;
-    font-family: roboto, regular, sans-serif;
-}
-
-.kaart3 {
-    display: block;
-    position: inherit;
-    z-index: 1;
-    left: 156px;
-    top: 4px;
-    width: 70px;
-    height: 54px;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-    color: grey;
-    border: 1px solid #B6B5B4;
-    background-color: #D3D2D1;
-    box-shadow: 1px 1px 2px grey;
-    font-family: roboto, regular, sans-serif;
-}
-
-.kaart4 {
-    display: block;
-    position: inherit;
-    z-index: 1;
-    left: 232px;
-    top: 4px;
-    width: 70px;
-    height: 54px;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-    color: grey;
-    border: 1px solid #B6B5B4;
-    background-color: #D3D2D1;
-    box-shadow: 1px 1px 2px grey;
-    font-family: roboto, regular, sans-serif;
-}
-
-.kaart5 {
-    display: block;
-    position: inherit;
-    z-index: 1;
-    left: 308px;
-    top: 4px;
-    width: 70px;
-    height: 54px;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-    color: gray;
-    border: 1px solid #B6B5B4;
-    background-color: #D3D2D1;
-    box-shadow: 1px 1px 2px grey;
-    font-family: roboto, regular, sans-serif;
-}
-
-.kaart6 {
-    display: block;
-    position: inherit;
-    z-index: 1;
-    left: 384px;
-    top: 4px;
-    width: 70px;
-    height: 54px;
-    text-align: center;
-    cursor: pointer;
-    text-decoration: none;
-    color: gray;
-    border: 1px solid #B6B5B4;
-    background-color: #D3D2D1;
-    box-shadow: 1px 1px 2px grey;
-    font-family: roboto, regular, sans-serif;
-}
-
-.kaart7 {
-    display: block;
-    position: inherit;
-    z-index: 1;
-    left: 460px;
-    top: 4px;
-    width: 70px;
-    height: 54px;
-    text-align: center;
-    cursor: pointer;
-    text-decoration: none;
-    color: gray;
-    border: 1px solid #B6B5B4;
-    background-color: #D3D2D1;
-    box-shadow: 1px 1px 2px grey;
-    font-family: roboto, regular, sans-serif;
-}
-
-.collapse {
-    visibility: hidden;
-    width: 160px;
-    background-color: #555;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 8px 0;
-    position: absolute;
-    z-index: 1;
-    bottom: 125%;
-    left: 50%;
-    margin-left: -80px;
-}
-
-.modal1, .modal2 {
-    display: none;
-    position: fixed;
-    z-index: 2;
-    padding-top: 30px;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0, 0, 0, 0.85);
-}
-
-.modal-content {
-    background-color: #fefefe;
-    margin: auto;
-    padding: 10px;
-    border: 1px solid #888;
-    width: 80%;
-    height: 90%;
-}
-
-.fa-plus-square {
-    position: inherit;
-    top: 5px;
-    left: 200px;
-    margin: 5px;
-    float: right;
 }
 
 .create-button {
@@ -268,20 +30,10 @@ input[type=text]:focus {
     border-radius: 17px;
     font-size: 16px;
     position: absolute;
-    /*z-index: 3;*/
 }
-
-
-
-
-
-
-
 
 .container_create_storyboard {
     position: absolute;
-    /*display: none;*/
-    /*z-index: 1;*/
     top: 400px;
     left: 200px;
 }
@@ -295,7 +47,7 @@ input[type=text]:focus {
     top: 300px;
     right: 100px;
     clear: left;
-    border: #DADADA solid;
+    text-align: center;
 }
 
 .kennisverwerking {
@@ -315,7 +67,7 @@ input[type=text]:focus {
 }
 
 .dropdown-legende-kennisverwerking {
-    margin: auto;
+    margin: -5px 5px 5px 5px;
     padding: 7px 10px;
     display: none;
     background-color: #F0874B;
@@ -337,16 +89,18 @@ input[type=text]:focus {
     font-size: 15px;
     color: white;
     background-color: #12ADAD;
+    box-shadow: 1px 1px 1px grey;
 }
 
 .dropdown-legende-samenwerking {
     display: none;
-    margin-top: -1px;
+    margin: -5px 5px 5px 5px;
     font-size: 15px;
     font-family: Roboto, sans-serif;
     padding: 7px 10px;
     color: white;
     background-color: #12ADAD;
+    box-shadow: 1px 1px 1px grey;
 }
 
 .discussie {
@@ -361,16 +115,18 @@ input[type=text]:focus {
     font-size: 15px;
     color: white;
     background-color: #EE8090;
+    box-shadow: 1px 1px 1px grey;
 }
 
 .dropdown-legende-discussie {
     display: none;
-    margin-top: -1px;
+    margin: -5px 5px 5px 5px;
     font-size: 15px;
     font-family: Roboto, sans-serif;
     padding: 7px 10px;
     color: white;
     background-color: #EE8090;
+    box-shadow: 1px 1px 1px grey;
 }
 
 .onderzoek {
@@ -385,16 +141,18 @@ input[type=text]:focus {
     font-size: 15px;
     color: white;
     background-color: #85A22A;
+    box-shadow: 1px 1px 1px grey;
 }
 
 .dropdown-legende-onderzoek {
     display: none;
-    margin-top: -1px;
+    margin: -5px 5px 5px 5px;
     font-family: Roboto, sans-serif;
     font-size: 15px;
     padding: 7px 10px;
     color: white;
     background-color: #85A22A;
+    box-shadow: 1px 1px 1px grey;
 }
 
 .praktijk {
@@ -409,16 +167,18 @@ input[type=text]:focus {
     font-size: 15px;
     color: white;
     background-color: #6361A8;
+    box-shadow: 1px 1px 1px grey;
 }
 
 .dropdown-legende-praktijk {
     display: none;
-    margin-top: -1px;
+    margin: -5px 5px 5px 5px;
     font-family: Roboto, sans-serif;
     font-size: 15px;
     padding: 7px 10px;
     color: white;
     background-color: #6361A8;
+    box-shadow: 1px 1px 1px grey;
 }
 
 .productie {
@@ -433,337 +193,21 @@ input[type=text]:focus {
     font-size: 15px;
     color: white;
     background-color: rgb(242, 179, 21);
+    box-shadow: 1px 1px 1px grey;
 }
 
 .dropdown-legende-productie {
     display: none;
-    margin-top: -1px;
+    margin: -5px 5px 5px 5px;
     font-family: Roboto, sans-serif;
     font-size: 15px;
     padding: 7px 10px;
     color: white;
     background-color: #F2B315;
+    box-shadow: 1px 1px 1px grey;
 }
 
 .fa-caret-down {
     float: right;
     padding-right: 10px;
-}
-
-.kaart-kennisverwerking {
-    position: absolute;
-    z-index: 3;
-    top: 140px;
-    left: 190px;
-    width: 300px;
-    height: 230px;
-    margin: auto;
-    perspective: 1000px;
-    background-color: transparent;
-}
-
-.kennis-inner{
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    transition: transform 1.0s cubic-bezier(0.75,0,0.85,1);
-    transform-style: preserve-3d;
-}
-
-.kaart-kennisverwerking:hover .kennis-inner {
-    transform: rotateY(180deg);
-    box-shadow: -5px 5px 5px #aaa;
-}
-
-.kennis-front{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color:#F0874B;
-    color: black;
-    backface-visibility: hidden;
-    overflow: hidden;
-    padding: 15px;
-}
-
-.kennis-back{
-    width: 100%;
-    height: 100%;
-    color: black;
-    background-color:#F0874B;
-    backface-visibility: hidden;
-    overflow: hidden;
-    text-align: center;
-    transform: rotateY(180deg);
-    padding: 15px;
-}
-
-.kaart-samenwerking {
-    position: absolute;
-    z-index: 3;
-    width: 300px;
-    height: 230px;
-    top: 140px;
-    left: 550px;
-    margin: auto;
-    color: white;
-    background-color: transparent;
-    perspective: 1000px;
-}
-
-.samenwerking-inner{
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    transition: transform 1.0s cubic-bezier(0.75,0,0.85,1);
-    transform-style: preserve-3d;
-}
-
-.kaart-samenwerking:hover .samenwerking-inner {
-    transform: rotateY(180deg);
-    box-shadow: -5px 5px 5px #aaa;
-}
-
-.samenwerking-front {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color:#12ADAD;
-    color: black;
-    backface-visibility: hidden;
-    overflow: hidden;
-    padding: 15px;
-}
-
-.samenwerking-back {
-    width: 100%;
-    height: 100%;
-    color: black;
-    background-color:#12ADAD;
-    backface-visibility: hidden;
-    overflow: hidden;
-    text-align: center;
-    transform: rotateY(180deg);
-    padding: 15px;
-}
-
-.kaart-discussie {
-    position: absolute;
-    z-index: 3;
-    width: 300px;
-    height: 230px;
-    top: 140px;
-    left: 910px;
-    margin: auto;
-    color: white;
-    background-color: transparent;
-    perspective: 1000px;
-}
-
-.discussie-inner{
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    transition: transform 1.0s cubic-bezier(0.75,0,0.85,1);
-    transform-style: preserve-3d;
-}
-
-.kaart-discussie:hover .discussie-inner {
-    transform: rotateY(180deg);
-    box-shadow: -5px 5px 5px #aaa;
-}
-
-.discussie-front {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: #EE8090;
-    color: black;
-    backface-visibility: hidden;
-    overflow: hidden;
-    padding: 15px;
-
-}
-
-.discussie-back {
-    width: 100%;
-    height: 100%;
-    background-color: #EE8090;
-    color: black;
-    backface-visibility: hidden;
-    overflow: hidden;
-    text-align: center;
-    transform: rotateY(180deg);
-    padding: 15px;
-}
-
-.kaart-onderzoek {
-    position: absolute;
-    z-index: 3;
-    width: 300px;
-    height: 230px;
-    top: 420px;
-    left: 190px;
-    margin: auto;
-    color: white;
-    background-color: transparent;
-    perspective: 1000px;
-}
-
-.onderzoek-inner{
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    transition: transform 1.0s cubic-bezier(0.75,0,0.85,1);
-    transform-style: preserve-3d;
-}
-
-.kaart-onderzoek:hover .onderzoek-inner {
-    transform: rotateY(180deg);
-    box-shadow: -5px 5px 5px #aaa;
-}
-
-.onderzoek-front {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color:#85A22A;
-    color: black;
-    backface-visibility: hidden;
-    overflow: hidden;
-    padding: 15px;
-}
-
-.onderzoek-back {
-    width: 100%;
-    height: 100%;
-    background-color:#85A22A;
-    color: black;
-    backface-visibility: hidden;
-    overflow: hidden;
-    text-align: center;
-    transform: rotateY(180deg);
-    font-size: 12px;
-    font-family: roboto, regular, sans-serif;
-    padding: 15px;
-}
-
-.kaart-praktijk {
-    position: absolute;
-    z-index: 3;
-    width: 300px;
-    height: 230px;
-    top: 420px;
-    left: 550px;
-    margin: auto;
-    color: white;
-    background-color: transparent;
-    perspective: 1000px;
-}
-
-.praktijk-inner{
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    transition: transform 1.0s cubic-bezier(0.75,0,0.85,1);
-    transform-style: preserve-3d;
-}
-
-.kaart-praktijk:hover .praktijk-inner {
-    transform: rotateY(180deg);
-    box-shadow: -5px 5px 5px #aaa;
-}
-
-.praktijk-front {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color:#6361A8;
-    color: black;
-    backface-visibility: hidden;
-    overflow: hidden;
-    padding: 15px;
-}
-
-.praktijk-back {
-    width: 100%;
-    height: 100%;
-    background-color:#6361A8;
-    color: black;
-    backface-visibility: hidden;
-    overflow: hidden;
-    text-align: center;
-    transform: rotateY(180deg);
-    padding: 15px;
-}
-
-.kaart-productie {
-    position: absolute;
-    z-index: 3;
-    width: 300px;
-    height: 230px;
-    top: 420px;
-    left: 910px;
-    margin: auto;
-    color: white;
-    background-color: transparent;
-    perspective: 1000px;
-}
-
-.productie-inner{
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    transition: transform 1.0s cubic-bezier(0.75,0,0.85,1);
-    transform-style: preserve-3d;
-}
-
-.kaart-productie:hover .productie-inner {
-    transform: rotateY(180deg);
-    box-shadow: -5px 5px 5px #aaa;
-}
-
-.productie-front {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color:#F2B315;
-    color: white;
-    font-family: roboto, regular, sans-serif;
-    backface-visibility: hidden;
-    overflow: hidden;
-    padding: 15px;
-}
-
-.productie-back {
-    width: 100%;
-    height: 100%;
-    background-color:#F2B315;
-    color: white;
-    font-family: roboto, regular, sans-serif;
-    backface-visibility: hidden;
-    overflow: hidden;
-    text-align: center;
-    transform: rotateY(180deg);
-    padding: 15px;
-}
-
-.collumn{
-    float: left;
-    width: 50%;
-}
-
-.radio-button:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-label{
-    font-size: 12px;
-}
-
-.tussentitel{
-    margin-top: 300px;
-   
 }

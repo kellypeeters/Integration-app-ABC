@@ -1,4 +1,4 @@
-#createForm{
+#createForm {
     margin-left: 500px;
     margin-top: 50px;
     margin-bottom: 50%;
@@ -11,8 +11,8 @@
     padding-right: 140px;
 }
 
-#next{
-   
+#next {
+
     background-color: #633568;
     color: white;
     border-color: transparent;
@@ -20,7 +20,7 @@
     font-size: 14pt;
 }
 
-#goBack{
+#goBack {
     background-color: #633568;
     color: white;
     border-color: transparent;
@@ -28,12 +28,12 @@
     font-size: 14pt;
 }
 
-.addPurpose img{
+.addPurpose img {
     width: 20px;
     vertical-align: middle;
 }
 
-.addPurpose{
+.addPurpose {
     float: right;
     background-color: transparent;
     border-color: transparent;
@@ -41,16 +41,16 @@
     height: 40px;
 }
 
-.addPurpose:hover{
+.addPurpose:hover {
     background-color: #c4c4c4;
 
 }
 
-.purpose{
+.purpose {
     height: 30px;
 }
 
-.Form{
+.Form {
     display: none;
     position: fixed;
     z-index: 2;
@@ -60,86 +60,84 @@
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgba(0,0,0,0.85);
+    background-color: rgba(0, 0, 0, 0.85);
 }
 
-#create_storyboard{
+#create_storyboard {
     margin-top: 300px;
     margin-left: 200px;
     display: block;
 }
 
-.kennisverwerkingKeuze{
+.kennisverwerkingKeuze {
     display: block;
     border: none;
     float: left;
     background-color: #F0874B;
 }
 
-.samenwerkingKeuze{
+.samenwerkingKeuze {
     display: block;
     border: none;
     float: left;
     background-color: #12ADAD;
 }
 
-.discussieKeuze{
+.discussieKeuze {
     display: block;
     border: none;
     float: left;
     background-color: #EE8090;
 }
 
-.onderzoekKeuze{
+.onderzoekKeuze {
     display: block;
     border: none;
     float: left;
     background-color: #85A22A;
 }
 
-.praktijkKeuze{
+.praktijkKeuze {
     display: block;
     border: none;
     float: left;
     background-color: #6361A8;
 }
 
-.productieKeuze{
+.productieKeuze {
     display: block;
     border: none;
     float: left;
     background-color: #F2B315;
 }
 
-#create_storyboard p{
+#create_storyboard p {
     border: solid gray 2px;
     width: 135px;
-   float: left;
-   font-size: 8pt;
-   height: 50px;
+    float: left;
+    font-size: 8pt;
+    height: 50px;
 }
 
-#cardChoice i{
+#cardChoice i {
     padding-left: 5px;
     padding-right: 0;
 }
 
-
-
-#ti{
+#ti {
     border: solid gray 2px;
     width: 135px;
 }
 
-#createForm input{
+#createForm input {
     font-size: 12pt;
 }
 
-#createForm p, #createForm Strong{
+#createForm p,
+#createForm Strong {
     font-size: 14pt;
 }
 
-#createForm h3{
+#createForm h3 {
     font-size: 18pt;
 }
-
