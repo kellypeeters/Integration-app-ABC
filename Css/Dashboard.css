@@ -4,6 +4,10 @@
 .kalender {
     padding: 50px 900px;
 }
+.storyboardsDashboard img{
+    position: absolute;
+    top:170px;
+}
 
 /**************
     HEADER
