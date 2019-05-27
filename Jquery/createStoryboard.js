@@ -39,6 +39,7 @@ $(document).ready(function(){
         e.preventDefault();
         var large = '<br><br><br><br><div class="SB"> <p><button id="inhoud" style="background-color: white; border: none"><Strong>Titel: </Strong>'+ getTitel.value+'</button></p> <p><button id="startDatum" style=" background-color: white; border: none"><Strong>Start: </Strong>'+ getStartDate.value+'</button></p> <p><button id="eindDatum" style=" background-color: white; border: none"><Strong>Deadline: </Strong>' + getDeadline.value + '</button></p> <p><button id="doelen" style="background-color: white; border: none"><Strong>Doelstellingen: </Strong>'+ getPurpose.value + '</button></p><p><button id="orange" style="width: 65px; float: left; height: 15px; background-color: #F0874B"><input type="checkbox"></button><button id="blue" style="width: 65px; float: left; height: 15px; background-color: #12ADAD"><input type="checkbox"></button><button id="pink" style="width: 65px; float: left; height: 15px; background-color: #EE8090"><input type="checkbox"></button><button id="green" style="width: 65px; float: left; height: 15px; background-color: #85A22A"><input type="checkbox"></button><button id="violet" style="width: 65px; float: left; height: 15px; background-color: #6361A8"><input type="checkbox"></button><button id="yellow" style="width: 65px; float: left; height: 15px; background-color: #F2B315"><input type="checkbox"></button></p></div>';
         $("#create_storyboard").append(large);
+        $("#recent").append(large);
         $("#titelForm").hide();
         $("#startDatumForm").hide();
         $("#deadlineForm").hide();
@@ -98,16 +99,6 @@ $(document).ready(function(){
             startDatum.innerHTML = "<Strong>Start: </Strong>" + sta.value;
             $("#startDatumForm").slideUp();
         });
-
-
-    
-            
-        
-    
-        
-           
-        
-     
     }
     
 
@@ -118,7 +109,17 @@ $(document).ready(function(){
 
     }
 
-
+ 
+    
+    //Overgenomen van Codepen.io   
+    newNext();
+    
+    function newNext() {
+        
+        localStorage.setItem("recentTitel", getTitel.value);
+        document.getElementById("recent").value = localStorage.getItem('recentTitel');
+        
+    } 
         
        
     
