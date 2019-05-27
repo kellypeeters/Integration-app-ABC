@@ -8,10 +8,11 @@ body p {
 }
 
 h1 {
+    color: #ffff;
     font-size: 40px;
-    padding-left: 10%;
+    padding-left: 450px;
     padding-right: 200px;
-    padding-top: 40px;
+    padding-top: 150px;
     font-family: acier-bat-solid, sans-serif;
     margin: 0;
 }
@@ -21,18 +22,26 @@ a:visited {
     color: #ffff;
 }
 
+.Maak {
+    padding-left: 37%;
+}
+
+.Vraag {
+    padding-left: 28%;
+}
+
 .main {
     display: inline-block;
-    padding-top: 20%;
+    padding-top: 10%;
     width: 15%;
     padding-left: 35%;
 }
 
 .main2 {
     display: inline-block;
-    padding-top: 15%;
+    padding-top: 5%;
     width: 15%;
-    padding-left: 37%;
+    padding-left: 39%;
 }
 
 .WachwoordVergeten {
@@ -41,17 +50,17 @@ a:visited {
 }
 
 .NaarRegistreren {
-    padding-top: 15%;
+    padding-top: 8%;
     padding-left: 37%;
 }
 
 .TerugNaarRegistreren {
     padding-top: 5%;
-    padding-left: 42%;
+    padding-left: 43%;
 }
-
+ 
 .NaarLogin {
-    padding-top: 15%;
+    padding-top: 11%;
     padding-left: 42%;
 }
 
@@ -70,8 +79,8 @@ a:visited {
 }
 
 .input-group {
-    padding-top: 15%;
-    padding-left: 37%;
+    padding-top: 7%;
+    padding-left: 39%;
 }
 
 .Aanmeldbutton {
@@ -88,8 +97,8 @@ a:visited {
 }
 
 #ForgotPassword {
-    margin-left: 37%;
-}
+    margin-left: 39%; 
+} 
 
 .Aanmeldbutton:hover {
     border: 1px #C6C6C6 solid;
