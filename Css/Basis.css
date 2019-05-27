@@ -1,9 +1,7 @@
-
-
 /**************
       NAV
 ***************/
-.navigatie{
+.navigatie {
     list-style: none;
     float: left;
     vertical-align: middle;
@@ -14,13 +12,15 @@
     padding-bottom: 100%;
     text-align: center;
 }
-li a{
+
+li a {
     text-decoration: none;
     color: black;
     float: left;
     width: 85px;
 }
-nav img{
+
+nav img {
     margin-top: 30px;
     width: 45px;
     float: left;
@@ -28,21 +28,21 @@ nav img{
     margin-left: 18px;
 }
 
-body{
+body {
     font-family: roboto, regular, sans-serif;
     margin: 0;
 }
 
-.icon{
+.icon {
     color: black;
     text-decoration-style: none;
     margin-top: 10px;
-    
+
 }
 
-.logo img{
-   width: 60px;
-    
+.logo img {
+    width: 60px;
+
 }
 
 li :hover {
@@ -55,7 +55,7 @@ li :hover {
 }
 
 li a:hover {
-    background-color: #e2e2e2; 
+    background-color: #e2e2e2;
 }
 
 li img:hover {
@@ -80,33 +80,40 @@ li :visited {
     border-top-color: solid black 2px;
     border-bottom-color: solid black 2px;
 }
-#icon img, #icon a{
+
+#icon img,
+#icon a {
     background-color: #ffff;
 
 }
-#icon a{
-    border-top-color:  black;
+
+#icon a {
+    border-top-color: black;
     border-bottom-color: black;
     border-top-style: solid;
-    border-bottom-style:  solid;
+    border-bottom-style: solid;
 }
 
-.vuilbak{
+.vuilbak {
     width: 14px;
     float: right;
     margin-top: 0%;
 }
-.button{
-   vertical-align: middle;
-   float: right;
-   margin-top: 75px;
+
+.button {
+    vertical-align: middle;
+    float: right;
+    margin-top: 75px;
 }
-.button:hover{
+
+.button:hover {
     background-color: #c4c4c4;
 }
-.button img{
+
+.button img {
     width: 25px;
 }
+
 /************
 *   Button  *
 ************/
@@ -153,5 +160,4 @@ li :visited {
 
 .copyright {
     margin-right: 200px;
-}
-
+} 

@@ -1,20 +1,18 @@
 h1 {
-    font-family: acier-bat-solid, sans-serif;
-    
     font-size: 40px;
-    top: 1%;
-    left: 10%;
-    position: absolute;
-    
-    
+    padding-left: 10%;
+    padding-right: 200px;
+    padding-top: 40px;
+    font-family: acier-bat-solid, sans-serif;
+    margin: 0;
 }
 
-p{
+p,
+a {
     font-family: roboto, regular, sans-serif;
 }
 
-a{
-    font-family: roboto, regular, sans-serif;
+a {
     font-size: 14px;
 }
 
@@ -32,15 +30,10 @@ a{
     border-radius: 17px;
     font-size: 16px;
     position: absolute;
-    /*z-index: 3;*/
 }
-
-
 
 .container_create_storyboard {
     position: absolute;
-    /*display: none;*/
-    /*z-index: 1;*/
     top: 400px;
     left: 200px;
 }
